@@ -96,9 +96,12 @@ export const BUCKET_AGE: Record<string, number> = {
   Adults: 17,
 }
 
-/** Fetch + lightly validate the dataset. Kept async so the JSON stays a static asset. */
+/** Fetch + lightly validate the dataset. Kept async so the JSON stays a static asset.
+ *  `cache: 'no-cache'` forces revalidation (GitHub Pages serves the file with a
+ *  10-min max-age, so without this a browser can keep serving a stale copy after a
+ *  data update — e.g. before artwork was added). */
 export async function loadShows(): Promise<ShowsFile> {
-  const res = await fetch(`${import.meta.env.BASE_URL}data/shows.json`)
+  const res = await fetch(`${import.meta.env.BASE_URL}data/shows.json`, { cache: 'no-cache' })
   if (!res.ok) throw new Error(`Failed to load shows data (${res.status})`)
   const data = (await res.json()) as ShowsFile
   if (!data?.shows?.length) throw new Error('Shows dataset is empty or malformed')
