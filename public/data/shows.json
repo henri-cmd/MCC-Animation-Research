@@ -4,7 +4,7 @@
     "description": "Seed dataset for the interactive site. 48 animated TV series.",
     "ageConvention": "ageFrom/ageTo are realistic VIEWING ages in years. ageTo == 99 means 'extends into adulthood / open-ended reach' (all-ages or adult). Render 99 as the 'Adult' end of the age axis.",
     "dataStatus": "Verified 2026-06: counts confirmed via web sources (per-show \"verified\" flag). Viewership is shown only where a documented figure (premiere/peak rating or audience milestone) is sourced; otherwise \"Not publicly disclosed\". Streaming originals are never numbered. NO revenue/profit figures by design.",
-    "count": 145
+    "count": 155
   },
   "shows": [
     {
@@ -6858,6 +6858,481 @@
           "https://image.tmdb.org/t/p/w780/bJOgnkRhcJxd4wzqGztUiFoQPoh.jpg",
           "https://image.tmdb.org/t/p/w780/cWu2FTxPsyuckb45cSqgbGN9Bla.jpg",
           "https://image.tmdb.org/t/p/w780/3x1jwRo3v14zIqjIBAxqY45uFZw.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "the-muppet-show",
+      "title": "The Muppet Show",
+      "ageFrom": 8,
+      "ageTo": 99,
+      "bucket": "Kids → Teens",
+      "epMinutes": 26,
+      "epLabel": "~26 min",
+      "seasons": 5,
+      "episodes": 120,
+      "yearStart": 1976,
+      "yearEnd": 1981,
+      "origin": "ITV1 · UK",
+      "themes": [
+        "Variety comedy",
+        "Celebrity guests",
+        "Music",
+        "Satire",
+        "Family entertainment"
+      ],
+      "synopsis": "Go behind the curtains as Kermit the Frog and his muppet friends struggle to put on a weekly variety show.",
+      "reach": "All-ages institution; nostalgia draws adults as strongly as kids",
+      "ageBasis": "Kids who grew up with Muppets + lifelong adult fans worldwide",
+      "animationStyle": "Puppetry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Muppet_Show",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0074028/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/9UyPl2zR9dckpnmBWP6Xz4E6P3G.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/9UyPl2zR9dckpnmBWP6Xz4E6P3G.jpg",
+          "https://image.tmdb.org/t/p/w780/84BFgc17SEgHaKOfueXEEhbZCg3.jpg",
+          "https://image.tmdb.org/t/p/w780/r2WWs8SyY2H2aPY1bcCigDQ9GOd.jpg",
+          "https://image.tmdb.org/t/p/w780/h76QUsFV1f0Nx3RiDrq4WsepyRt.jpg",
+          "https://image.tmdb.org/t/p/w780/wplU0XzuelmYzMSeGZxWMZl4OvJ.jpg",
+          "https://image.tmdb.org/t/p/w780/arq0d8pt8qLXtlfGLlsf8ITesSe.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "fraggle-rock",
+      "title": "Fraggle Rock",
+      "ageFrom": 4,
+      "ageTo": 99,
+      "bucket": "Young Kids",
+      "epMinutes": 30,
+      "epLabel": "~30 min",
+      "seasons": 5,
+      "episodes": 96,
+      "yearStart": 1983,
+      "yearEnd": 1987,
+      "origin": "HBO · US",
+      "themes": [
+        "Ecology",
+        "Friendship",
+        "Fantasy",
+        "Music",
+        "Coexistence"
+      ],
+      "synopsis": "The Fraggles are a fun-loving community of creatures who live in a subterranean fantasy land where they love to play, sing and dance their cares away, sharing their world with the tiny Doozers and the giant Gorgs. The series teaches empathy and tolerance and encourages children to understand people different from themselves.",
+      "reach": "Cult adult following; interdependence themes resonate beyond childhood",
+      "ageBasis": "Preschoolers to adults drawn by Henson's themes of ecology and peace",
+      "animationStyle": "Puppetry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Fraggle_Rock",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0085017/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/fyUt0I4tSnclpg7WZJVRKHMSjcz.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/fyUt0I4tSnclpg7WZJVRKHMSjcz.jpg",
+          "https://image.tmdb.org/t/p/w780/uTv1uQ9toj9fo0btpLpkElDFFwg.jpg",
+          "https://image.tmdb.org/t/p/w780/e7zXWEVnyP4MrNb1tRbbNVhcQd1.jpg",
+          "https://image.tmdb.org/t/p/w780/8oqUw3LsKiXfd7kvW5hVyBWWmZF.jpg",
+          "https://image.tmdb.org/t/p/w780/Ar5SjfqcKYv3EwZ0r9qIfqRMkkA.jpg",
+          "https://image.tmdb.org/t/p/w780/BZIhnBjLz613POy2AyF1o7S1A8.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "dinosaurs",
+      "title": "Dinosaurs",
+      "ageFrom": 8,
+      "ageTo": 99,
+      "bucket": "Kids → Teens",
+      "epMinutes": 23,
+      "epLabel": "~23 min",
+      "seasons": 4,
+      "episodes": 65,
+      "yearStart": 1991,
+      "yearEnd": 1995,
+      "origin": "ABC · US",
+      "themes": [
+        "Family sitcom",
+        "Workplace satire",
+        "Environmentalism",
+        "Social commentary",
+        "Dark comedy"
+      ],
+      "synopsis": "Dinosaurs follows the life of a family of dinosaurs, living in a modern world. They have TV's, fridges, microwaves, and every modern convenience.",
+      "reach": "Strong adult crossover; prescient satirical finale a cult classic",
+      "ageBasis": "Family sitcom watched together; dark finale captivated adults",
+      "animationStyle": "Puppetry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dinosaurs_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0101081/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/e1mgahsZE1t1lXzuDIvaZY24lSN.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/e1mgahsZE1t1lXzuDIvaZY24lSN.jpg",
+          "https://image.tmdb.org/t/p/w780/uXuJmYwTH9lEDziaUcUQkE17bRM.jpg",
+          "https://image.tmdb.org/t/p/w780/xhnkaMtc7QBXUqSi4QbiIfXTVGt.jpg",
+          "https://image.tmdb.org/t/p/w780/tZbn2HAty7B4euNbFqHPlfoYXXI.jpg",
+          "https://image.tmdb.org/t/p/w780/nuDQWxPNr3AFPtE1twEaND4wONn.jpg",
+          "https://image.tmdb.org/t/p/w780/cSaflUav1aSTIiJmP2az1IqI1QZ.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "bear-in-the-big-blue-house",
+      "title": "Bear in the Big Blue House",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 25,
+      "epLabel": "~25 min",
+      "seasons": 4,
+      "episodes": 117,
+      "yearStart": 1997,
+      "yearEnd": 2010,
+      "origin": "Playhouse Disney · US",
+      "themes": [
+        "Early learning",
+        "Emotions",
+        "Friendship",
+        "Routines",
+        "Imagination"
+      ],
+      "synopsis": "The series provides children with valuable tools for growth in key areas of music, social skill development, and cognitive learning through integrated programs combining music, movement, and exploration. With Bear and all his friends, learn about cooperation, teamwork and more.",
+      "reach": null,
+      "ageBasis": "Preschool puppet show on Disney Channel for toddlers and young children",
+      "animationStyle": "Puppetry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bear_in_the_Big_Blue_House",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0173664/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/sJzekWt8wobtQZel7n8gM3NjiVt.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/sJzekWt8wobtQZel7n8gM3NjiVt.jpg",
+          "https://image.tmdb.org/t/p/w780/sqKDcOAlMmdUDBHy4pRaGh8H7ex.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "the-dark-crystal-age-of-resistance",
+      "title": "The Dark Crystal: Age of Resistance",
+      "ageFrom": 12,
+      "ageTo": 99,
+      "bucket": "Tweens → Teens",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 1,
+      "episodes": 10,
+      "yearStart": 2019,
+      "yearEnd": 2019,
+      "origin": "Netflix · US",
+      "themes": [
+        "Epic fantasy",
+        "Oppression",
+        "Resistance",
+        "World-building",
+        "Dark adventure"
+      ],
+      "synopsis": "Return to the world of Thra, where three Gelfling discover the horrifying secret behind the Skeksis' power and set out to ignite the fires of rebellion and save their world.",
+      "reach": "Adult-skewing Netflix prestige; cancelled after one season",
+      "ageBasis": "Dark fantasy; older teens and adults who loved the 1982 film",
+      "animationStyle": "Puppetry",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Dark_Crystal:_Age_of_Resistance",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt6905542/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/prDq9t3vxMEDKUNcLwyuWLHGeuM.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/prDq9t3vxMEDKUNcLwyuWLHGeuM.jpg",
+          "https://image.tmdb.org/t/p/w780/cs4taQDRznjNueottaCGGk1YiUw.jpg",
+          "https://image.tmdb.org/t/p/w780/xNiaw9SzFtI50DuDdn4zyJ5YQk2.jpg",
+          "https://image.tmdb.org/t/p/w780/uHFvwXGhchNOUFj3LLM0gQZ8m4z.jpg",
+          "https://image.tmdb.org/t/p/w780/lmbMU1KB25rqaCGQ8wK90FyDRgW.jpg",
+          "https://image.tmdb.org/t/p/w780/rnMx4rYjDgONuRVkKClCv1Vp6VY.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": false,
+        "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "robot-chicken",
+      "title": "Robot Chicken",
+      "ageFrom": 17,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 12,
+      "epLabel": "~12 min",
+      "seasons": 11,
+      "episodes": 218,
+      "yearStart": 2005,
+      "yearEnd": 2022,
+      "origin": "Adult Swim · US",
+      "themes": [
+        "Parody",
+        "Pop culture",
+        "Sketch comedy",
+        "Adult humour",
+        "Action figures"
+      ],
+      "synopsis": "A series of pop-culture parodies using stop-motion animation of toys, action figures and dolls. The title character was an ordinary chicken until he was run down by a car and subsequently brought back to life in cyborg form by mad scientist Fritz Huhnmorder, who tortures Robot Chicken by forcing him to watch a random selection of TV shows, the sketches that make up the body of each episode.",
+      "reach": "Cult adult-comedy following",
+      "ageBasis": "Adult Swim late-night parody; raunchy content strictly for adults",
+      "animationStyle": "Stop-motion",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Robot_Chicken",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0437745/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/mofoDq8K1tvhSKE00NrlLkS7Mrg.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/mofoDq8K1tvhSKE00NrlLkS7Mrg.jpg",
+          "https://image.tmdb.org/t/p/w780/5qO7uuI0Vycy4CUYCixlUdyCXGM.jpg",
+          "https://image.tmdb.org/t/p/w780/2HUKQcb4c2o1BYMX8L8x75JmhMS.jpg",
+          "https://image.tmdb.org/t/p/w780/mrn0Hje5QXdIxSxTXrrihQ0l6M0.jpg",
+          "https://image.tmdb.org/t/p/w780/ho9wKAPFu6FcjrmVq9QFq0Ix6R7.jpg",
+          "https://image.tmdb.org/t/p/w780/flQAwTsPRrAp27cj6ZZGg4w8Dj4.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "creature-comforts",
+      "title": "Creature Comforts",
+      "ageFrom": 10,
+      "ageTo": 99,
+      "bucket": "Tweens → Teens",
+      "epMinutes": 10,
+      "epLabel": "~10 min",
+      "seasons": 2,
+      "episodes": 26,
+      "yearStart": 2003,
+      "yearEnd": 2006,
+      "origin": "ITV1 · UK",
+      "themes": [
+        "Observational comedy",
+        "British humour",
+        "Animal characters",
+        "Vox pop",
+        "Social satire"
+      ],
+      "synopsis": "Stop-motion animated series with a cast of animals, sound-biting on a specific topic each episode, such as creatures' sporting adventures, Christmas, and visits to veterinarians. The show satirizes modern man on the street and documentary interviews, responding to unseen questioners. The voices of the characters, such as recurring dog and cat duo Trixie and Captain Cuddlepuss, are supplied by everyday people speaking varied regional accents, credited as The Great British Public. The creatures are portrayed in their own habitats. Creature Comforts was originally a short film, then a series of highly popular commercials, later a U.S. series.",
+      "reach": "Predominantly adult audience drawn by Aardman's deadpan wit",
+      "ageBasis": "Dry British observational comedy best appreciated by adults",
+      "animationStyle": "Stop-motion",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Creature_Comforts",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0324742/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/rARppE4fWad6YcaNgyfeEsoP62j.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/rARppE4fWad6YcaNgyfeEsoP62j.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "clangers",
+      "title": "Clangers",
+      "ageFrom": 2,
+      "ageTo": 7,
+      "bucket": "Preschool",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 3,
+      "episodes": 104,
+      "yearStart": 2015,
+      "yearEnd": 2020,
+      "origin": "CBeebies · UK",
+      "themes": [
+        "Curiosity",
+        "Friendship",
+        "Space exploration",
+        "Music",
+        "Imagination"
+      ],
+      "synopsis": "The Clangers are strange, long-nosed, pink, woolly creatures that live inside a small blue planet, which lies far, far away in space. Under the dustbin-lidded craters that cover the planet's surface is the cave system where these strange yet cuddly extraterrestrials live.",
+      "reach": "Mild parent co-viewing via Palin narration and 1960s legacy",
+      "ageBasis": "CBeebies preschool series; Michael Palin narration adds adult warmth",
+      "animationStyle": "Stop-motion",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Clangers",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt4771826/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/aMBcG3PjlDBBDk2YSmLSey7Nwvj.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/aMBcG3PjlDBBDk2YSmLSey7Nwvj.jpg",
+          "https://image.tmdb.org/t/p/w780/453BSupcbfFoFXmv9v60mTajXy1.jpg",
+          "https://image.tmdb.org/t/p/w780/dZncDKBPmlQhJYROzIysaI1JDIZ.jpg",
+          "https://image.tmdb.org/t/p/w780/yKCvmpZlTiWYIZBOdgqi8f9VTPL.jpg",
+          "https://image.tmdb.org/t/p/w780/zxMdE6BEQd7XV8O5g02ZR0hOsuA.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "gumby-adventures",
+      "title": "Gumby Adventures",
+      "ageFrom": 4,
+      "ageTo": 10,
+      "bucket": "Young Kids",
+      "epMinutes": 30,
+      "epLabel": "~30 min",
+      "seasons": 1,
+      "episodes": 36,
+      "yearStart": 1988,
+      "yearEnd": 1988,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Adventure",
+        "Creativity",
+        "Claymation",
+        "Imagination",
+        "Friendship"
+      ],
+      "synopsis": "The continuous adventures of Gumby and his pals. This time, he runs a farm which includes more pals such as a wooly mammoth, Denali, and a bee, Groobee.",
+      "reach": "Nostalgia draw for adults who grew up with Art Clokey's original",
+      "ageBasis": "Classic claymation for children; nostalgia pull for older adults",
+      "animationStyle": "Stop-motion",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Gumby",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0356261/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/68aENns4G4bZw42Z3ALpo6XQwXK.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/68aENns4G4bZw42Z3ALpo6XQwXK.jpg",
+          "https://image.tmdb.org/t/p/w780/lKEmMHQgnR9R3DfzEnPzAoZIWy3.jpg",
+          "https://image.tmdb.org/t/p/w780/bfuWV7WRf8mD56rbVugd29CZeQA.jpg",
+          "https://image.tmdb.org/t/p/w780/cZRUjoMoyB9swJUv0u8dQZOzP4F.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "the-pjs",
+      "title": "The PJs",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "bucket": "Older Teens → Adults",
+      "epMinutes": 30,
+      "epLabel": "~30 min",
+      "seasons": 3,
+      "episodes": 43,
+      "yearStart": 1999,
+      "yearEnd": 2001,
+      "origin": "FOX · US",
+      "themes": [
+        "Inner-city life",
+        "Social commentary",
+        "Adult comedy",
+        "African-American culture",
+        "Housing projects"
+      ],
+      "synopsis": "Thurgood Stubbs lives with his wife, Muriel, in the Lawrence Hilton-Jacobs housing project, where he is the superintendent. This animated comedy follows the adventures of the Subbs and their friends, while taking a satirical view of the ups and downs of life in a big-city housing project.",
+      "reach": "Adult prime-time satire",
+      "ageBasis": "Prime-time adult comedy on inner-city life; mature themes",
+      "animationStyle": "Stop-motion",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_PJs",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0182621/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/63DQweR1Z8ZPVil0R72wAV836Vm.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/63DQweR1Z8ZPVil0R72wAV836Vm.jpg",
+          "https://image.tmdb.org/t/p/w780/tkN54gfMoLQ2f8c27XbaEaFAq8A.jpg",
+          "https://image.tmdb.org/t/p/w780/xlhv6bf49wEi6XVF4RYAHnVjuCP.jpg"
         ]
       },
       "viewership": {

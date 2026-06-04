@@ -1,7 +1,7 @@
 // Pull per-show episode lists from TMDB → public/data/episodes/{id}.json
 // (compact: { id, seasons: [{ s, eps: [{ e, t, d }] }] }). Loaded on demand by
 // the detail panel's season dropdown. Run: TMDB_API_KEY=<key> node scripts/pull-episodes.mjs
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 
 const KEY = process.env.TMDB_API_KEY
 if (!KEY) {
@@ -26,6 +26,8 @@ let fail = 0
 const failed = []
 
 async function one(show) {
+  // incremental: skip shows that already have an episode file (unless FORCE=1)
+  if (!process.env.FORCE && existsSync(new URL(`${show.id}.json`, OUT))) return
   const id = ttOf(show.links?.imdb)
   if (!id) return
   try {
