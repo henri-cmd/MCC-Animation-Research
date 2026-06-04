@@ -76,23 +76,28 @@ function ShowCard({ show, onSelect }: { show: Show; onSelect: (id: string) => vo
           {show.synopsis}
         </p>
 
-        <div className="mt-auto flex items-center justify-between gap-2 border-t border-white/5 pt-2.5">
-          <div className="flex min-w-0 flex-wrap gap-1">
+        <div className="mt-auto border-t border-white/5 pt-2.5">
+          <div className="flex flex-wrap gap-1">
             {show.themes.slice(0, 2).map((t) => (
               <span
                 key={t}
-                className="truncate rounded-full bg-white/5 px-2 py-0.5 font-body text-[10.5px] text-bone/70 ring-1 ring-white/10"
+                className="rounded-full bg-white/5 px-2 py-0.5 font-body text-[10.5px] text-bone/70 ring-1 ring-white/10"
               >
                 {t}
               </span>
             ))}
           </div>
           {hasFigure ? (
-            <span className="shrink-0 font-mono text-[10.5px] text-spectrum-3" title={show.viewership.context ?? undefined}>
+            <div
+              className="mt-1.5 truncate font-mono text-[10.5px] text-spectrum-3"
+              title={show.viewership.context ?? undefined}
+            >
               ◍ {show.viewership.figure}
-            </span>
+            </div>
           ) : show.reach ? (
-            <span className="shrink-0 font-mono text-[10.5px] text-ash">↔ {show.reach}</span>
+            <div className="mt-1.5 truncate font-mono text-[10.5px] text-ash" title={show.reach}>
+              ↔ {show.reach}
+            </div>
           ) : null}
         </div>
       </div>
