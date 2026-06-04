@@ -39,6 +39,8 @@ export interface Show {
   synopsis: string
   /** crossover note, may be null. */
   reach: string | null
+  /** who's really watching — the basis for the age range (e.g. "Nielsen demo" / "estimate: content + fandom"). */
+  ageBasis?: string
   /** predominant production technique — one of STYLE_ORDER. */
   animationStyle: string
   links: { wikipedia: string; fandom: string | null; imdb: string | null }

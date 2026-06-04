@@ -1,0 +1,940 @@
+[
+  {
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "imdbId": "tt1355642",
+    "rating": 9.1,
+    "year": 2009,
+    "kind": "anime"
+  },
+  {
+    "title": "Legend of the Galactic Heroes",
+    "imdbId": "tt0096633",
+    "rating": 9,
+    "year": 1988,
+    "kind": "anime"
+  },
+  {
+    "title": "Batman: The Animated Series",
+    "imdbId": "tt0103359",
+    "rating": 9,
+    "year": 1992,
+    "kind": "western"
+  },
+  {
+    "title": "One Piece",
+    "imdbId": "tt0388629",
+    "rating": 9,
+    "year": 1999,
+    "kind": "anime"
+  },
+  {
+    "title": "Hunter x Hunter",
+    "imdbId": "tt2098220",
+    "rating": 9,
+    "year": 2011,
+    "kind": "anime"
+  },
+  {
+    "title": "Cowboy Bebop",
+    "imdbId": "tt0213338",
+    "rating": 8.9,
+    "year": 1998,
+    "kind": "anime"
+  },
+  {
+    "title": "Death Note",
+    "imdbId": "tt0877057",
+    "rating": 8.9,
+    "year": 2006,
+    "kind": "anime"
+  },
+  {
+    "title": "Frieren: Beyond Journey's End",
+    "imdbId": "tt22248376",
+    "rating": 8.9,
+    "year": 2023,
+    "kind": "anime"
+  },
+  {
+    "title": "Dragon Ball Z",
+    "imdbId": "tt0121220",
+    "rating": 8.8,
+    "year": 1989,
+    "kind": "anime"
+  },
+  {
+    "title": "Hajime no Ippo",
+    "imdbId": "tt0481256",
+    "rating": 8.8,
+    "year": 2000,
+    "kind": "anime"
+  },
+  {
+    "title": "Clannad",
+    "imdbId": "tt1118804",
+    "rating": 8.8,
+    "year": 2007,
+    "kind": "anime"
+  },
+  {
+    "title": "Steins;Gate",
+    "imdbId": "tt1910272",
+    "rating": 8.8,
+    "year": 2011,
+    "kind": "anime"
+  },
+  {
+    "title": "Hey Duggee",
+    "imdbId": "tt4291050",
+    "rating": 8.8,
+    "year": 2014,
+    "kind": "western"
+  },
+  {
+    "title": "Vinland Saga",
+    "imdbId": "tt10233448",
+    "rating": 8.8,
+    "year": 2019,
+    "kind": "anime"
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "imdbId": "tt12343534",
+    "rating": 8.8,
+    "year": 2020,
+    "kind": "anime"
+  },
+  {
+    "title": "Berserk",
+    "imdbId": "tt0318871",
+    "rating": 8.7,
+    "year": 1997,
+    "kind": "anime"
+  },
+  {
+    "title": "Monster",
+    "imdbId": "tt0434706",
+    "rating": 8.7,
+    "year": 2004,
+    "kind": "anime"
+  },
+  {
+    "title": "Gintama",
+    "imdbId": "tt0988818",
+    "rating": 8.7,
+    "year": 2005,
+    "kind": "anime"
+  },
+  {
+    "title": "Code Geass",
+    "imdbId": "tt0994314",
+    "rating": 8.7,
+    "year": 2006,
+    "kind": "anime"
+  },
+  {
+    "title": "Haikyuu!!",
+    "imdbId": "tt3398540",
+    "rating": 8.7,
+    "year": 2014,
+    "kind": "anime"
+  },
+  {
+    "title": "Over the Garden Wall",
+    "imdbId": "tt3718778",
+    "rating": 8.7,
+    "year": 2014,
+    "kind": "western"
+  },
+  {
+    "title": "Blue Eye Samurai",
+    "imdbId": "tt13309742",
+    "rating": 8.7,
+    "year": 2023,
+    "kind": "western"
+  },
+  {
+    "title": "Adventure Time: Fionna & Cake",
+    "imdbId": "tt15248880",
+    "rating": 8.7,
+    "year": 2023,
+    "kind": "western"
+  },
+  {
+    "title": "X-Men '97",
+    "imdbId": "tt16026746",
+    "rating": 8.7,
+    "year": 2024,
+    "kind": "western"
+  },
+  {
+    "title": "Archer",
+    "imdbId": "tt1486217",
+    "rating": 8.6,
+    "year": 2009,
+    "kind": "western"
+  },
+  {
+    "title": "Regular Show",
+    "imdbId": "tt1710308",
+    "rating": 8.6,
+    "year": 2010,
+    "kind": "western"
+  },
+  {
+    "title": "Tumble Leaf",
+    "imdbId": "tt2948562",
+    "rating": 8.6,
+    "year": 2013,
+    "kind": "western"
+  },
+  {
+    "title": "One Punch Man",
+    "imdbId": "tt4508902",
+    "rating": 8.6,
+    "year": 2015,
+    "kind": "anime"
+  },
+  {
+    "title": "Hilda",
+    "imdbId": "tt6385540",
+    "rating": 8.6,
+    "year": 2018,
+    "kind": "western"
+  },
+  {
+    "title": "Primal",
+    "imdbId": "tt10332508",
+    "rating": 8.6,
+    "year": 2019,
+    "kind": "western"
+  },
+  {
+    "title": "Scavengers Reign",
+    "imdbId": "tt21056886",
+    "rating": 8.6,
+    "year": 2023,
+    "kind": "western"
+  },
+  {
+    "title": "Neon Genesis Evangelion",
+    "imdbId": "tt0112159",
+    "rating": 8.5,
+    "year": 1995,
+    "kind": "anime"
+  },
+  {
+    "title": "Rurouni Kenshin",
+    "imdbId": "tt0182629",
+    "rating": 8.5,
+    "year": 1996,
+    "kind": "anime"
+  },
+  {
+    "title": "Futurama",
+    "imdbId": "tt0149460",
+    "rating": 8.5,
+    "year": 1999,
+    "kind": "western"
+  },
+  {
+    "title": "Justice League / Unlimited",
+    "imdbId": "tt0275137",
+    "rating": 8.5,
+    "year": 2001,
+    "kind": "western"
+  },
+  {
+    "title": "Samurai Jack",
+    "imdbId": "tt0278238",
+    "rating": 8.5,
+    "year": 2001,
+    "kind": "western"
+  },
+  {
+    "title": "Ghost in the Shell: Stand Alone Complex",
+    "imdbId": "tt0346314",
+    "rating": 8.5,
+    "year": 2002,
+    "kind": "anime"
+  },
+  {
+    "title": "Samurai Champloo",
+    "imdbId": "tt0423731",
+    "rating": 8.5,
+    "year": 2004,
+    "kind": "anime"
+  },
+  {
+    "title": "Mushi-Shi",
+    "imdbId": "tt0807832",
+    "rating": 8.5,
+    "year": 2005,
+    "kind": "anime"
+  },
+  {
+    "title": "The Boondocks",
+    "imdbId": "tt0373732",
+    "rating": 8.5,
+    "year": 2005,
+    "kind": "western"
+  },
+  {
+    "title": "Star Wars: The Clone Wars",
+    "imdbId": "tt0458290",
+    "rating": 8.5,
+    "year": 2008,
+    "kind": "western"
+  },
+  {
+    "title": "Your Lie in April",
+    "imdbId": "tt3895150",
+    "rating": 8.5,
+    "year": 2014,
+    "kind": "anime"
+  },
+  {
+    "title": "Mob Psycho 100",
+    "imdbId": "tt5897304",
+    "rating": 8.5,
+    "year": 2016,
+    "kind": "anime"
+  },
+  {
+    "title": "Kaguya-sama: Love is War",
+    "imdbId": "tt9522300",
+    "rating": 8.5,
+    "year": 2019,
+    "kind": "anime"
+  },
+  {
+    "title": "Pantheon",
+    "imdbId": "tt11680642",
+    "rating": 8.5,
+    "year": 2022,
+    "kind": "western"
+  },
+  {
+    "title": "Solo Leveling",
+    "imdbId": "tt21209876",
+    "rating": 8.5,
+    "year": 2024,
+    "kind": "anime"
+  },
+  {
+    "title": "Dandadan",
+    "imdbId": "tt30217403",
+    "rating": 8.5,
+    "year": 2024,
+    "kind": "anime"
+  },
+  {
+    "title": "X-Men: The Animated Series",
+    "imdbId": "tt0103584",
+    "rating": 8.4,
+    "year": 1992,
+    "kind": "western"
+  },
+  {
+    "title": "Spider-Man: The Animated Series",
+    "imdbId": "tt0112175",
+    "rating": 8.4,
+    "year": 1994,
+    "kind": "western"
+  },
+  {
+    "title": "Naruto",
+    "imdbId": "tt0409591",
+    "rating": 8.4,
+    "year": 2002,
+    "kind": "anime"
+  },
+  {
+    "title": "Doraemon (2005)",
+    "imdbId": "tt4083422",
+    "rating": 8.4,
+    "year": 2005,
+    "kind": "anime"
+  },
+  {
+    "title": "The Spectacular Spider-Man",
+    "imdbId": "tt0976192",
+    "rating": 8.4,
+    "year": 2008,
+    "kind": "western"
+  },
+  {
+    "title": "The Amazing World of Gumball",
+    "imdbId": "tt1942683",
+    "rating": 8.4,
+    "year": 2011,
+    "kind": "western"
+  },
+  {
+    "title": "Erased",
+    "imdbId": "tt5249462",
+    "rating": 8.4,
+    "year": 2016,
+    "kind": "anime"
+  },
+  {
+    "title": "Violet Evergarden",
+    "imdbId": "tt7078180",
+    "rating": 8.4,
+    "year": 2018,
+    "kind": "anime"
+  },
+  {
+    "title": "Infinity Train",
+    "imdbId": "tt8146754",
+    "rating": 8.4,
+    "year": 2019,
+    "kind": "western"
+  },
+  {
+    "title": "Harley Quinn",
+    "imdbId": "tt7658402",
+    "rating": 8.4,
+    "year": 2019,
+    "kind": "western"
+  },
+  {
+    "title": "Courage the Cowardly Dog",
+    "imdbId": "tt0220880",
+    "rating": 8.3,
+    "year": 1999,
+    "kind": "western"
+  },
+  {
+    "title": "Metalocalypse",
+    "imdbId": "tt0839188",
+    "rating": 8.3,
+    "year": 2006,
+    "kind": "western"
+  },
+  {
+    "title": "Gurren Lagann",
+    "imdbId": "tt0948103",
+    "rating": 8.3,
+    "year": 2007,
+    "kind": "anime"
+  },
+  {
+    "title": "The Legend of Korra",
+    "imdbId": "tt1695360",
+    "rating": 8.3,
+    "year": 2012,
+    "kind": "western"
+  },
+  {
+    "title": "Made in Abyss",
+    "imdbId": "tt7222086",
+    "rating": 8.3,
+    "year": 2017,
+    "kind": "anime"
+  },
+  {
+    "title": "DuckTales (2017)",
+    "imdbId": "tt5531466",
+    "rating": 8.3,
+    "year": 2017,
+    "kind": "western"
+  },
+  {
+    "title": "Kipo and the Age of Wonderbeasts",
+    "imdbId": "tt10482560",
+    "rating": 8.3,
+    "year": 2020,
+    "kind": "western"
+  },
+  {
+    "title": "Odd Taxi",
+    "imdbId": "tt14134550",
+    "rating": 8.3,
+    "year": 2021,
+    "kind": "anime"
+  },
+  {
+    "title": "Bocchi the Rock!",
+    "imdbId": "tt17158756",
+    "rating": 8.3,
+    "year": 2022,
+    "kind": "anime"
+  },
+  {
+    "title": "Chainsaw Man",
+    "imdbId": "tt13616990",
+    "rating": 8.3,
+    "year": 2022,
+    "kind": "anime"
+  },
+  {
+    "title": "Oshi no Ko",
+    "imdbId": "tt21030032",
+    "rating": 8.3,
+    "year": 2023,
+    "kind": "anime"
+  },
+  {
+    "title": "Bleach",
+    "imdbId": "tt0434665",
+    "rating": 8.2,
+    "year": 2004,
+    "kind": "anime"
+  },
+  {
+    "title": "Shaun the Sheep",
+    "imdbId": "tt0983983",
+    "rating": 8.2,
+    "year": 2007,
+    "kind": "western"
+  },
+  {
+    "title": "Wakfu",
+    "imdbId": "tt1807824",
+    "rating": 8.2,
+    "year": 2008,
+    "kind": "western"
+  },
+  {
+    "title": "Puella Magi Madoka Magica",
+    "imdbId": "tt1773185",
+    "rating": 8.2,
+    "year": 2011,
+    "kind": "anime"
+  },
+  {
+    "title": "Parasyte: The Maxim",
+    "imdbId": "tt3358020",
+    "rating": 8.2,
+    "year": 2014,
+    "kind": "anime"
+  },
+  {
+    "title": "Black Clover",
+    "imdbId": "tt7441658",
+    "rating": 8.2,
+    "year": 2017,
+    "kind": "anime"
+  },
+  {
+    "title": "Final Space",
+    "imdbId": "tt6317068",
+    "rating": 8.2,
+    "year": 2018,
+    "kind": "western"
+  },
+  {
+    "title": "The Dragon Prince",
+    "imdbId": "tt8688814",
+    "rating": 8.2,
+    "year": 2018,
+    "kind": "western"
+  },
+  {
+    "title": "Dororo",
+    "imdbId": "tt9458304",
+    "rating": 8.2,
+    "year": 2019,
+    "kind": "anime"
+  },
+  {
+    "title": "The Midnight Gospel",
+    "imdbId": "tt11639414",
+    "rating": 8.2,
+    "year": 2020,
+    "kind": "western"
+  },
+  {
+    "title": "Kaiju No. 8",
+    "imdbId": "tt21975436",
+    "rating": 8.2,
+    "year": 2024,
+    "kind": "anime"
+  },
+  {
+    "title": "Superman: The Animated Series",
+    "imdbId": "tt0115378",
+    "rating": 8.1,
+    "year": 1996,
+    "kind": "western"
+  },
+  {
+    "title": "Batman Beyond",
+    "imdbId": "tt0147746",
+    "rating": 8.1,
+    "year": 1999,
+    "kind": "western"
+  },
+  {
+    "title": "Moral Orel",
+    "imdbId": "tt0476922",
+    "rating": 8.1,
+    "year": 2005,
+    "kind": "western"
+  },
+  {
+    "title": "Sym-Bionic Titan",
+    "imdbId": "tt1709198",
+    "rating": 8.1,
+    "year": 2010,
+    "kind": "western"
+  },
+  {
+    "title": "Transformers Prime",
+    "imdbId": "tt1659175",
+    "rating": 8.1,
+    "year": 2010,
+    "kind": "western"
+  },
+  {
+    "title": "Psycho-Pass",
+    "imdbId": "tt2379308",
+    "rating": 8.1,
+    "year": 2012,
+    "kind": "anime"
+  },
+  {
+    "title": "Star Wars: Rebels",
+    "imdbId": "tt2930604",
+    "rating": 8.1,
+    "year": 2014,
+    "kind": "western"
+  },
+  {
+    "title": "Re:Zero",
+    "imdbId": "tt5607616",
+    "rating": 8.1,
+    "year": 2016,
+    "kind": "anime"
+  },
+  {
+    "title": "Banana Fish",
+    "imdbId": "tt8515016",
+    "rating": 8.1,
+    "year": 2018,
+    "kind": "anime"
+  },
+  {
+    "title": "She-Ra and the Princesses of Power",
+    "imdbId": "tt7745956",
+    "rating": 8.1,
+    "year": 2018,
+    "kind": "western"
+  },
+  {
+    "title": "The Promised Neverland",
+    "imdbId": "tt8788458",
+    "rating": 8.1,
+    "year": 2019,
+    "kind": "anime"
+  },
+  {
+    "title": "Blue Lock",
+    "imdbId": "tt15222080",
+    "rating": 8.1,
+    "year": 2022,
+    "kind": "anime"
+  },
+  {
+    "title": "The Amazing Digital Circus",
+    "imdbId": "tt27610198",
+    "rating": 8.1,
+    "year": 2023,
+    "kind": "western"
+  },
+  {
+    "title": "Delicious in Dungeon",
+    "imdbId": "tt21621494",
+    "rating": 8.1,
+    "year": 2024,
+    "kind": "anime"
+  },
+  {
+    "title": "DuckTales (1987)",
+    "imdbId": "tt0092345",
+    "rating": 8,
+    "year": 1987,
+    "kind": "western"
+  },
+  {
+    "title": "Gargoyles",
+    "imdbId": "tt0108783",
+    "rating": 8,
+    "year": 1994,
+    "kind": "western"
+  },
+  {
+    "title": "Shaman King",
+    "imdbId": "tt0367409",
+    "rating": 8,
+    "year": 2001,
+    "kind": "anime"
+  },
+  {
+    "title": "Wolverine and the X-Men",
+    "imdbId": "tt0772145",
+    "rating": 8,
+    "year": 2008,
+    "kind": "western"
+  },
+  {
+    "title": "Monogatari Series",
+    "imdbId": "tt1480925",
+    "rating": 8,
+    "year": 2009,
+    "kind": "anime"
+  },
+  {
+    "title": "Green Lantern: The Animated Series",
+    "imdbId": "tt1724587",
+    "rating": 8,
+    "year": 2011,
+    "kind": "western"
+  },
+  {
+    "title": "Helluva Boss",
+    "imdbId": "tt10691770",
+    "rating": 8,
+    "year": 2019,
+    "kind": "western"
+  },
+  {
+    "title": "Looney Tunes Cartoons",
+    "imdbId": "tt8543208",
+    "rating": 8,
+    "year": 2020,
+    "kind": "western"
+  },
+  {
+    "title": "Spy x Family",
+    "imdbId": "tt13706018",
+    "rating": 8,
+    "year": 2022,
+    "kind": "anime"
+  },
+  {
+    "title": "Jonny Quest",
+    "imdbId": "tt0057730",
+    "rating": 7.9,
+    "year": 1964,
+    "kind": "western"
+  },
+  {
+    "title": "Scooby-Doo, Where Are You!",
+    "imdbId": "tt0063950",
+    "rating": 7.9,
+    "year": 1969,
+    "kind": "western"
+  },
+  {
+    "title": "Rocko's Modern Life",
+    "imdbId": "tt0106115",
+    "rating": 7.9,
+    "year": 1993,
+    "kind": "western"
+  },
+  {
+    "title": "Inuyasha",
+    "imdbId": "tt0290223",
+    "rating": 7.9,
+    "year": 2000,
+    "kind": "anime"
+  },
+  {
+    "title": "Toradora!",
+    "imdbId": "tt1279024",
+    "rating": 7.9,
+    "year": 2008,
+    "kind": "anime"
+  },
+  {
+    "title": "Assassination Classroom",
+    "imdbId": "tt3837246",
+    "rating": 7.9,
+    "year": 2013,
+    "kind": "anime"
+  },
+  {
+    "title": "Solar Opposites",
+    "imdbId": "tt8910922",
+    "rating": 7.9,
+    "year": 2020,
+    "kind": "western"
+  },
+  {
+    "title": "Animaniacs",
+    "imdbId": "tt0105941",
+    "rating": 7.8,
+    "year": 1993,
+    "kind": "western"
+  },
+  {
+    "title": "Pinky and the Brain",
+    "imdbId": "tt0112123",
+    "rating": 7.8,
+    "year": 1995,
+    "kind": "western"
+  },
+  {
+    "title": "Dexter's Laboratory",
+    "imdbId": "tt0115157",
+    "rating": 7.8,
+    "year": 1996,
+    "kind": "western"
+  },
+  {
+    "title": "Elfen Lied",
+    "imdbId": "tt0480489",
+    "rating": 7.8,
+    "year": 2004,
+    "kind": "anime"
+  },
+  {
+    "title": "ThunderCats (2011)",
+    "imdbId": "tt1666278",
+    "rating": 7.8,
+    "year": 2011,
+    "kind": "western"
+  },
+  {
+    "title": "Noragami",
+    "imdbId": "tt3225270",
+    "rating": 7.8,
+    "year": 2014,
+    "kind": "anime"
+  },
+  {
+    "title": "Close Enough",
+    "imdbId": "tt6994156",
+    "rating": 7.8,
+    "year": 2020,
+    "kind": "western"
+  },
+  {
+    "title": "Star Trek: Lower Decks",
+    "imdbId": "tt9184820",
+    "rating": 7.8,
+    "year": 2020,
+    "kind": "western"
+  },
+  {
+    "title": "Star Wars: The Bad Batch",
+    "imdbId": "tt12708542",
+    "rating": 7.8,
+    "year": 2021,
+    "kind": "western"
+  },
+  {
+    "title": "Harvey Birdman, Attorney at Law",
+    "imdbId": "tt0294097",
+    "rating": 7.7,
+    "year": 2000,
+    "kind": "western"
+  },
+  {
+    "title": "Inside Job",
+    "imdbId": "tt10231312",
+    "rating": 7.7,
+    "year": 2021,
+    "kind": "western"
+  },
+  {
+    "title": "Darkwing Duck",
+    "imdbId": "tt0101076",
+    "rating": 7.6,
+    "year": 1991,
+    "kind": "western"
+  },
+  {
+    "title": "King of the Hill",
+    "imdbId": "tt0118375",
+    "rating": 7.6,
+    "year": 1997,
+    "kind": "western"
+  },
+  {
+    "title": "Generator Rex",
+    "imdbId": "tt1636691",
+    "rating": 7.6,
+    "year": 2010,
+    "kind": "western"
+  },
+  {
+    "title": "Milo Murphy's Law",
+    "imdbId": "tt5439480",
+    "rating": 7.6,
+    "year": 2016,
+    "kind": "western"
+  },
+  {
+    "title": "Craig of the Creek",
+    "imdbId": "tt7713450",
+    "rating": 7.6,
+    "year": 2018,
+    "kind": "western"
+  },
+  {
+    "title": "Big City Greens",
+    "imdbId": "tt7165904",
+    "rating": 7.6,
+    "year": 2018,
+    "kind": "western"
+  },
+  {
+    "title": "Hazbin Hotel",
+    "imdbId": "tt7216636",
+    "rating": 7.6,
+    "year": 2019,
+    "kind": "western"
+  },
+  {
+    "title": "Centaurworld",
+    "imdbId": "tt10919290",
+    "rating": 7.6,
+    "year": 2021,
+    "kind": "western"
+  },
+  {
+    "title": "My Adventures with Superman",
+    "imdbId": "tt14681924",
+    "rating": 7.6,
+    "year": 2023,
+    "kind": "western"
+  },
+  {
+    "title": "Castlevania: Nocturne",
+    "imdbId": "tt14833612",
+    "rating": 7.5,
+    "year": 2023,
+    "kind": "western"
+  },
+  {
+    "title": "Superjail!",
+    "imdbId": "tt1031283",
+    "rating": 7.4,
+    "year": 2007,
+    "kind": "western"
+  },
+  {
+    "title": "Wander Over Yonder",
+    "imdbId": "tt2252938",
+    "rating": 7.4,
+    "year": 2013,
+    "kind": "western"
+  },
+  {
+    "title": "Tuca & Bertie",
+    "imdbId": "tt8036272",
+    "rating": 7.4,
+    "year": 2019,
+    "kind": "western"
+  },
+  {
+    "title": "Disenchantment",
+    "imdbId": "tt5363918",
+    "rating": 7.2,
+    "year": 2018,
+    "kind": "western"
+  }
+]

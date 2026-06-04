@@ -1,5 +1,6 @@
 import { useEffect, useRef, type ReactNode } from 'react'
 import { Show } from '../data/shows'
+import { numericCount } from '../lib/filter'
 import { spectrumColor } from '../lib/spectrum'
 import { ageRangeLabel, barFill } from '../lib/scale'
 import { MiniAxis } from './MiniAxis'
@@ -131,6 +132,10 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
 
   const accent = spectrumColor(show.ageFrom)
   const years = `${show.yearStart}–${show.yearEnd ?? 'present'}`
+  const tt = show.links.imdb?.match(/tt\d+/)?.[0] ?? null
+  const seasonCount = numericCount(show.seasons)
+  const seasonNums =
+    tt && seasonCount > 0 ? Array.from({ length: Math.min(seasonCount, 20) }, (_, i) => i + 1) : []
 
   return (
     <div className="fixed inset-0 z-50">
@@ -197,6 +202,11 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
               </span>
             </div>
             <MiniAxis ageFrom={show.ageFrom} ageTo={show.ageTo} />
+            {show.ageBasis && (
+              <p className="mt-2 text-[11px] leading-relaxed text-ash">
+                <span className="text-bone/70">Who’s really watching:</span> {show.ageBasis}
+              </p>
+            )}
           </section>
 
           {/* stat row */}
@@ -206,6 +216,36 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
             <Stat label="Episode length" value={show.epLabel} />
             <Stat label="Bucket" value={show.bucket} />
           </div>
+
+          {/* seasons / episodes on IMDb */}
+          {tt && (
+            <section>
+              <div className="mb-2 font-mono text-[10px] uppercase tracking-[0.14em] text-ash">
+                Episodes on IMDb {seasonCount > 0 && <span className="text-ash/60">· by season</span>}
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {seasonNums.map((n) => (
+                  <a
+                    key={n}
+                    href={`https://www.imdb.com/title/${tt}/episodes/?season=${n}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded bg-white/5 px-2 py-1 font-mono text-[11px] text-bone/80 ring-1 ring-white/10 transition hover:bg-white/10 hover:text-bone tnum"
+                  >
+                    S{n}
+                  </a>
+                ))}
+                <a
+                  href={`https://www.imdb.com/title/${tt}/episodes/`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded bg-spectrum-4/15 px-2 py-1 font-mono text-[11px] text-spectrum-4 ring-1 ring-spectrum-4/30 transition hover:bg-spectrum-4/25"
+                >
+                  {seasonCount > seasonNums.length ? `All ${seasonCount} ↗` : 'All ↗'}
+                </a>
+              </div>
+            </section>
+          )}
 
           {/* synopsis */}
           <p className="text-[15px] leading-relaxed text-bone/85">{show.synopsis}</p>
