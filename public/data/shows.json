@@ -1,0 +1,1708 @@
+{
+  "_meta": {
+    "title": "The Animation Spectrum",
+    "description": "Seed dataset for the interactive site. 48 animated TV series.",
+    "ageConvention": "ageFrom/ageTo are realistic VIEWING ages in years. ageTo == 99 means 'extends into adulthood / open-ended reach' (all-ages or adult). Render 99 as the 'Adult' end of the age axis.",
+    "dataStatus": "Verified 2026-06: counts confirmed via web sources (per-show \"verified\" flag). Viewership is shown only where a documented figure (premiere/peak rating or audience milestone) is sourced; otherwise \"Not publicly disclosed\". Streaming originals are never numbered. NO revenue/profit figures by design.",
+    "count": 48
+  },
+  "shows": [
+    {
+      "id": "cocomelon",
+      "title": "Cocomelon",
+      "ageFrom": 1,
+      "ageTo": 4,
+      "bucket": "Toddler",
+      "epMinutes": 10,
+      "epLabel": "3–35 min (varies)",
+      "seasons": 12,
+      "episodes": "100+",
+      "yearStart": 2006,
+      "yearEnd": null,
+      "origin": "YouTube / Moonbug · US",
+      "themes": [
+        "Nursery rhymes",
+        "Early learning",
+        "Routines"
+      ],
+      "synopsis": "3D nursery-rhyme videos built around toddlers' daily routines and early-learning songs.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/CoComelon",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt12427840/"
+      },
+      "viewership": {
+        "figure": "231.1M Netflix views (2024)",
+        "context": "#1 most-viewed series on Netflix in 2024 (views = hours viewed ÷ runtime)",
+        "sourceUrl": "https://www.moonbug.com/news/cocomelon-was-the-most-viewed-series-on-netflix-in-2024",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": false,
+      "animationStyle": "3D / CGI"
+    },
+    {
+      "id": "peppa-pig",
+      "title": "Peppa Pig",
+      "ageFrom": 2,
+      "ageTo": 5,
+      "bucket": "Preschool",
+      "epMinutes": 5,
+      "epLabel": "~5 min",
+      "seasons": 9,
+      "episodes": 434,
+      "yearStart": 2004,
+      "yearEnd": null,
+      "origin": "Channel 5 / Hasbro · UK",
+      "themes": [
+        "Family life",
+        "Everyday play",
+        "Gentle humour"
+      ],
+      "synopsis": "A cheeky young piglet and her family navigate gentle everyday adventures.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Peppa_Pig",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0426769/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "daniel-tiger",
+      "title": "Daniel Tiger's Neighborhood",
+      "ageFrom": 2,
+      "ageTo": 5,
+      "bucket": "Preschool",
+      "epMinutes": 11,
+      "epLabel": "~11 min (22-min slot)",
+      "seasons": 7,
+      "episodes": 155,
+      "yearStart": 2012,
+      "yearEnd": null,
+      "origin": "PBS Kids · US",
+      "themes": [
+        "Emotional regulation",
+        "Social skills",
+        "Kindness"
+      ],
+      "synopsis": "A Mister Rogers spin-off teaching toddlers to name and manage feelings through songs.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Tiger%27s_Neighborhood",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt2014553/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "sesame-street",
+      "title": "Sesame Street",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 30,
+      "epLabel": "~30 min (was 60)",
+      "seasons": 56,
+      "episodes": 4736,
+      "yearStart": 1969,
+      "yearEnd": null,
+      "origin": "PBS / HBO Max · US",
+      "themes": [
+        "Literacy",
+        "Numeracy",
+        "Diversity",
+        "Friendship"
+      ],
+      "synopsis": "The long-running educational variety show where Muppets teach literacy, numeracy and social skills.",
+      "reach": "Nostalgic adults",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Sesame_Street",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0063951/"
+      },
+      "viewership": {
+        "figure": "1.9M households (premiere)",
+        "context": "U.S. series premiere, Nov 10 1969 — 3.3 Nielsen rating",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sesame_Street",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Puppetry"
+    },
+    {
+      "id": "octonauts",
+      "title": "Octonauts",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 5,
+      "episodes": 121,
+      "yearStart": 2010,
+      "yearEnd": null,
+      "origin": "CBeebies / Silvergate · UK",
+      "themes": [
+        "Marine biology",
+        "Teamwork",
+        "Problem-solving"
+      ],
+      "synopsis": "A crew of animal explorers in undersea vehicles rescue marine creatures and explain ocean science.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Octonauts",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt1710177/"
+      },
+      "viewership": {
+        "figure": "257K daily viewers (Australia)",
+        "context": "2nd most-watched children’s programme in Australia, 2014 (ABC2)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Octonauts",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "3D / CGI"
+    },
+    {
+      "id": "bluey",
+      "title": "Bluey",
+      "ageFrom": 2,
+      "ageTo": 99,
+      "bucket": "Preschool",
+      "epMinutes": 7,
+      "epLabel": "~7 min",
+      "seasons": 3,
+      "episodes": "150+",
+      "yearStart": 2018,
+      "yearEnd": null,
+      "origin": "ABC Kids / BBC · Australia",
+      "themes": [
+        "Parenting",
+        "Imaginative play",
+        "Family",
+        "Grief"
+      ],
+      "synopsis": "A Blue Heeler puppy and her family turn everyday life into imaginative play, with writing that lands as hard for parents as kids.",
+      "reach": "All-ages reach",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt7678620/"
+      },
+      "viewership": {
+        "figure": "55.62B minutes streamed (2024)",
+        "context": "Most-streamed title in the U.S. in 2024 (Disney+), per Nielsen",
+        "sourceUrl": "https://www.nielsen.com/insights/2025/top-streaming-tv-trends-2024-artey-awards/",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "paw-patrol",
+      "title": "Paw Patrol",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "bucket": "Young Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min (22-min slot)",
+      "seasons": 13,
+      "episodes": 303,
+      "yearStart": 2013,
+      "yearEnd": null,
+      "origin": "Nickelodeon / Spin Master · Canada",
+      "themes": [
+        "Teamwork",
+        "Community",
+        "Rescue"
+      ],
+      "synopsis": "A boy and his team of rescue pups solve community problems with specialised vehicles and teamwork.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/PAW_Patrol",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt3121722/"
+      },
+      "viewership": {
+        "figure": "4.2M viewers (Live+7)",
+        "context": "“Mission PAW” special, Mar 2017 — series ratings record (P2+)",
+        "sourceUrl": "https://www.cynopsis.com/story/nickelodeon-flying-high-as-paw-patrol-scores-series-ratings-record/",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "3D / CGI"
+    },
+    {
+      "id": "pokemon",
+      "title": "Pokémon",
+      "ageFrom": 6,
+      "ageTo": 99,
+      "bucket": "Young Kids",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 28,
+      "episodes": 1372,
+      "yearStart": 1997,
+      "yearEnd": null,
+      "origin": "TV Tokyo / OLM · Japan",
+      "themes": [
+        "Adventure",
+        "Friendship",
+        "Perseverance"
+      ],
+      "synopsis": "A young trainer travels the world catching and battling creatures while chasing his dream of becoming a master.",
+      "reach": "Huge adult fandom",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0168366/"
+      },
+      "viewership": {
+        "figure": "3.1M viewers (U.S.)",
+        "context": "Kids’ WB audience by Sept 1999, at the peak of “Pokémania”",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_(TV_series)",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Anime"
+    },
+    {
+      "id": "spongebob",
+      "title": "SpongeBob SquarePants",
+      "ageFrom": 6,
+      "ageTo": 99,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min (22-min slot)",
+      "seasons": 15,
+      "episodes": "300+",
+      "yearStart": 1999,
+      "yearEnd": null,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Optimism",
+        "Friendship",
+        "Absurdist comedy"
+      ],
+      "synopsis": "A relentlessly optimistic sea sponge causes chaos working a fast-food grill in undersea Bikini Bottom.",
+      "reach": "Broad all-ages reach",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0206512/"
+      },
+      "viewership": {
+        "figure": "50M+ monthly viewers",
+        "context": "Nickelodeon-reported monthly audience at its peak — most-watched animated series at the time",
+        "sourceUrl": "https://www.diamondcomics.com/Article/4007-Nickelodeon-Announces-SpongeBob-SquarePants-Viewership-Statistics",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "phineas-and-ferb",
+      "title": "Phineas and Ferb",
+      "ageFrom": 6,
+      "ageTo": 99,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 5,
+      "episodes": 157,
+      "yearStart": 2007,
+      "yearEnd": null,
+      "origin": "Disney Channel · US",
+      "themes": [
+        "Creativity",
+        "Sibling bonds",
+        "Invention"
+      ],
+      "synopsis": "Two stepbrothers engineer impossible summer projects while their sister tries to bust them and their pet platypus fights a mad scientist.",
+      "reach": "Layered for adults",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Phineas_and_Ferb",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0852863/"
+      },
+      "viewership": {
+        "figure": "10.8M viewers (premiere)",
+        "context": "Series premiere, Aug 17 2007 (after a Hannah Montana lead-in)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Phineas_and_Ferb",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "loud-house",
+      "title": "The Loud House",
+      "ageFrom": 7,
+      "ageTo": 12,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 9,
+      "episodes": 308,
+      "yearStart": 2016,
+      "yearEnd": null,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Big-family dynamics",
+        "Growing up"
+      ],
+      "synopsis": "An 11-year-old boy survives life as the only son among ten sisters.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Loud_House",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt4859164/"
+      },
+      "viewership": {
+        "figure": "1.9M viewers (first month)",
+        "context": "Avg. total viewers in the month after the May 2016 premiere (981K kids 2–11)",
+        "sourceUrl": "http://www.nickalive.net/2016/06/the-loud-house-quickly-becomes.html",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "teen-titans-go",
+      "title": "Teen Titans Go!",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 9,
+      "episodes": 447,
+      "yearStart": 2013,
+      "yearEnd": null,
+      "origin": "Cartoon Network / DC · US",
+      "themes": [
+        "Friendship",
+        "Slapstick",
+        "Self-parody"
+      ],
+      "synopsis": "A comedic, self-parodying take on the teen superhero team goofing around between missions.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Teen_Titans_Go!",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt2771780/"
+      },
+      "viewership": {
+        "figure": "3M+ viewers (premiere)",
+        "context": "Pilot on Cartoon Network, Apr 23 2013",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Teen_Titans_Go!",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "gravity-falls",
+      "title": "Gravity Falls",
+      "ageFrom": 8,
+      "ageTo": 99,
+      "bucket": "Kids → Teens",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 2,
+      "episodes": "40",
+      "yearStart": 2012,
+      "yearEnd": 2016,
+      "origin": "Disney Channel / XD · US",
+      "themes": [
+        "Mystery",
+        "Family",
+        "Growing up",
+        "The uncanny"
+      ],
+      "synopsis": "Twins sent to their great-uncle's tourist trap uncover the supernatural mysteries of an Oregon town.",
+      "reach": "Strong adult reach",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Gravity_Falls",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt1865718/"
+      },
+      "viewership": {
+        "figure": "2.9M viewers (finale)",
+        "context": "Series finale “Weirdmageddon 3”, Feb 2016 — a Disney XD record (Nielsen L+3)",
+        "sourceUrl": "https://variety.com/2016/tv/news/gravity-falls-series-finale-disney-xd-ratings-records-1201711939/",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "avatar-tla",
+      "title": "Avatar: The Last Airbender",
+      "ageFrom": 8,
+      "ageTo": 99,
+      "bucket": "Kids → Teens",
+      "epMinutes": 23,
+      "epLabel": "~23 min",
+      "seasons": 3,
+      "episodes": "61",
+      "yearStart": 2005,
+      "yearEnd": 2008,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "War",
+        "Genocide",
+        "Destiny",
+        "Redemption",
+        "Balance"
+      ],
+      "synopsis": "A young Avatar must master the four elements to end a hundred-year war, grappling with destiny, genocide and balance.",
+      "reach": "Strong adult reach",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0417299/"
+      },
+      "viewership": {
+        "figure": "5.6M viewers (finale)",
+        "context": "Series finale “Sozin’s Comet”, Jul 19 2008",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sozin%27s_Comet",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "amphibia",
+      "title": "Amphibia",
+      "ageFrom": 8,
+      "ageTo": 14,
+      "bucket": "Kids → Teens",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 3,
+      "episodes": 58,
+      "yearStart": 2019,
+      "yearEnd": 2022,
+      "origin": "Disney Channel · US",
+      "themes": [
+        "Friendship",
+        "Self-discovery",
+        "Found family"
+      ],
+      "synopsis": "A self-centred teen is transported to a frog-world and learns selflessness alongside a new found family.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Amphibia_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt8050740/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "star-vs",
+      "title": "Star vs. the Forces of Evil",
+      "ageFrom": 8,
+      "ageTo": 14,
+      "bucket": "Kids → Teens",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 4,
+      "episodes": 77,
+      "yearStart": 2015,
+      "yearEnd": 2019,
+      "origin": "Disney XD / Channel · US",
+      "themes": [
+        "Coming of age",
+        "Identity",
+        "First love"
+      ],
+      "synopsis": "A magical princess from another dimension is sent to Earth, juggling monster-fighting with the chaos of teen life.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Star_vs._the_Forces_of_Evil",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt2758770/"
+      },
+      "viewership": {
+        "figure": "1.2M viewers (premiere)",
+        "context": "Series premiere — most-watched animated debut in Disney XD history at the time",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Star_vs._the_Forces_of_Evil",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "adventure-time",
+      "title": "Adventure Time",
+      "ageFrom": 9,
+      "ageTo": 99,
+      "bucket": "Kids → Teens",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 10,
+      "episodes": "283",
+      "yearStart": 2010,
+      "yearEnd": 2018,
+      "origin": "Cartoon Network · US",
+      "themes": [
+        "Post-apocalypse",
+        "Mortality",
+        "Mental health",
+        "Love"
+      ],
+      "synopsis": "A boy and his shape-shifting dog adventure across the post-apocalyptic Land of Ooo, in a series that grows steadily darker and stranger.",
+      "reach": "Teen/adult cult",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Adventure_Time",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt1305826/"
+      },
+      "viewership": {
+        "figure": "3.4M viewers (peak)",
+        "context": "Season 5 premiere — the series’ peak single-episode audience",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Adventure_Time",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "steven-universe",
+      "title": "Steven Universe",
+      "ageFrom": 9,
+      "ageTo": 99,
+      "bucket": "Kids → Teens",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 5,
+      "episodes": 160,
+      "yearStart": 2013,
+      "yearEnd": 2019,
+      "origin": "Cartoon Network · US",
+      "themes": [
+        "Identity",
+        "Queerness",
+        "Trauma",
+        "Consent",
+        "Empathy"
+      ],
+      "synopsis": "A boy who inherits his mother's gem powers learns about love, identity and his alien family's violent history.",
+      "reach": "Teen/adult reach",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Steven_Universe",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt3061046/"
+      },
+      "viewership": {
+        "figure": "~1.9M viewers (premiere)",
+        "context": "Series premiere, Nov 4 2013 — Cartoon Network’s top series premiere of 2013",
+        "sourceUrl": "https://www.nickandmore.com/2013/11/06/steven-universe-premieres-as-cartoon-networks-highest-rated-premiere-with-kidsboys-in-2013/",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "owl-house",
+      "title": "The Owl House",
+      "ageFrom": 10,
+      "ageTo": 99,
+      "bucket": "Tweens → Teens",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 3,
+      "episodes": 43,
+      "yearStart": 2020,
+      "yearEnd": 2023,
+      "origin": "Disney Channel · US",
+      "themes": [
+        "Identity",
+        "Queerness",
+        "Found family",
+        "Belonging"
+      ],
+      "synopsis": "A self-described weird girl stumbles into a demon realm and apprentices to a rebellious witch.",
+      "reach": "Teen/adult reach",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Owl_House",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt8050756/"
+      },
+      "viewership": {
+        "figure": "~375K viewers (finale)",
+        "context": "Series finale, Apr 8 2023 (P2+, Nielsen)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/The_Owl_House",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "young-justice",
+      "title": "Young Justice",
+      "ageFrom": 12,
+      "ageTo": 99,
+      "bucket": "Tweens → Teens",
+      "epMinutes": 22,
+      "epLabel": "~22 min (some ~44)",
+      "seasons": 4,
+      "episodes": 98,
+      "yearStart": 2010,
+      "yearEnd": 2022,
+      "origin": "Cartoon Network / HBO Max / DC · US",
+      "themes": [
+        "Heroism",
+        "Mentorship",
+        "Moral compromise"
+      ],
+      "synopsis": "A team of teen sidekicks operates covertly, navigating mentorship, identity and moral compromise.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Young_Justice_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt1641384/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "mha",
+      "title": "My Hero Academia",
+      "ageFrom": 12,
+      "ageTo": 99,
+      "bucket": "Teens",
+      "epMinutes": 24,
+      "epLabel": "~24 min",
+      "seasons": 8,
+      "episodes": 170,
+      "yearStart": 2016,
+      "yearEnd": 2025,
+      "origin": "ytv / Bones · Japan",
+      "themes": [
+        "Heroism",
+        "Perseverance",
+        "Inherited power"
+      ],
+      "synopsis": "In a world where most people have superpowers, a powerless boy inherits a legendary ability and trains to become the greatest hero.",
+      "reach": "Huge adult fandom",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/My_Hero_Academia",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt5626028/"
+      },
+      "viewership": {
+        "figure": "3.9% household rating (Japan)",
+        "context": "Season 6 premiere — the series’ highest seasonal-premiere rating in Japan",
+        "sourceUrl": "https://en.wikipedia.org/wiki/My_Hero_Academia",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Anime"
+    },
+    {
+      "id": "the-simpsons",
+      "title": "The Simpsons",
+      "ageFrom": 12,
+      "ageTo": 99,
+      "bucket": "Teens",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 37,
+      "episodes": 805,
+      "yearStart": 1989,
+      "yearEnd": null,
+      "origin": "Fox · US",
+      "themes": [
+        "Satire",
+        "Family",
+        "Class",
+        "American life"
+      ],
+      "synopsis": "The satirical everyday misadventures of a working-class American family in the town of Springfield.",
+      "reach": "Written for teens+",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Simpsons",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0096697/"
+      },
+      "viewership": {
+        "figure": "13.4M households (premiere)",
+        "context": "Series premiere “Simpsons Roasting on an Open Fire”, Dec 17 1989 (14.5 Nielsen)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Simpsons_Roasting_on_an_Open_Fire",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "bobs-burgers",
+      "title": "Bob's Burgers",
+      "ageFrom": 13,
+      "ageTo": 99,
+      "bucket": "Teens",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 16,
+      "episodes": 313,
+      "yearStart": 2011,
+      "yearEnd": null,
+      "origin": "Fox · US",
+      "themes": [
+        "Family",
+        "Small business",
+        "Warmth",
+        "Eccentricity"
+      ],
+      "synopsis": "A warm-hearted family runs a struggling burger restaurant, powered by eccentric kids and dad's stubborn optimism.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bob%27s_Burgers",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt1561755/"
+      },
+      "viewership": {
+        "figure": "9.39M viewers (premiere)",
+        "context": "Series premiere “Human Flesh”, Jan 9 2011 (Fox)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bob%27s_Burgers",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "arcane",
+      "title": "Arcane",
+      "ageFrom": 15,
+      "ageTo": 99,
+      "bucket": "Older Teens → Adults",
+      "epMinutes": 40,
+      "epLabel": "~40 min",
+      "seasons": 2,
+      "episodes": "18",
+      "yearStart": 2021,
+      "yearEnd": 2024,
+      "origin": "Netflix / Riot · France/US",
+      "themes": [
+        "Class war",
+        "Addiction",
+        "Sisterhood",
+        "Trauma"
+      ],
+      "synopsis": "In a divided city, two sisters end up on opposite sides of a class war fuelled by magic and addictive technology.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Arcane_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt11126994/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": false,
+        "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "3D / CGI"
+    },
+    {
+      "id": "demon-slayer",
+      "title": "Demon Slayer",
+      "ageFrom": 14,
+      "ageTo": 99,
+      "bucket": "Older Teens → Adults",
+      "epMinutes": 24,
+      "epLabel": "~24 min",
+      "seasons": 4,
+      "episodes": 63,
+      "yearStart": 2019,
+      "yearEnd": 2024,
+      "origin": "ufotable · Japan",
+      "themes": [
+        "Grief",
+        "Vengeance",
+        "Resilience",
+        "Family bonds"
+      ],
+      "synopsis": "A kind-hearted boy becomes a demon slayer to avenge his family and cure his demon-turned sister.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt9335498/"
+      },
+      "viewership": {
+        "figure": "25.97M viewers (Japan)",
+        "context": "Entertainment District Arc finale (ep 11) — peak single-episode audience, per Video Research",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_(TV_series)",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Anime"
+    },
+    {
+      "id": "aot",
+      "title": "Attack on Titan",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 24,
+      "epLabel": "~24 min",
+      "seasons": 4,
+      "episodes": "94",
+      "yearStart": 2013,
+      "yearEnd": 2023,
+      "origin": "MAPPA / Wit · Japan",
+      "themes": [
+        "War",
+        "Freedom vs control",
+        "Cycles of hatred"
+      ],
+      "synopsis": "Humanity huddles behind giant walls against man-eating Titans, in a brutal saga about freedom, war and cycles of hatred.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt2560140/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Anime"
+    },
+    {
+      "id": "family-guy",
+      "title": "Family Guy",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 24,
+      "episodes": 461,
+      "yearStart": 1999,
+      "yearEnd": null,
+      "origin": "Fox · US",
+      "themes": [
+        "Satire",
+        "Shock comedy",
+        "Suburban dysfunction"
+      ],
+      "synopsis": "A crude, cutaway-gag-driven satire following the dysfunctional Griffin family and their talking dog.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Family_Guy",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0182576/"
+      },
+      "viewership": {
+        "figure": "22.0M viewers (premiere)",
+        "context": "Series premiere after Super Bowl XXXIII, Jan 31 1999 (Fox)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Family_Guy_season_1",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "castlevania",
+      "title": "Castlevania",
+      "ageFrom": 17,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 25,
+      "epLabel": "~25 min",
+      "seasons": 4,
+      "episodes": "32",
+      "yearStart": 2017,
+      "yearEnd": 2021,
+      "origin": "Netflix / Powerhouse · US",
+      "themes": [
+        "Vengeance",
+        "Religion",
+        "Grief",
+        "Monstrosity"
+      ],
+      "synopsis": "A drunken monster hunter, a magician and a vampire's son battle Dracula's horde across a plague-ridden Wallachia.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Castlevania_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt6517102/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": false,
+        "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "bojack",
+      "title": "BoJack Horseman",
+      "ageFrom": 17,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 25,
+      "epLabel": "~25 min",
+      "seasons": 6,
+      "episodes": "77",
+      "yearStart": 2014,
+      "yearEnd": 2020,
+      "origin": "Netflix · US",
+      "themes": [
+        "Depression",
+        "Addiction",
+        "Fame",
+        "Self-destruction"
+      ],
+      "synopsis": "A washed-up sitcom horse confronts depression, addiction and self-sabotage in a Hollywood of humans and animals.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/BoJack_Horseman",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt3398228/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": false,
+        "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "rick-and-morty",
+      "title": "Rick and Morty",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 9,
+      "episodes": 83,
+      "yearStart": 2013,
+      "yearEnd": null,
+      "origin": "Adult Swim · US",
+      "themes": [
+        "Nihilism",
+        "Science",
+        "Family",
+        "Existential dread"
+      ],
+      "synopsis": "A nihilistic genius scientist drags his anxious grandson across dimensions in increasingly dark sci-fi misadventures.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Rick_and_Morty",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt2861424/"
+      },
+      "viewership": {
+        "figure": "2.6M viewers (finale)",
+        "context": "Season 3 finale (L+SD) — a record Adult Swim telecast at the time",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Rick_and_Morty_season_3",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "south-park",
+      "title": "South Park",
+      "ageFrom": 17,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 28,
+      "episodes": 338,
+      "yearStart": 1997,
+      "yearEnd": null,
+      "origin": "Comedy Central · US",
+      "themes": [
+        "Satire",
+        "Current events",
+        "Taboo",
+        "Social critique"
+      ],
+      "synopsis": "Four foul-mouthed boys anchor a rapid-turnaround satire of current events and taboo subjects.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/South_Park",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0121955/"
+      },
+      "viewership": {
+        "figure": "6.2M viewers",
+        "context": "“Cartman’s Mom…” (S2, Apr 1998) — then a basic-cable record (8.2 Nielsen)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/South_Park",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Cutout"
+    },
+    {
+      "id": "invincible",
+      "title": "Invincible",
+      "ageFrom": 17,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 45,
+      "epLabel": "~45 min",
+      "seasons": 3,
+      "episodes": "~24",
+      "yearStart": 2021,
+      "yearEnd": null,
+      "origin": "Prime Video / Skybound · US",
+      "themes": [
+        "Power",
+        "Legacy",
+        "Violence",
+        "Coming of age"
+      ],
+      "synopsis": "A teenage son of the world's greatest superhero discovers the dark truth behind that legacy, with graphic consequences.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Invincible_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt6741278/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": false,
+        "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "bob-the-builder",
+      "title": "Bob the Builder",
+      "ageFrom": 2,
+      "ageTo": 5,
+      "bucket": "Preschool",
+      "epMinutes": 10,
+      "epLabel": "~10 min",
+      "seasons": "Multiple",
+      "episodes": "200+",
+      "yearStart": 1998,
+      "yearEnd": 2018,
+      "origin": "BBC / HIT Entertainment · UK",
+      "themes": [
+        "Teamwork",
+        "Construction",
+        "Persistence"
+      ],
+      "synopsis": "An upbeat contractor and his team of talking machines fix and build their way through town problems.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bob_the_Builder",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0262151/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Stop-motion"
+    },
+    {
+      "id": "fireman-sam",
+      "title": "Fireman Sam",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 12,
+      "epLabel": "~10–15 min",
+      "seasons": "10+",
+      "episodes": "300+",
+      "yearStart": 1987,
+      "yearEnd": null,
+      "origin": "S4C / BBC · Wales, UK",
+      "themes": [
+        "Rescue",
+        "Safety",
+        "Community"
+      ],
+      "synopsis": "A heroic firefighter and the emergency crew of a small Welsh town rescue residents and champion safety.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Fireman_Sam",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0329829/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Stop-motion"
+    },
+    {
+      "id": "arthur",
+      "title": "Arthur",
+      "ageFrom": 4,
+      "ageTo": 10,
+      "bucket": "Young Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 25,
+      "episodes": "253",
+      "yearStart": 1996,
+      "yearEnd": 2022,
+      "origin": "PBS / GBH · US",
+      "themes": [
+        "Empathy",
+        "School life",
+        "Real-world issues"
+      ],
+      "synopsis": "An eight-year-old aardvark navigates school and family, with episodes built around real childhood challenges like dyslexia, illness and grief.",
+      "reach": "Longest-running US kids' cartoon until 2025",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Arthur_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0169414/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "recess",
+      "title": "Recess",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 6,
+      "episodes": "65",
+      "yearStart": 1997,
+      "yearEnd": 2001,
+      "origin": "Disney / ABC · US",
+      "themes": [
+        "Playground politics",
+        "Friendship",
+        "Childhood"
+      ],
+      "synopsis": "Six fourth-graders navigate the elaborate, self-governing social order of their school playground.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Recess_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0126170/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "catdog",
+      "title": "CatDog",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 4,
+      "episodes": "68",
+      "yearStart": 1998,
+      "yearEnd": 2005,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Odd-couple comedy",
+        "Brotherhood",
+        "Identity"
+      ],
+      "synopsis": "Conjoined brothers — a tidy, optimistic Cat and a goofy, impulsive Dog sharing one body — bicker and bond.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/CatDog",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0154061/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "rocket-power",
+      "title": "Rocket Power",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "bucket": "Older Kids",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 4,
+      "episodes": "71",
+      "yearStart": 1999,
+      "yearEnd": 2004,
+      "origin": "Nickelodeon / Klasky Csupo · US",
+      "themes": [
+        "Extreme sports",
+        "Friendship",
+        "Rivalry"
+      ],
+      "synopsis": "Four extreme-sports-obsessed friends surf, skate and bike through pre-teen life in a beach town.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Rocket_Power",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0244926/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "angela-anaconda",
+      "title": "Angela Anaconda",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 2,
+      "episodes": "65",
+      "yearStart": 1999,
+      "yearEnd": 2001,
+      "origin": "Fox Family / Teletoon · US/Canada",
+      "themes": [
+        "Rivalry",
+        "Schemes",
+        "Photo-collage style"
+      ],
+      "synopsis": "An eight-year-old schemes against her insufferably perfect rival, told in distinctive cut-out photo-collage animation.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Angela_Anaconda",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0224455/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Cutout"
+    },
+    {
+      "id": "fairly-oddparents",
+      "title": "The Fairly OddParents",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 10,
+      "episodes": "172",
+      "yearStart": 2001,
+      "yearEnd": 2017,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Wish-fulfilment",
+        "Backfiring magic",
+        "Childhood"
+      ],
+      "synopsis": "A neglected boy's two bumbling fairy godparents grant wishes that constantly backfire under a thicket of rules.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Fairly_OddParents",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0235918/"
+      },
+      "viewership": {
+        "figure": "8.89M viewers",
+        "context": "Premiere of the TV movie “Fairly OddBaby”, 2008",
+        "sourceUrl": "https://en.wikipedia.org/wiki/The_Fairly_OddParents",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "wild-thornberrys",
+      "title": "The Wild Thornberrys",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "bucket": "Older Kids",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 5,
+      "episodes": "91",
+      "yearStart": 1998,
+      "yearEnd": 2004,
+      "origin": "Nickelodeon / Klasky Csupo · US",
+      "themes": [
+        "Wildlife",
+        "Adventure",
+        "Family"
+      ],
+      "synopsis": "The daughter of nomadic wildlife filmmakers can secretly talk to animals, and uses it to help creatures across the globe.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Thornberrys",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0167743/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "hey-arnold",
+      "title": "Hey Arnold!",
+      "ageFrom": 7,
+      "ageTo": 14,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 5,
+      "episodes": "100",
+      "yearStart": 1996,
+      "yearEnd": 2004,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Inner-city life",
+        "Empathy",
+        "Coming of age"
+      ],
+      "synopsis": "A kind, football-headed kid navigates inner-city life while a classmate hides a crush behind relentless bullying.",
+      "reach": "Adult nostalgia",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Hey_Arnold!",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0115200/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "powerpuff-girls",
+      "title": "The Powerpuff Girls",
+      "ageFrom": 6,
+      "ageTo": 99,
+      "bucket": "Older Kids",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 6,
+      "episodes": "78",
+      "yearStart": 1998,
+      "yearEnd": 2005,
+      "origin": "Cartoon Network · US",
+      "themes": [
+        "Superheroes",
+        "Tokusatsu homage",
+        "Childhood"
+      ],
+      "synopsis": "Three kindergarten superheroes defend the city of Townsville from villains, between the chaos of being little kids.",
+      "reach": "All-ages crossover",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Powerpuff_Girls",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0175058/"
+      },
+      "viewership": {
+        "figure": "2.2M households",
+        "context": "Episode airing Sep 8 2000 — 3.4 Nielsen, then Cartoon Network’s highest-rated",
+        "sourceUrl": "https://en.wikipedia.org/wiki/The_Powerpuff_Girls",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "yu-gi-oh",
+      "title": "Yu-Gi-Oh!",
+      "ageFrom": 7,
+      "ageTo": 99,
+      "bucket": "Older Kids",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": "10 series",
+      "episodes": 1244,
+      "yearStart": 2000,
+      "yearEnd": null,
+      "origin": "TV Tokyo / Konami / 4Kids · Japan",
+      "themes": [
+        "Card duels",
+        "Friendship",
+        "High stakes"
+      ],
+      "synopsis": "A shy boy possessed by an ancient pharaoh's spirit duels rivals in high-stakes Duel Monsters card battles.",
+      "reach": "Adult fandom",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Yu-Gi-Oh!",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0247902/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "Anime"
+    },
+    {
+      "id": "ben-10",
+      "title": "Ben 10",
+      "ageFrom": 7,
+      "ageTo": 16,
+      "bucket": "Older Kids",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": "5 series",
+      "episodes": "200+",
+      "yearStart": 2005,
+      "yearEnd": null,
+      "origin": "Cartoon Network / Man of Action · US",
+      "themes": [
+        "Transformation",
+        "Heroism",
+        "Family road-trip"
+      ],
+      "synopsis": "A boy with an alien wristwatch transforms into a roster of super-powered alien heroes to battle cosmic threats.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ben_10_(franchise)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0760437/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "teen-titans",
+      "title": "Teen Titans",
+      "ageFrom": 8,
+      "ageTo": 16,
+      "bucket": "Tweens → Teens",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 5,
+      "episodes": "65",
+      "yearStart": 2003,
+      "yearEnd": 2006,
+      "origin": "Cartoon Network / DC · US",
+      "themes": [
+        "Heroism",
+        "Adolescence",
+        "Anime-influenced action"
+      ],
+      "synopsis": "Five teenage heroes share a tower and fight villains while wrestling with adolescence, in an anime-influenced style.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Teen_Titans_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0343314/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "invader-zim",
+      "title": "Invader Zim",
+      "ageFrom": 12,
+      "ageTo": 99,
+      "bucket": "Teens",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 2,
+      "episodes": "27",
+      "yearStart": 2001,
+      "yearEnd": 2002,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Sci-fi satire",
+        "Megalomania",
+        "Dark comedy"
+      ],
+      "synopsis": "An inept but megalomaniacal little alien bumbles through an Earth invasion while a paranoid classmate tries to expose him.",
+      "reach": "Teen/adult cult",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Invader_Zim",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0235923/"
+      },
+      "viewership": {
+        "figure": "~1.8M viewers (premiere)",
+        "context": "Series premiere, 2001 — 6.0 rating / 17 share among kids 2–11",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Invader_Zim",
+        "disclosed": true,
+        "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    },
+    {
+      "id": "big-mouth",
+      "title": "Big Mouth",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "bucket": "Adults",
+      "epMinutes": 25,
+      "epLabel": "~25 min",
+      "seasons": 8,
+      "episodes": "81",
+      "yearStart": 2017,
+      "yearEnd": 2025,
+      "origin": "Netflix · US",
+      "themes": [
+        "Puberty",
+        "Friendship",
+        "Crude comedy"
+      ],
+      "synopsis": "Fictionalised friends endure the grotesque comedy of puberty, guided and tormented by Hormone Monsters.",
+      "reach": null,
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Big_Mouth_(American_TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt6524350/"
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": false,
+        "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
+      },
+      "verified": true,
+      "animationStyle": "2D"
+    }
+  ]
+}
