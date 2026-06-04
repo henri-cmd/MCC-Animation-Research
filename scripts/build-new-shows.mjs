@@ -12,7 +12,8 @@ if (!KEY) {
 const ROOT = new URL('../', import.meta.url)
 const showsFile = new URL('public/data/shows.json', ROOT)
 const data = JSON.parse(readFileSync(showsFile, 'utf8'))
-const editorial = JSON.parse(readFileSync(new URL('scripts/editorial.json', ROOT), 'utf8'))
+const EDITORIAL = process.env.EDITORIAL || 'scripts/editorial.json'
+const editorial = JSON.parse(readFileSync(new URL(EDITORIAL, ROOT), 'utf8'))
 
 const IMG = 'https://image.tmdb.org/t/p'
 const tmdb = async (path) => {

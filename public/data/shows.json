@@ -4,7 +4,7 @@
     "description": "Seed dataset for the interactive site. 48 animated TV series.",
     "ageConvention": "ageFrom/ageTo are realistic VIEWING ages in years. ageTo == 99 means 'extends into adulthood / open-ended reach' (all-ages or adult). Render 99 as the 'Adult' end of the age axis.",
     "dataStatus": "Verified 2026-06: counts confirmed via web sources (per-show \"verified\" flag). Viewership is shown only where a documented figure (premiere/peak rating or audience milestone) is sourced; otherwise \"Not publicly disclosed\". Streaming originals are never numbered. NO revenue/profit figures by design.",
-    "count": 182
+    "count": 197
   },
   "shows": [
     {
@@ -8631,6 +8631,734 @@
         "sourceUrl": "https://deadline.com/2018/08/netflix-disenchantment-4-4-million-u-s-viewers-young-male-nielsen-1202452764/",
         "disclosed": true,
         "note": "Documented figure — sourced."
+      },
+      "verified": true
+    },
+    {
+      "id": "dora-the-explorer",
+      "title": "Dora the Explorer",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 30,
+      "epLabel": "~30 min",
+      "seasons": 8,
+      "episodes": 177,
+      "yearStart": 2000,
+      "yearEnd": 2019,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Bilingual learning",
+        "Problem-solving",
+        "Adventure",
+        "Interactivity",
+        "Geography"
+      ],
+      "synopsis": "A young girl named Dora goes on adventures with her red boot-wearing monkey named Boots.",
+      "reach": "Aired in 150+ countries; a Nick Jr. mainstay",
+      "ageBasis": "Preschoolers learning Spanish via interactive adventure with Dora",
+      "animationStyle": "2D",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dora_the_Explorer",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0235917/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/uEPbIAmsZENHL5B50WNYSyItFjf.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/uEPbIAmsZENHL5B50WNYSyItFjf.jpg",
+          "https://image.tmdb.org/t/p/w780/4EvgShbukpyeLBu0BKYNCyQi27y.jpg",
+          "https://image.tmdb.org/t/p/w780/iWrPxChvjrjeHlVKdbQrmYrdENo.jpg",
+          "https://image.tmdb.org/t/p/w780/cfLtfRIivZnoZH25dtUMwaiA5ZH.jpg",
+          "https://image.tmdb.org/t/p/w780/5a4NQtaInw6HfGIXkp0RKIkzrMZ.jpg",
+          "https://image.tmdb.org/t/p/w780/ed7sQrFBcqPc4KtdNjThsn5qrIR.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "thomas-friends",
+      "title": "Thomas & Friends",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 24,
+      "episodes": 584,
+      "yearStart": 1984,
+      "yearEnd": 2021,
+      "origin": "ITV1 · UK",
+      "themes": [
+        "Friendship",
+        "Railways",
+        "Responsibility",
+        "Community",
+        "Imagination"
+      ],
+      "synopsis": "Thomas & Friends is a British children's television series, which had its first broadcast on the ITV network on 4 September 1984. It is based on The Railway Series of books by the Reverend Wilbert Awdry and his son, Christopher Awdry. These books deal with the adventures of a group of anthropomorphised locomotives and road vehicles who live on the fictional Island of Sodor. The books were based on stories Wilbert told to entertain his son, Christopher during his recovery from measles. From Series one to four, many of the stories are based on events from Awdry's personal experience.",
+      "reach": "Global franchise across 185+ countries",
+      "ageBasis": "Toddlers and preschoolers drawn to talking trains and simple stories",
+      "animationStyle": "Stop-motion",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Thomas_%26_Friends",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0086815/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/wIe1HL7oMNwyltsqqx2sCPwNl4w.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/wIe1HL7oMNwyltsqqx2sCPwNl4w.jpg",
+          "https://image.tmdb.org/t/p/w780/fHrkrab2aVr5qwGIvTu8L3w7beg.jpg",
+          "https://image.tmdb.org/t/p/w780/lJLxh0QRIxSas5XxztoNF1Hr8Bt.jpg",
+          "https://image.tmdb.org/t/p/w780/aGwF22gY7DdqfdM6WpTqCzClyv0.jpg",
+          "https://image.tmdb.org/t/p/w780/w246dgUdR43xMC6rForWz8WqfNi.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "postman-pat",
+      "title": "Postman Pat",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 15,
+      "epLabel": "~15 min",
+      "seasons": 5,
+      "episodes": 106,
+      "yearStart": 1981,
+      "yearEnd": 2006,
+      "origin": "CBeebies · UK",
+      "themes": [
+        "Community helpers",
+        "Rural life",
+        "Kindness",
+        "Daily routines",
+        "Animals"
+      ],
+      "synopsis": "Pat and his black-and-white cat Jess deliver the mail in Greendale.",
+      "reach": "BBC classic broadcast worldwide since 1981",
+      "ageBasis": "Toddlers and preschoolers charmed by gentle village postman stories",
+      "animationStyle": "Stop-motion",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Postman_Pat",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0149509/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/ini5OKs2Y5pwfyarKgkDBgB3sW9.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/ini5OKs2Y5pwfyarKgkDBgB3sW9.jpg",
+          "https://image.tmdb.org/t/p/w780/kpPR5IC604D6XRx4gGddKo7UR8c.jpg",
+          "https://image.tmdb.org/t/p/w780/bRPg2j0PxhkLgnkmlZEs86rU35u.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "mickey-mouse-clubhouse",
+      "title": "Mickey Mouse Clubhouse",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 4,
+      "episodes": 123,
+      "yearStart": 2006,
+      "yearEnd": 2016,
+      "origin": "Disney Channel · US",
+      "themes": [
+        "Problem-solving",
+        "Shapes and colours",
+        "Friendship",
+        "Music",
+        "Interactivity"
+      ],
+      "synopsis": "Mickey and his friends Minnie, Donald, Pluto, Daisy, Goofy, Pete, Clarabelle and more go on fun and educational adventures.",
+      "reach": "Disney Junior flagship preschool series",
+      "ageBasis": "Preschoolers solving problems with Mickey and friends",
+      "animationStyle": "3D / CGI",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mickey_Mouse_Clubhouse",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0784896/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
+          "https://image.tmdb.org/t/p/w780/dGvW61JwuqwtShk849PHZflOAX.jpg",
+          "https://image.tmdb.org/t/p/w780/27tcGDXvdjkM4IRPgD0NBtYuvSh.jpg",
+          "https://image.tmdb.org/t/p/w780/8wSbuj37JdviuULsegw58CfmwDP.jpg",
+          "https://image.tmdb.org/t/p/w780/3k31ar3vdDGVfdxPuDSGv7BK6UY.jpg",
+          "https://image.tmdb.org/t/p/w780/2dAkCvVv1RE7G9aSVCokbpDJPZB.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "pocoyo",
+      "title": "Pocoyo",
+      "ageFrom": 1,
+      "ageTo": 4,
+      "bucket": "Toddler",
+      "epMinutes": 7,
+      "epLabel": "~7 min",
+      "seasons": 5,
+      "episodes": 218,
+      "yearStart": 2005,
+      "yearEnd": null,
+      "origin": "CITV · UK",
+      "themes": [
+        "Curiosity",
+        "Friendship",
+        "Emotions",
+        "Play",
+        "Discovery"
+      ],
+      "synopsis": "Pocoyo, the curious toddler dressed all in blue, joins Pato the yellow duck, Elly the pink elephant, Loula the dog, Sleepy Bird and many others in learning new things and having fun.",
+      "reach": "Sold to 150+ countries; huge toddler YouTube audience",
+      "ageBasis": "Toddlers drawn to Pocoyo's simple, quiet play world",
+      "animationStyle": "3D / CGI",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Pocoyo",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0487849/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/3yn2TeZ2oTIlXa2C61meThWn05y.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/3yn2TeZ2oTIlXa2C61meThWn05y.jpg",
+          "https://image.tmdb.org/t/p/w780/6IDNtnvx9LQfdC9CHrZKSlpXNfS.jpg",
+          "https://image.tmdb.org/t/p/w780/2muMwIOZ5UOozjE1jwCfvDALssm.jpg",
+          "https://image.tmdb.org/t/p/w780/7nihCyDj2BCKScA0dqMe1KG7z8.jpg",
+          "https://image.tmdb.org/t/p/w780/bSUCrx8UNo9djwnHlfjtC7eLGtd.jpg",
+          "https://image.tmdb.org/t/p/w780/y5uLWuHpUe3Gcpnq3oMIHLdfQO3.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "masha-and-the-bear",
+      "title": "Masha and the Bear",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 7,
+      "epLabel": "~7 min",
+      "seasons": 8,
+      "episodes": 208,
+      "yearStart": 2009,
+      "yearEnd": null,
+      "origin": "Russia-1 · Russia",
+      "themes": [
+        "Mischief",
+        "Friendship",
+        "Nature",
+        "Comedy",
+        "Nurturing"
+      ],
+      "synopsis": "Masha is an energetic three-year-old who can’t seem to keep herself out of trouble. Bear is a warm, fatherly figure that does his best to guide his friend and keep her from harm, often ending up the unintended victim of her misadventures.",
+      "reach": "Among the most-watched preschool series on YouTube",
+      "ageBasis": "Preschoolers worldwide captivated by Masha's antics with the Bear",
+      "animationStyle": "3D / CGI",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Masha_and_the_Bear",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt1884856/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/mZmxNM7XMMT1QroznAQWmRf7duP.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/mZmxNM7XMMT1QroznAQWmRf7duP.jpg",
+          "https://image.tmdb.org/t/p/w780/uu2qZZ82Ml2u6SgOd68OIIOI0si.jpg",
+          "https://image.tmdb.org/t/p/w780/7xBlLn0iSwAbH3MNVdHZoG8kMFG.jpg",
+          "https://image.tmdb.org/t/p/w780/yTZBC2kuYD7qztMkPERODJo40B5.jpg",
+          "https://image.tmdb.org/t/p/w780/9NfRYto9cPSy31GIkrzDOiPbhPq.jpg",
+          "https://image.tmdb.org/t/p/w780/n7fjfniRbCsK8L5mrhyjuCgF6yr.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "ben-hollys-little-kingdom",
+      "title": "Ben & Holly's Little Kingdom",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 11,
+      "epLabel": "~11 min",
+      "seasons": 2,
+      "episodes": 104,
+      "yearStart": 2009,
+      "yearEnd": 2013,
+      "origin": "5 · UK",
+      "themes": [
+        "Fantasy",
+        "Friendship",
+        "Magic",
+        "Fairy tales",
+        "Humour"
+      ],
+      "synopsis": "The friendship between fairy princess Holly and Ben Elf in an enchanted magical kingdom of elves and fairies.",
+      "reach": "UK hit distributed internationally",
+      "ageBasis": "Preschoolers enchanted by tiny fairy and elf adventures",
+      "animationStyle": "2D",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ben_%26_Holly%27s_Little_Kingdom",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt1436544/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/dtwKMr3wu0C8G81ZLyCk98DUskq.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/dtwKMr3wu0C8G81ZLyCk98DUskq.jpg",
+          "https://image.tmdb.org/t/p/w780/sf9Iu33FSUMXVJIeNvUI49IAchw.jpg",
+          "https://image.tmdb.org/t/p/w780/mzqMFupOHAXW8dIeoYMvgo8GbfZ.jpg",
+          "https://image.tmdb.org/t/p/w780/q9NxqI1LGQRQN8t5J6GkbbwSQkW.jpg",
+          "https://image.tmdb.org/t/p/w780/djwtc2Mb5WxZAGWjpKSphwijScM.jpg",
+          "https://image.tmdb.org/t/p/w780/p5EaZI7xE3r5VngDw6HyL9dfoOQ.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "pingu",
+      "title": "Pingu",
+      "ageFrom": 1,
+      "ageTo": 5,
+      "bucket": "Toddler",
+      "epMinutes": 22,
+      "epLabel": "~22 min",
+      "seasons": 6,
+      "episodes": 156,
+      "yearStart": 1986,
+      "yearEnd": 2006,
+      "origin": "CBeebies · Switzerland",
+      "themes": [
+        "Family",
+        "Emotions",
+        "Humour",
+        "Everyday life",
+        "Animals"
+      ],
+      "synopsis": "Playful penguin Pingu lives with his family in Antarctica, where he often finds himself caught up in mischievous high jinks with his pal Robby.",
+      "reach": "Swiss original broadcast globally",
+      "ageBasis": "Toddlers and preschoolers delighted by wordless penguin slapstick",
+      "animationStyle": "Stop-motion",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Pingu",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0100366/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/10UOUxOjmLCwGOvNXNaiIdWXav.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/10UOUxOjmLCwGOvNXNaiIdWXav.jpg",
+          "https://image.tmdb.org/t/p/w780/nmjerNLKYeEAato5LxcTBhHaM07.jpg",
+          "https://image.tmdb.org/t/p/w780/lZAIAYMmUMDkUvvggxO9SS00PJX.jpg",
+          "https://image.tmdb.org/t/p/w780/ikNqtcxLSdYRZf7E1yTU1kfu0WY.jpg",
+          "https://image.tmdb.org/t/p/w780/wribqQ1Pu3AjVHiHWk1i5QhrbDE.jpg",
+          "https://image.tmdb.org/t/p/w780/avGWwxjkXLyfhrcDiOMAg5b1U0w.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "bubble-guppies",
+      "title": "Bubble Guppies",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 25,
+      "epLabel": "~25 min",
+      "seasons": 7,
+      "episodes": 159,
+      "yearStart": 2011,
+      "yearEnd": null,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "School readiness",
+        "Music",
+        "Ocean life",
+        "Friendship",
+        "Early literacy"
+      ],
+      "synopsis": "The adventures of seven fish-tailed kids- Molly, Gil, Oona, Deema, Nonny, Goby, and Zooli!",
+      "reach": "Nick Jr. mainstay",
+      "ageBasis": "Preschoolers learning through underwater classroom adventures and songs",
+      "animationStyle": "3D / CGI",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bubble_Guppies",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0965404/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/6apIHPRPfalOcNlvefdPfp41pJM.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/6apIHPRPfalOcNlvefdPfp41pJM.jpg",
+          "https://image.tmdb.org/t/p/w780/pSzi3aQRaNSvzwgqy2VEsXeC2Jm.jpg",
+          "https://image.tmdb.org/t/p/w780/rtcczrybvkMYid4KkqPPLB9GHlY.jpg",
+          "https://image.tmdb.org/t/p/w780/erzacqHYT42uQdTRY87ehnRKQ4M.jpg",
+          "https://image.tmdb.org/t/p/w780/drEBx8vycx7WvYg8ZEODlGU7h3F.jpg",
+          "https://image.tmdb.org/t/p/w780/nnT9JUkgAZv9M1tSiJmnCTYcMdZ.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "the-backyardigans",
+      "title": "The Backyardigans",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 25,
+      "epLabel": "~25 min",
+      "seasons": 4,
+      "episodes": 79,
+      "yearStart": 2004,
+      "yearEnd": 2013,
+      "origin": "Treehouse TV · Canada",
+      "themes": [
+        "Imagination",
+        "Music and dance",
+        "Friendship",
+        "Adventure",
+        "Storytelling"
+      ],
+      "synopsis": "Meet five lively animal friends who love to sing, dance and use their imaginations to embark on outrageous adventures to magical places.",
+      "reach": "Nick Jr. series with a strong musical identity",
+      "ageBasis": "Preschoolers enjoying musical backyard imagination adventures",
+      "animationStyle": "3D / CGI",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Backyardigans",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0439349/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/fLI3GFGDjYXIXO5ehdQkeE0zeS0.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/fLI3GFGDjYXIXO5ehdQkeE0zeS0.jpg",
+          "https://image.tmdb.org/t/p/w780/kDMNjcnvNMf7oZI29vQGVm2I6g3.jpg",
+          "https://image.tmdb.org/t/p/w780/ezZVWCIOMNaddcW7A02OHY9inM7.jpg",
+          "https://image.tmdb.org/t/p/w780/toVVnTtslCthi10wZhOLRfUaoUC.jpg",
+          "https://image.tmdb.org/t/p/w780/63EAKR5lnGL9RS62Ibfzpgav0NR.jpg",
+          "https://image.tmdb.org/t/p/w780/86hOQ88vjshZvsqhvxzpw3ECdTS.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "numberblocks",
+      "title": "Numberblocks",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 5,
+      "epLabel": "~5 min",
+      "seasons": 8,
+      "episodes": 165,
+      "yearStart": 2017,
+      "yearEnd": null,
+      "origin": "CBeebies · UK",
+      "themes": [
+        "Numeracy",
+        "Mathematics",
+        "Problem-solving",
+        "Shapes",
+        "Early learning"
+      ],
+      "synopsis": "Learn how much fun counting can be with the Numberblocks - a fun-loving group of numbers who work together to solve problems big and small.",
+      "reach": "CBeebies hit widely used in UK schools",
+      "ageBasis": "Preschoolers learning numbers through colourful number characters",
+      "animationStyle": "2D",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Numberblocks",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt7978538/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/u9H3GJHNxlQwVeyJDxGGD7Uu9iH.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/u9H3GJHNxlQwVeyJDxGGD7Uu9iH.jpg",
+          "https://image.tmdb.org/t/p/w780/aiop2zcnKxMis5RdAFHGwiQXUWk.jpg",
+          "https://image.tmdb.org/t/p/w780/uUSm10u0s5SqTtB99EpIzY6N9FF.jpg",
+          "https://image.tmdb.org/t/p/w780/2oha1SEORxtwbM6omSa7r1Qrsyq.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "sarah-duck",
+      "title": "Sarah & Duck",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 13,
+      "epLabel": "~13 min",
+      "seasons": 3,
+      "episodes": 120,
+      "yearStart": 2013,
+      "yearEnd": 2017,
+      "origin": "CBeebies · UK",
+      "themes": [
+        "Friendship",
+        "Imagination",
+        "Everyday life",
+        "Quirky humour",
+        "Nature"
+      ],
+      "synopsis": "Sarah is a 7-year-old girl with big eyes and a green hat. She lives with her best friend, a quacky, slightly manic fowl appropriately named Duck. Each episode features the pair setting out on simple but exciting adventures as they explore the world in their own imaginative way.",
+      "reach": "BAFTA-winning CBeebies series",
+      "ageBasis": "Preschoolers charmed by Sarah's gentle whimsical adventures with Duck",
+      "animationStyle": "2D",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Sarah_%26_Duck",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt3070014/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/gQ1ams8Deokxs255lXcXFdGApeP.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/gQ1ams8Deokxs255lXcXFdGApeP.jpg",
+          "https://image.tmdb.org/t/p/w780/qbSmGkVEktvN46uZuBwPwOlwhYn.jpg",
+          "https://image.tmdb.org/t/p/w780/hezvpWpcAKmzBk08AhsO80PUAax.jpg",
+          "https://image.tmdb.org/t/p/w780/4SPRsPq172GsSAI0qiuCRkjdY8n.jpg",
+          "https://image.tmdb.org/t/p/w780/9m0DZc7J4YorhRTYmEX4G9xQapw.jpg",
+          "https://image.tmdb.org/t/p/w780/3oKym4MDksUp7yAYBMBgyM8ahii.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "curious-george",
+      "title": "Curious George",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "bucket": "Young Kids",
+      "epMinutes": 12,
+      "epLabel": "~12 min",
+      "seasons": 15,
+      "episodes": 389,
+      "yearStart": 2006,
+      "yearEnd": null,
+      "origin": "PBS · US",
+      "themes": [
+        "Science and math",
+        "Curiosity",
+        "Problem-solving",
+        "Animals",
+        "City life"
+      ],
+      "synopsis": "With the help of his friend “The Man in the Yellow Hat,” a curious little monkey named George sets out on adventures to learn about the world around him.",
+      "reach": "PBS Kids staple with a companion app",
+      "ageBasis": "Preschoolers and young kids learning science through George's curiosity",
+      "animationStyle": "2D",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Curious_George_(TV_series)",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0449545/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/vn9iFlwSvl8B9YE1qayrKWMxoEV.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/vn9iFlwSvl8B9YE1qayrKWMxoEV.jpg",
+          "https://image.tmdb.org/t/p/w780/zzbS7A3Qw7LPAeARrRuJrFJ7Tlw.jpg",
+          "https://image.tmdb.org/t/p/w780/lC0NMhlSuYiiZZeTHNFi49s8GMC.jpg",
+          "https://image.tmdb.org/t/p/w780/vSscKZocnih10gBlT4KLnWA8iyO.jpg",
+          "https://image.tmdb.org/t/p/w780/ttwPBCIZ30q3ecYjGorHgv09VcW.jpg",
+          "https://image.tmdb.org/t/p/w780/7Ylz5TkHuag0shHvudSEwAwWUE3.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "blues-clues",
+      "title": "Blue's Clues",
+      "ageFrom": 2,
+      "ageTo": 6,
+      "bucket": "Preschool",
+      "epMinutes": 30,
+      "epLabel": "~30 min",
+      "seasons": 7,
+      "episodes": 159,
+      "yearStart": 1996,
+      "yearEnd": 2006,
+      "origin": "Nickelodeon · US",
+      "themes": [
+        "Problem-solving",
+        "Interactivity",
+        "Clues and logic",
+        "Friendship",
+        "Imagination"
+      ],
+      "synopsis": "Blue's Clues is a colorful and learning series that is targeted at the younger crowd, but can be enjoyed by all. The host, Steve Burns, invites viewers daily into the Blue's Clues house to help him out, learn and have fun. The show is based around the host looking for three clues that Blue provides by labelling them with a pawprint to figure something out and in the process, having an adventure.",
+      "reach": "Reshaped preschool TV in the late 1990s",
+      "ageBasis": "Preschoolers interactively following clues with Blue",
+      "animationStyle": "2D",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Blue%27s_Clues",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0163929/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/m94lERZlYkFyn3wzoMwLUBeriRI.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/m94lERZlYkFyn3wzoMwLUBeriRI.jpg",
+          "https://image.tmdb.org/t/p/w780/nZgxBYzUlVQUtBqKyOCa6TkF3Aw.jpg",
+          "https://image.tmdb.org/t/p/w780/tkv5Ww1TsvZlN7vGWOW6xMv3N34.jpg",
+          "https://image.tmdb.org/t/p/w780/kbTi0iPiUVuSoGy6rbpyw5sZHQv.jpg",
+          "https://image.tmdb.org/t/p/w780/5nyD5YOBRTo19OIPcY573e01bpI.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
+      },
+      "verified": true
+    },
+    {
+      "id": "caillou",
+      "title": "Caillou",
+      "ageFrom": 2,
+      "ageTo": 5,
+      "bucket": "Preschool",
+      "epMinutes": 30,
+      "epLabel": "~30 min",
+      "seasons": 23,
+      "episodes": 351,
+      "yearStart": 1997,
+      "yearEnd": 2011,
+      "origin": "Teletoon · Canada",
+      "themes": [
+        "Family",
+        "Emotions",
+        "Everyday life",
+        "Growing up",
+        "Imagination"
+      ],
+      "synopsis": "Follow Caillou, the lovable 4-year-old with a big imagination, as he and his friends go on adventures and experience all the wonders of being a child.",
+      "reach": "Canadian series aired in 30+ countries",
+      "ageBasis": "Toddlers and preschoolers identifying with Caillou's ordinary moments",
+      "animationStyle": "2D",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Caillou",
+        "fandom": null,
+        "imdb": "https://www.imdb.com/title/tt0262153/"
+      },
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/wg8bwGWOGF1MXOXiqOo4cnh7jee.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/wg8bwGWOGF1MXOXiqOo4cnh7jee.jpg",
+          "https://image.tmdb.org/t/p/w780/3AiBKesCWyilp5ArhsVtfI5N6yw.jpg",
+          "https://image.tmdb.org/t/p/w780/ksawYhgiAchLnpcvT24cFNUa3Qs.jpg",
+          "https://image.tmdb.org/t/p/w780/bJOgnkRhcJxd4wzqGztUiFoQPoh.jpg",
+          "https://image.tmdb.org/t/p/w780/cWu2FTxPsyuckb45cSqgbGN9Bla.jpg",
+          "https://image.tmdb.org/t/p/w780/3x1jwRo3v14zIqjIBAxqY45uFZw.jpg"
+        ]
+      },
+      "viewership": {
+        "figure": null,
+        "context": null,
+        "sourceUrl": null,
+        "disclosed": "unknown",
+        "note": "No documented premiere/peak figure sourced — display 'Not publicly disclosed'."
       },
       "verified": true
     }

@@ -1,9 +1,13 @@
-import { useEffect, useRef, type ReactNode } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { Show } from '../data/shows'
 import { numericCount } from '../lib/filter'
+import { useEpisodes } from '../lib/hooks'
 import { spectrumColor } from '../lib/spectrum'
 import { ageRangeLabel, barFill } from '../lib/scale'
 import { MiniAxis } from './MiniAxis'
+
+const chevron =
+  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23A89F94' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E\")"
 
 /** Image-ready hero: a real poster + gallery strip when sourced, else an on-theme
  *  spectrum panel. The gallery slot lights up automatically once images.gallery is set. */
@@ -128,14 +132,25 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
     }
   }, [show, onClose])
 
+  const [selectedSeason, setSelectedSeason] = useState(1)
+  const { seasons: epData, loading: epLoading } = useEpisodes(show?.id ?? '')
+  useEffect(() => {
+    setSelectedSeason(1)
+  }, [show?.id])
+
   if (!show) return null
 
   const accent = spectrumColor(show.ageFrom)
   const years = `${show.yearStart}–${show.yearEnd ?? 'present'}`
   const tt = show.links.imdb?.match(/tt\d+/)?.[0] ?? null
   const seasonCount = numericCount(show.seasons)
-  const seasonNums =
-    tt && seasonCount > 0 ? Array.from({ length: Math.min(seasonCount, 20) }, (_, i) => i + 1) : []
+  const seasonOptions =
+    epData && epData.length
+      ? epData.map((s) => s.s)
+      : seasonCount > 0
+        ? Array.from({ length: Math.min(seasonCount, 60) }, (_, i) => i + 1)
+        : []
+  const curEps = epData?.find((s) => s.s === selectedSeason)?.eps ?? null
 
   return (
     <div className="fixed inset-0 z-50">
@@ -217,32 +232,65 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
             <Stat label="Bucket" value={show.bucket} />
           </div>
 
-          {/* seasons / episodes on IMDb */}
-          {tt && (
+          {/* episodes by season — pick a season to list its episodes */}
+          {tt && seasonOptions.length > 0 && (
             <section>
-              <div className="mb-2 font-mono text-[10px] uppercase tracking-[0.14em] text-ash">
-                Episodes on IMDb {seasonCount > 0 && <span className="text-ash/60">· by season</span>}
+              <div className="mb-2 flex items-center justify-between gap-2">
+                <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-ash">Episodes</span>
+                {seasonOptions.length > 1 && (
+                  <label className="flex items-center gap-1.5">
+                    <span className="font-mono text-[10px] text-ash">Season</span>
+                    <select
+                      value={selectedSeason}
+                      onChange={(e) => setSelectedSeason(Number(e.target.value))}
+                      aria-label="Select a season"
+                      className="h-7 cursor-pointer appearance-none rounded-md border-0 bg-ink-800 bg-[length:12px] bg-[right_0.35rem_center] bg-no-repeat pl-2 pr-6 font-mono text-xs tabular-nums text-bone ring-1 ring-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-spectrum-4"
+                      style={{ backgroundImage: chevron }}
+                    >
+                      {seasonOptions.map((n) => (
+                        <option key={n} value={n}>
+                          {n}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                )}
               </div>
-              <div className="flex flex-wrap gap-1.5">
-                {seasonNums.map((n) => (
+
+              <div className="rounded-lg bg-ink-800/60 ring-1 ring-white/5">
+                <div className="flex items-center justify-between border-b border-white/5 px-3 py-2">
+                  <span className="font-mono text-[11px] tabular-nums text-bone/80">
+                    Season {selectedSeason}
+                    {curEps && <span className="text-ash"> · {curEps.length} eps</span>}
+                  </span>
                   <a
-                    key={n}
-                    href={`https://www.imdb.com/title/${tt}/episodes/?season=${n}`}
+                    href={`https://www.imdb.com/title/${tt}/episodes/?season=${selectedSeason}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded bg-white/5 px-2 py-1 font-mono text-[11px] text-bone/80 ring-1 ring-white/10 transition hover:bg-white/10 hover:text-bone tnum"
+                    className="font-mono text-[11px] text-spectrum-4 underline-offset-2 hover:underline"
                   >
-                    S{n}
+                    Open on IMDb ↗
                   </a>
-                ))}
-                <a
-                  href={`https://www.imdb.com/title/${tt}/episodes/`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded bg-spectrum-4/15 px-2 py-1 font-mono text-[11px] text-spectrum-4 ring-1 ring-spectrum-4/30 transition hover:bg-spectrum-4/25"
-                >
-                  {seasonCount > seasonNums.length ? `All ${seasonCount} ↗` : 'All ↗'}
-                </a>
+                </div>
+                {epLoading ? (
+                  <p className="px-3 py-3 font-mono text-[11px] text-ash">Loading episodes…</p>
+                ) : curEps && curEps.length ? (
+                  <ul className="max-h-60 divide-y divide-white/5 overflow-y-auto">
+                    {curEps.map((ep) => (
+                      <li key={ep.e} className="flex items-baseline gap-2.5 px-3 py-1.5">
+                        <span className="w-7 shrink-0 font-mono text-[11px] tabular-nums text-ash">E{ep.e}</span>
+                        <span className="flex-1 truncate font-body text-[13px] text-bone/85">{ep.t}</span>
+                        {ep.d && (
+                          <span className="shrink-0 font-mono text-[10px] tabular-nums text-ash/60">{ep.d.slice(0, 4)}</span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="px-3 py-3 font-mono text-[11px] text-ash">
+                    Episode list unavailable — open this season on IMDb.
+                  </p>
+                )}
               </div>
             </section>
           )}

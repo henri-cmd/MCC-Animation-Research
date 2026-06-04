@@ -46,6 +46,52 @@ export function useQueryParam(key: string): [string | null, (v: string | null) =
   return [value, set]
 }
 
+export interface EpisodeRow {
+  e: number
+  t: string
+  d: string | null
+}
+export interface SeasonEpisodes {
+  s: number
+  eps: EpisodeRow[]
+}
+
+/** Lazily fetch a show's per-season episode list (public/data/episodes/<id>.json). */
+export function useEpisodes(id: string) {
+  const [seasons, setSeasons] = useState<SeasonEpisodes[] | null>(null)
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    if (!id) {
+      setSeasons(null)
+      setLoading(false)
+      return
+    }
+    let alive = true
+    setSeasons(null)
+    setLoading(true)
+    fetch(`${import.meta.env.BASE_URL}data/episodes/${id}.json`, { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => {
+        if (alive) {
+          setSeasons(Array.isArray(j?.seasons) ? j.seasons : null)
+          setLoading(false)
+        }
+      })
+      .catch(() => {
+        if (alive) {
+          setSeasons(null)
+          setLoading(false)
+        }
+      })
+    return () => {
+      alive = false
+    }
+  }, [id])
+
+  return { seasons, loading }
+}
+
 /** True when the user prefers reduced motion. */
 export function usePrefersReducedMotion(): boolean {
   const [reduced, setReduced] = useState(
