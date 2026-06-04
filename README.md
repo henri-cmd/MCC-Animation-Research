@@ -3,8 +3,10 @@
 An interactive, single-page site that maps animated TV series by the audience that
 **actually watches them**. Instead of dropping each show into one age *bucket*, every show is
 plotted as a **range on a continuous age line**, so crossover hits (Bluey, Avatar, Adventure
-Time) visibly stretch across the whole axis. A bucketed **Category** view exists as a secondary
-mode.
+Time) visibly stretch across the whole axis. A **List** view (group by age bucket, animation
+style, decade, or A–Z) is the secondary mode.
+
+**Live:** https://henri-cmd.github.io/MCC-Animation-Research/
 
 Dark, cinematic, editorial. Static SPA — no backend, no database. The data is a bundled JSON file.
 
@@ -18,9 +20,9 @@ Dark, cinematic, editorial. Static SPA — no backend, no database. The data is 
 2. **The age scrubber.** Drag the marker along the axis (or focus it and use arrow keys). Every bar
    whose range covers that age stays lit; the rest dim. A live readout answers *“what can a
    9-year-old actually watch?”* — `At age 9 · 24 of 48 shows`.
-3. **Detail panel.** Click any bar or card for a focus-trapped drawer: a mini age-axis, stats,
-   synopsis, themes, an **honest viewership** block, a reach note, and an outbound Wikipedia link.
-   Deep-linkable via `?show=<id>` (e.g. `/?show=bluey`).
+3. **Detail panel.** Click any bar or card for a focus-trapped drawer: a key-art hero, mini
+   age-axis, stats, animation style, synopsis, themes, an **honest viewership** block, a reach
+   note, and outbound **IMDb + Wikipedia** links. Deep-linkable via `?show=<id>` (e.g. `/?show=bluey`).
 
 ## Data honesty (please read before editing the dataset)
 
@@ -54,32 +56,27 @@ npm run build    # type-check + production build to dist/
 npm run preview  # preview the production build locally
 ```
 
-## Deploy — Cloudflare Pages
+## Deploy
 
-The build is a static `dist/` folder, ideal for Cloudflare Pages.
+### GitHub Pages (current host)
 
-**Option A — Wrangler (CLI), one command:**
+Pushing to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which
+builds with `GH_PAGES=true` (so Vite uses the `/MCC-Animation-Research/` base path) and publishes
+`dist/` to Pages. Live at **https://henri-cmd.github.io/MCC-Animation-Research/**. No secrets or
+backend required — just `git push`.
+
+### Cloudflare Pages (alternative, root-hosted)
+
+The build is also a plain static `dist/` folder. Because the base path is only set when
+`GH_PAGES=true`, a normal build targets the site root, which is what Cloudflare expects:
 
 ```bash
 npm run deploy
 # = npm run build && npx wrangler pages deploy dist
 ```
 
-The first run prompts you to log in and to create/select a Pages project (suggested name:
-`animation-spectrum`). To name it non-interactively:
-
-```bash
-npm run build
-npx wrangler pages deploy dist --project-name animation-spectrum
-```
-
-**Option B — Git integration (dashboard):** connect the repo in the Cloudflare dashboard and set:
-
-- **Build command:** `npm run build`
-- **Build output directory:** `dist`
-- **Framework preset:** Vite (or “None”)
-
-No environment variables or backend are required.
+Or connect the repo in the Cloudflare dashboard with build command `npm run build` and output
+directory `dist`.
 
 ## Project structure
 
@@ -90,30 +87,48 @@ src/data/shows.ts               Show interface + typed JSON loader
 src/lib/spectrum.ts             age → colour interpolation along the maturity ramp
 src/lib/scale.ts                age ↔ axis position, per-bar gradient, open-ended handling
 src/lib/pack.ts                 first-fit interval packing for the age-line rows
-src/lib/filter.ts               search / filter / sort helpers
+src/lib/filter.ts               search / filter / sort + grouping helpers
 src/lib/hooks.ts                element-measure + ?show= URL deep-link sync
 src/components/AgeLine.tsx      hero view: packed spectrum bars + tooltip
 src/components/AxisScrubber.tsx the draggable age marker + live readout
-src/components/CategoryView.tsx bucketed view with spectrum band headers + cards
+src/components/ListView.tsx     grouped card grid (bucket / style / decade / A–Z)
 src/components/ShowDetail.tsx   focus-trapped detail drawer (deep-linked)
 src/components/MiniAxis.tsx     compact age axis used inside the drawer
-src/components/Controls.tsx     search / filters / sort / view toggle
+src/components/Controls.tsx     search / filters / sort / group / view toggle
+scripts/*.mjs                   one-off data-enrichment scripts (provenance of counts,
+                                viewership, IMDb links + animation-style tags)
 ```
 
 ## Features
 
 - Age Line with interval-packed, spectrum-graded bars and an open-ended **Adult** zone
 - Draggable **age scrubber** with live “shows at this age” readout (keyboard-operable)
-- **Category** view toggle (segmented control)
+- **List** view toggle, with **group by** age bucket / animation style / decade / A–Z
 - **Search** by title (filters both views)
-- **Filters:** bucket, theme, decade (from `yearStart`), ongoing-only
-- **Sort** (category view): age, reach (span), episodes, seasons, year, A–Z
-- **Detail panel** with `?show=` deep-linking and honest viewership
-- Wikipedia (and optional Fandom) outbound links
+- **Filters:** bucket, **animation style**, theme, decade (from `yearStart`), ongoing-only
+- **Sort** (list view): age, reach (span), episodes, seasons, year, A–Z
+- **Detail panel** with `?show=` deep-linking, honest viewership, and **IMDb + Wikipedia** links
+- **Animation-style tags** (2D · Anime · 3D / CGI · Stop-motion · Cutout · Puppetry)
+- Image-ready: poster thumbnails + a detail gallery slot, with an on-theme spectrum fallback until
+  artwork is sourced (see **Images** below)
 - Footer **About the data** note
 - **Responsive** (the age line scrolls horizontally on phones) and **keyboard accessible**
   (tab to bars, Enter to open, Esc/backdrop to close, focus-trapped drawer, skip link,
   `prefers-reduced-motion` respected)
+
+## Images
+
+Cards, the age-line hover tooltip, and the detail drawer all render a **poster thumbnail** with a
+designed spectrum-gradient fallback, and the drawer has a **gallery** slot. They light up with real
+artwork the moment a show's `images` field is populated:
+
+```jsonc
+"images": { "poster": "https://…", "gallery": ["https://…", "https://…"] }
+```
+
+Artwork is **not** scraped from IMDb (their terms forbid it and the images are licensed). The
+intended source is **TMDB**, whose API is free and permits image display with attribution — its
+image URLs can be baked into the dataset so the static site needs no key at runtime.
 
 ## Accessibility & motion
 
