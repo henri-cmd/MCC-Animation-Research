@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { BUCKET_ORDER, ShowsFile, loadShows } from './data/shows'
+import { BUCKET_AGE, BUCKET_ORDER, ShowsFile, loadShows } from './data/shows'
 import {
   EMPTY_FILTERS,
   Filters,
@@ -10,8 +10,8 @@ import {
   uniqueStyles,
   uniqueThemes,
 } from './lib/filter'
-import { SPECTRUM_STOPS } from './lib/spectrum'
-import { useQueryParam } from './lib/hooks'
+import { spectrumColor } from './lib/spectrum'
+import { useCountUp, useQueryParam } from './lib/hooks'
 import { Controls } from './components/Controls'
 import { AgeLine } from './components/AgeLine'
 import { ListView } from './components/ListView'
@@ -19,15 +19,54 @@ import { ShowDetail } from './components/ShowDetail'
 
 type View = 'age' | 'list'
 
-function SpectrumLegend() {
+/** Interactive maturity legend — each band is a clickable bucket filter. */
+function SpectrumLegend({
+  counts,
+  active,
+  onSelect,
+}: {
+  counts: Record<string, number>
+  active: string | null
+  onSelect: (bucket: string) => void
+}) {
+  const [hover, setHover] = useState<string | null>(null)
+  const label = hover ?? active
   return (
-    <div className="flex items-center gap-3">
-      <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-ash">Younger</span>
-      <div
-        className="h-2 w-40 rounded-full ring-1 ring-white/10 sm:w-56"
-        style={{ backgroundImage: `linear-gradient(90deg, ${SPECTRUM_STOPS.join(', ')})` }}
-      />
-      <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-ash">Older</span>
+    <div className="w-full sm:w-auto">
+      <div className="flex items-center gap-2">
+        <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-ash">Young</span>
+        <div className="flex h-4 flex-1 overflow-hidden rounded-full ring-1 ring-white/10 sm:w-60 sm:flex-none">
+          {BUCKET_ORDER.map((b) => {
+            const has = (counts[b] ?? 0) > 0
+            return (
+              <button
+                key={b}
+                type="button"
+                disabled={!has}
+                onClick={() => onSelect(b)}
+                onMouseEnter={() => setHover(b)}
+                onMouseLeave={() => setHover((h) => (h === b ? null : h))}
+                aria-label={`Filter to ${b} (${counts[b] ?? 0} shows)`}
+                aria-pressed={active === b}
+                className={`h-full flex-1 transition-all ${
+                  has ? 'cursor-pointer hover:brightness-125' : 'cursor-default opacity-25'
+                } ${active === b ? 'ring-2 ring-inset ring-bone' : ''}`}
+                style={{ backgroundColor: spectrumColor(BUCKET_AGE[b]) }}
+              />
+            )
+          })}
+        </div>
+        <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-ash">Old</span>
+      </div>
+      <div className="mt-1.5 text-center font-mono text-[10px] sm:text-right">
+        {label ? (
+          <span style={{ color: spectrumColor(BUCKET_AGE[label]) }}>
+            {label} · {counts[label] ?? 0} shows{active === label ? ' (filtering)' : ''}
+          </span>
+        ) : (
+          <span className="text-ash">Click a band to filter by age</span>
+        )}
+      </div>
     </div>
   )
 }
@@ -54,6 +93,19 @@ export default function App() {
   const decades = useMemo(() => uniqueDecades(shows), [shows])
   const buckets = useMemo(() => BUCKET_ORDER.filter((b) => shows.some((s) => s.bucket === b)), [shows])
   const hasImages = useMemo(() => shows.some((s) => s.images?.poster), [shows])
+  const bucketCounts = useMemo(() => {
+    const c: Record<string, number> = {}
+    for (const s of shows) c[s.bucket] = (c[s.bucket] ?? 0) + 1
+    return c
+  }, [shows])
+  const yearRange = useMemo(() => {
+    if (!shows.length) return ''
+    const min = Math.min(...shows.map((s) => s.yearStart))
+    const ongoing = shows.some((s) => s.yearEnd === null)
+    const max = Math.max(...shows.map((s) => s.yearEnd ?? s.yearStart))
+    return `${min} → ${ongoing ? 'present' : max}`
+  }, [shows])
+  const counted = useCountUp(shows.length)
   const selectedShow = useMemo(
     () => shows.find((s) => s.id === selectedId) ?? null,
     [shows, selectedId],
@@ -73,7 +125,8 @@ export default function App() {
         <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
           <div className="max-w-2xl">
             <div className="font-mono text-[11px] uppercase tracking-[0.22em] text-ash">
-              Interactive · {data?._meta.count ?? (shows.length || 48)} animated series
+              Interactive · <span className="tabular-nums text-bone/80">{data ? counted : '…'}</span>{' '}
+              animated series{yearRange && ` · ${yearRange}`}
             </div>
             <h1 className="mt-2 font-display text-5xl uppercase leading-[0.88] tracking-tight text-bone sm:text-7xl">
               The Animation
@@ -90,7 +143,11 @@ export default function App() {
               <em className="not-italic text-spectrum-7">Adventure Time</em> stretch the whole way.
             </p>
           </div>
-          <SpectrumLegend />
+          <SpectrumLegend
+            counts={bucketCounts}
+            active={filters.bucket}
+            onSelect={(b) => setFilters({ ...filters, bucket: filters.bucket === b ? null : b })}
+          />
         </div>
       </header>
 

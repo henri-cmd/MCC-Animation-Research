@@ -51,7 +51,8 @@
           "https://image.tmdb.org/t/p/w780/i3NV4q4upqpaqFRGqiP6SIN6vZ2.jpg",
           "https://image.tmdb.org/t/p/w780/bAjeWWVxqFcNHZLQVvowD6Oj21R.jpg"
         ]
-      }
+      },
+      "ageBasis": "Toddlers; minimal appeal beyond the target age, but endlessly re-watched"
     },
     {
       "id": "peppa-pig",
@@ -97,7 +98,8 @@
           "https://image.tmdb.org/t/p/w780/bMtN24DmgHpzODpvAs70eL3ulZL.jpg",
           "https://image.tmdb.org/t/p/w780/28yQ4VmGjoykPscUQqXHzh9Z2op.jpg"
         ]
-      }
+      },
+      "ageBasis": "Preschoolers; parents co-view, but it's squarely a young-kids show"
     },
     {
       "id": "daniel-tiger",
@@ -143,7 +145,8 @@
           "https://image.tmdb.org/t/p/w780/eJ1drKCeT2CRVYxLXkZrKiZh2ri.jpg",
           "https://image.tmdb.org/t/p/w780/3Eeq3lOtGeIf7CVa85JeVtsOcnl.jpg"
         ]
-      }
+      },
+      "ageBasis": "Preschoolers learning to name feelings; co-viewed with parents"
     },
     {
       "id": "sesame-street",
@@ -190,7 +193,8 @@
           "https://image.tmdb.org/t/p/w780/ixagRegmRzflFyJtSeW2mSoLTsP.jpg",
           "https://image.tmdb.org/t/p/w780/Dz21d7npHtlKgBUvVCMisXsjuI.jpg"
         ]
-      }
+      },
+      "ageBasis": "Preschoolers core; nostalgia and celebrity bits pull adults too"
     },
     {
       "id": "octonauts",
@@ -234,7 +238,8 @@
           "https://image.tmdb.org/t/p/w780/c1zzrs1FY4ERgLVRho1OyDmjGS5.jpg",
           "https://image.tmdb.org/t/p/w780/6CqFQty3XhegUnsHi6xV6tr70re.jpg"
         ]
-      }
+      },
+      "ageBasis": "Preschoolers into animals and rescue; co-viewed with parents"
     },
     {
       "id": "bluey",
@@ -281,7 +286,8 @@
           "https://image.tmdb.org/t/p/w780/7iTOLVTKoBLwDYcoOA1qTS6NY5y.jpg",
           "https://image.tmdb.org/t/p/w780/ssGPaqKznKEfGYuuofy6tX0nx2F.jpg"
         ]
-      }
+      },
+      "ageBasis": "Preschoolers, plus a famously large adult audience for the writing"
     },
     {
       "id": "paw-patrol",
@@ -327,7 +333,8 @@
           "https://image.tmdb.org/t/p/w780/ontEnzfBve888Me1xdORvpTjzJW.jpg",
           "https://image.tmdb.org/t/p/w780/fu2OIK3X1VWpQGhJPw2IWmoMu89.jpg"
         ]
-      }
+      },
+      "ageBasis": "Preschool/young-kids; merch-driven, little crossover beyond the age"
     },
     {
       "id": "pokemon",
@@ -373,7 +380,8 @@
           "https://image.tmdb.org/t/p/w780/tvjCdVRkaaab2ezM9BctkAOXeyW.jpg",
           "https://image.tmdb.org/t/p/w780/iguaZsbPbKZxKmbyHgiXWP4zuJu.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids core, but a massive multigenerational adult fandom"
     },
     {
       "id": "spongebob",
@@ -419,7 +427,8 @@
           "https://image.tmdb.org/t/p/w780/dwMcHBciv1ltLXsgeyf3tQ2W5za.jpg",
           "https://image.tmdb.org/t/p/w780/ctp0XmwIXzo4c7KVXRpMmroiLAc.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids core; huge teen/adult crossover and meme culture"
     },
     {
       "id": "phineas-and-ferb",
@@ -465,7 +474,8 @@
           "https://image.tmdb.org/t/p/w780/qLYZQxN2BAgC0eUkuft99MYt5zu.jpg",
           "https://image.tmdb.org/t/p/w780/v4LDYHX7Qa5CqD7U4a7DARCkfYp.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids core; layered jokes give it a real adult audience"
     },
     {
       "id": "loud-house",
@@ -510,7 +520,8 @@
           "https://image.tmdb.org/t/p/w780/wc4FD1wIpnmrXUr11s3RE92a3nJ.jpg",
           "https://image.tmdb.org/t/p/w780/o123eAQ3zQK5jbxINCOb6REe4PZ.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids; big-family relatability, limited adult crossover"
     },
     {
       "id": "teen-titans-go",
@@ -556,7 +567,8 @@
           "https://image.tmdb.org/t/p/w780/mlV1QYQ0iDUb8YjxjifvyC7Gcel.jpg",
           "https://image.tmdb.org/t/p/w780/k6tOYPGFsXLwAa0Cml4whIw86dH.jpg"
         ]
-      }
+      },
+      "ageBasis": "Younger kids core; meta gags amuse some older viewers"
     },
     {
       "id": "gravity-falls",
@@ -603,7 +615,8 @@
           "https://image.tmdb.org/t/p/w780/froAdYEFDDiJH6T1thbCs6iyKPo.jpg",
           "https://image.tmdb.org/t/p/w780/2IjZmDHWoRHRrba7wQJ8Q4apD9z.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids/teens at launch, now a devoted adult mystery fandom"
     },
     {
       "id": "avatar-tla",
@@ -651,7 +664,8 @@
           "https://image.tmdb.org/t/p/w780/jrKYozgUgF2umKaGx0ptEvCe2oz.jpg",
           "https://image.tmdb.org/t/p/w780/tq8dgplZWn1kCco2uxf8ZO6Jw5k.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids/teens originally; a huge adult fandom has since formed"
     },
     {
       "id": "amphibia",
@@ -697,7 +711,8 @@
           "https://image.tmdb.org/t/p/w780/1jH4RcABJc9n8UAdlma480KkAhH.jpg",
           "https://image.tmdb.org/t/p/w780/dMX4gGvSd5uhUjdvVi4cVfwnF7o.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids and tweens; the coming-of-age arc skews slightly older"
     },
     {
       "id": "star-vs",
@@ -743,7 +758,8 @@
           "https://image.tmdb.org/t/p/w780/6rx9PwWck4ZWI8LNUl255wex003.jpg",
           "https://image.tmdb.org/t/p/w780/f5mnJjO8efKcUuUV5yTvYRiDyhW.jpg"
         ]
-      }
+      },
+      "ageBasis": "Tweens; magical-girl action with a teen fan following"
     },
     {
       "id": "adventure-time",
@@ -790,7 +806,8 @@
           "https://image.tmdb.org/t/p/w780/xNJGvSS5PcJoqNZJahgGPwu8F4z.jpg",
           "https://image.tmdb.org/t/p/w780/9ld1PX84FGIBBKa47OSenJlVWNs.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids on the surface, a heavy teen/adult cult underneath"
     },
     {
       "id": "steven-universe",
@@ -838,7 +855,8 @@
           "https://image.tmdb.org/t/p/w780/swMJt7V9B8JC9CG1pZFL4WHhEhr.jpg",
           "https://image.tmdb.org/t/p/w780/j4AmhqTHLJ1a1J5bYwdlY0mIuWg.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids/tweens core; identity themes built a big adult fandom"
     },
     {
       "id": "owl-house",
@@ -885,7 +903,8 @@
           "https://image.tmdb.org/t/p/w780/tg76Hw9wYz44IbvvA8kbNG2TSc8.jpg",
           "https://image.tmdb.org/t/p/w780/mfJaxLH7Z8MyotsJmr0zuRhfmnI.jpg"
         ]
-      }
+      },
+      "ageBasis": "Tweens/teens; LGBTQ+ themes drew a passionate adult audience"
     },
     {
       "id": "young-justice",
@@ -931,7 +950,8 @@
           "https://image.tmdb.org/t/p/w780/kmc8VIFnmqMx6WgwpKdh5jo6Ikh.jpg",
           "https://image.tmdb.org/t/p/w780/rJIk3hD1zC8gdfn6ZGrXssdmvhv.jpg"
         ]
-      }
+      },
+      "ageBasis": "Teens and adult comic fans; mature serialised superhero plotting"
     },
     {
       "id": "mha",
@@ -977,7 +997,8 @@
           "https://image.tmdb.org/t/p/w780/xvru1tTbBgJnenAckfJviheWIR8.jpg",
           "https://image.tmdb.org/t/p/w780/3NPaP6FXM9BwwtpzT8FtWXr3lLQ.jpg"
         ]
-      }
+      },
+      "ageBasis": "Teens core; an enormous global teen-to-adult shonen fandom"
     },
     {
       "id": "the-simpsons",
@@ -1024,7 +1045,8 @@
           "https://image.tmdb.org/t/p/w780/pxeqQX4qFQ0cVxPt5SWZENV5BH3.jpg",
           "https://image.tmdb.org/t/p/w780/kJVpFSpGzAGF2PMkiONIV9yR9c1.jpg"
         ]
-      }
+      },
+      "ageBasis": "Written for teens+; decades of adults, few young children"
     },
     {
       "id": "bobs-burgers",
@@ -1071,7 +1093,8 @@
           "https://image.tmdb.org/t/p/w780/kb4hHoGKRr4jXmDx5lUtXmX3JHu.jpg",
           "https://image.tmdb.org/t/p/w780/cIXaqUB2pOIEiQsgO85r9RMKzpe.jpg"
         ]
-      }
+      },
+      "ageBasis": "Teens and adults; warm prime-time family comedy"
     },
     {
       "id": "arcane",
@@ -1118,7 +1141,8 @@
           "https://image.tmdb.org/t/p/w780/wQEW3xLrQAThu1GvqpsKQyejrYS.jpg",
           "https://image.tmdb.org/t/p/w780/cJ0vEnEGWZDv2a5SRRRGxtRTlPm.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older teens and adults; mature themes, prestige adult animation"
     },
     {
       "id": "demon-slayer",
@@ -1165,7 +1189,8 @@
           "https://image.tmdb.org/t/p/w780/xvNrTu0J4yUah1prvL7yH8falJw.jpg",
           "https://image.tmdb.org/t/p/w780/7e9maFsRJanwrR7YFgn6rEmudiX.jpg"
         ]
-      }
+      },
+      "ageBasis": "Teens and adults; graphic action skews older than typical shonen"
     },
     {
       "id": "aot",
@@ -1211,7 +1236,8 @@
           "https://image.tmdb.org/t/p/w780/aok7IhrbA83josNz9Dqh8tNA0Ao.jpg",
           "https://image.tmdb.org/t/p/w780/3T5N0Fg6hE3lE6JHJJPKrjtdI4j.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older teens and adults; brutal, politically heavy seinen"
     },
     {
       "id": "family-guy",
@@ -1257,7 +1283,8 @@
           "https://image.tmdb.org/t/p/w780/wU1y7snEVYiJBpZ2k1DjIpHgJbx.jpg",
           "https://image.tmdb.org/t/p/w780/hnK5vODlS1OIIF3Sw6T0RQyt0K3.jpg"
         ]
-      }
+      },
+      "ageBasis": "Adults; shock comedy strictly for grown-ups"
     },
     {
       "id": "castlevania",
@@ -1304,7 +1331,8 @@
           "https://image.tmdb.org/t/p/w780/3CWVK7qFTtdtpT0Daw9Zj8DVFpx.jpg",
           "https://image.tmdb.org/t/p/w780/jwVKRguceVZuLjl7HK5z7sX0atL.jpg"
         ]
-      }
+      },
+      "ageBasis": "Adults; graphic violence, a mature dark-fantasy audience"
     },
     {
       "id": "bojack",
@@ -1351,7 +1379,8 @@
           "https://image.tmdb.org/t/p/w780/gyacCuhegTPmYkt8VEyFwmfM5dj.jpg",
           "https://image.tmdb.org/t/p/w780/2vyRUFoCya3iwpnvWEqJ14ObwBp.jpg"
         ]
-      }
+      },
+      "ageBasis": "Adults; depression and addiction themes for grown-ups"
     },
     {
       "id": "rick-and-morty",
@@ -1398,7 +1427,8 @@
           "https://image.tmdb.org/t/p/w780/vDPXV2VqzeALc7WVnOetzS1xQQ7.jpg",
           "https://image.tmdb.org/t/p/w780/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg"
         ]
-      }
+      },
+      "ageBasis": "Adults 18-34, heavy male skew; nihilistic sci-fi"
     },
     {
       "id": "south-park",
@@ -1445,7 +1475,8 @@
           "https://image.tmdb.org/t/p/w780/6WAinokBmZU9Jt8l74TKI8JNUG7.jpg",
           "https://image.tmdb.org/t/p/w780/dgwWEM3EuKoDIh0PLHJbMd2PFgS.jpg"
         ]
-      }
+      },
+      "ageBasis": "Adults; topical, taboo satire not for children"
     },
     {
       "id": "invincible",
@@ -1492,7 +1523,8 @@
           "https://image.tmdb.org/t/p/w780/ohjinjQAEKxqdP5IK8TcUpLrKgE.jpg",
           "https://image.tmdb.org/t/p/w780/dDdXTkM2mFcIiXbbNjT1paIPYXI.jpg"
         ]
-      }
+      },
+      "ageBasis": "Adults; extreme graphic violence behind a superhero premise"
     },
     {
       "id": "bob-the-builder",
@@ -1538,7 +1570,8 @@
           "https://image.tmdb.org/t/p/w780/qatGgg23O5NuBdFAwtB2VX8AJF6.jpg",
           "https://image.tmdb.org/t/p/w780/c3uUlwLs0lrdD4dRZqabVF8n07F.jpg"
         ]
-      }
+      },
+      "ageBasis": "Preschoolers; gentle problem-solving, co-viewed with parents"
     },
     {
       "id": "fireman-sam",
@@ -1581,7 +1614,8 @@
           "https://image.tmdb.org/t/p/w780/6HQZeq9r7jWSXC8UDDeAfnZpcFJ.jpg",
           "https://image.tmdb.org/t/p/w780/oM0yrsN84jsUa5tkyLnYYXAnIwX.jpg"
         ]
-      }
+      },
+      "ageBasis": "Preschoolers into rescue and safety; co-viewed with parents"
     },
     {
       "id": "arthur",
@@ -1627,7 +1661,8 @@
           "https://image.tmdb.org/t/p/w780/cxMERjvSxPy0wtDj1EVD63jAdte.jpg",
           "https://image.tmdb.org/t/p/w780/hUHYEVr0NQxq1b7dja0OCNrS7qu.jpg"
         ]
-      }
+      },
+      "ageBasis": "Young kids; real-issue stories give it slightly older reach"
     },
     {
       "id": "recess",
@@ -1670,7 +1705,8 @@
           "https://image.tmdb.org/t/p/w780/wPC09RKI173MIb1SIsgO4c9NGaE.jpg",
           "https://image.tmdb.org/t/p/w780/4ItWaDUTpF9TdKSvd7bQ5dmGzqX.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids; playground politics with light adult nostalgia"
     },
     {
       "id": "catdog",
@@ -1716,7 +1752,8 @@
           "https://image.tmdb.org/t/p/w780/9abO7eu6lPLpGHgDo48G4GgMC7r.jpg",
           "https://image.tmdb.org/t/p/w780/tE97ia5rtOJBEppzE3eXTjMVgVy.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids; odd-couple slapstick, some 90s-kid nostalgia"
     },
     {
       "id": "rocket-power",
@@ -1760,7 +1797,8 @@
           "https://image.tmdb.org/t/p/w780/uHiQS8rMaXSj5Jb9Rd7nUTDMVMw.jpg",
           "https://image.tmdb.org/t/p/w780/9bYBusxWVHQ16NNOLDrUN9jJMQk.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids into extreme sports; 2000s-kid nostalgia"
     },
     {
       "id": "angela-anaconda",
@@ -1803,7 +1841,8 @@
           "https://image.tmdb.org/t/p/w780/211VAlEj5jWykZpP26YuLRUkNzD.jpg",
           "https://image.tmdb.org/t/p/w780/ay24QsRtqs0DVBNxDxZCX2fO7Pr.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids; schoolyard rivalry in cut-out collage style"
     },
     {
       "id": "fairly-oddparents",
@@ -1849,7 +1888,8 @@
           "https://image.tmdb.org/t/p/w780/9R7B886A1szDTZlv4TCrCOd1OEz.jpg",
           "https://image.tmdb.org/t/p/w780/mIFIK8G2aTicePD2labvwNyPjLt.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids; wish-fulfilment comedy with light adult nostalgia"
     },
     {
       "id": "wild-thornberrys",
@@ -1893,7 +1933,8 @@
           "https://image.tmdb.org/t/p/w780/1BcHnes1XB5SQeL81NwE5gZLwyP.jpg",
           "https://image.tmdb.org/t/p/w780/th9h1Jkx7sFk9wyT47aF7wEufwn.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids into animals and globe-trotting adventure"
     },
     {
       "id": "hey-arnold",
@@ -1939,7 +1980,8 @@
           "https://image.tmdb.org/t/p/w780/mWvBzOMwUy14iZidEOUqhFViUp.jpg",
           "https://image.tmdb.org/t/p/w780/1aaQrgoPXwqOmr9QRcLkbu1rSao.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids/tweens; inner-city stories carry adult nostalgia"
     },
     {
       "id": "powerpuff-girls",
@@ -1985,7 +2027,8 @@
           "https://image.tmdb.org/t/p/w780/lakUnYjny9fZyTZxCyxhXefZoMB.jpg",
           "https://image.tmdb.org/t/p/w780/vgT4Fw4WeMnYLjuuvFkUGPV7gDk.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids core; tongue-in-cheek style built an adult cult"
     },
     {
       "id": "yu-gi-oh",
@@ -2031,7 +2074,8 @@
           "https://image.tmdb.org/t/p/w780/7iqH8Tk3298pGUP6I5LnMhP2SNe.jpg",
           "https://image.tmdb.org/t/p/w780/wteqGMoDGcIOox7NDKbfauS3GGf.jpg"
         ]
-      }
+      },
+      "ageBasis": "Kids core; the card game sustains a large adult fandom"
     },
     {
       "id": "ben-10",
@@ -2077,7 +2121,8 @@
           "https://image.tmdb.org/t/p/w780/2IthqDr29Dqj72UPsTDd33gpPqr.jpg",
           "https://image.tmdb.org/t/p/w780/6v4mdpL5JOeOTo5oMOi8V6rsC1m.jpg"
         ]
-      }
+      },
+      "ageBasis": "Older kids/tweens into transforming-hero action"
     },
     {
       "id": "teen-titans",
@@ -2123,7 +2168,8 @@
           "https://image.tmdb.org/t/p/w780/gVwcigxCq6lBvQJVh9sSfDaMtIE.jpg",
           "https://image.tmdb.org/t/p/w780/42EKMY5mr6cnugZJ4oVzIPL1aaH.jpg"
         ]
-      }
+      },
+      "ageBasis": "Tweens/teens; anime-styled action with adult nostalgia"
     },
     {
       "id": "invader-zim",
@@ -2169,7 +2215,8 @@
           "https://image.tmdb.org/t/p/w780/3xoN5rAUK7jvH697M95oZRdvrlQ.jpg",
           "https://image.tmdb.org/t/p/w780/yo4gG8wGyeGGEsHmHqvgLlJzAo5.jpg"
         ]
-      }
+      },
+      "ageBasis": "Teens and an enduring adult cult; dark sci-fi comedy"
     },
     {
       "id": "big-mouth",
@@ -2215,7 +2262,8 @@
           "https://image.tmdb.org/t/p/w780/eV52WjHeY8np0K12s0l96oy1X1f.jpg",
           "https://image.tmdb.org/t/p/w780/3wn5eExQ20EBQZ3ho6mmlU8Wclc.jpg"
         ]
-      }
+      },
+      "ageBasis": "Adults; raunchy puberty comedy strictly for grown-ups"
     },
     {
       "id": "fullmetal-alchemist-brotherhood",

@@ -4,21 +4,33 @@ import { numericCount } from '../lib/filter'
 import { useEpisodes } from '../lib/hooks'
 import { spectrumColor } from '../lib/spectrum'
 import { ageRangeLabel, barFill } from '../lib/scale'
+import { Lightbox } from './Lightbox'
 import { MiniAxis } from './MiniAxis'
 
 const chevron =
   "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23A89F94' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E\")"
 
 /** Image-ready hero: a real poster + gallery strip when sourced, else an on-theme
- *  spectrum panel. The gallery slot lights up automatically once images.gallery is set. */
-function DetailHero({ show }: { show: Show }) {
+ *  spectrum panel. Clicking a still opens the fullscreen Lightbox. */
+function DetailHero({ show, onOpen }: { show: Show; onOpen: (i: number) => void }) {
   const poster = show.images?.poster
   const gallery = show.images?.gallery ?? []
+  const hasGallery = gallery.length > 0
   return (
     <div className="space-y-2">
-      <div className="relative aspect-[16/7] w-full overflow-hidden rounded-lg ring-1 ring-white/10">
+      <button
+        type="button"
+        onClick={() => hasGallery && onOpen(0)}
+        disabled={!hasGallery}
+        aria-label={hasGallery ? `Open ${show.title} image gallery` : undefined}
+        className="group relative block aspect-[16/7] w-full overflow-hidden rounded-lg ring-1 ring-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-spectrum-4 disabled:cursor-default"
+      >
         {poster ? (
-          <img src={poster} alt={`${show.title} key art`} className="h-full w-full object-cover" />
+          <img
+            src={poster}
+            alt={`${show.title} key art`}
+            className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+          />
         ) : (
           <div className="absolute inset-0" style={{ backgroundImage: barFill(show.ageFrom, show.ageTo) }} />
         )}
@@ -26,17 +38,29 @@ function DetailHero({ show }: { show: Show }) {
         <span className="absolute left-2 top-2 rounded bg-ink-900/75 px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider text-bone/90 ring-1 ring-white/10 backdrop-blur-sm">
           {show.animationStyle}
         </span>
-      </div>
-      {gallery.length > 0 && (
+        {hasGallery && (
+          <span className="absolute bottom-2 right-2 flex items-center gap-1 rounded bg-ink-900/75 px-1.5 py-0.5 font-mono text-[10px] text-bone/90 opacity-0 ring-1 ring-white/10 backdrop-blur-sm transition group-hover:opacity-100">
+            ⤢ {gallery.length}
+          </span>
+        )}
+      </button>
+      {hasGallery && (
         <div className="no-scrollbar flex gap-2 overflow-x-auto pb-1">
           {gallery.map((src, i) => (
-            <img
+            <button
               key={i}
-              src={src}
-              alt={`${show.title} still ${i + 1}`}
-              loading="lazy"
-              className="h-16 w-28 shrink-0 rounded object-cover ring-1 ring-white/10"
-            />
+              type="button"
+              onClick={() => onOpen(i)}
+              aria-label={`Open image ${i + 1}`}
+              className="h-16 w-28 shrink-0 overflow-hidden rounded ring-1 ring-white/10 transition hover:ring-white/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-spectrum-4"
+            >
+              <img
+                src={src}
+                alt={`${show.title} still ${i + 1}`}
+                loading="lazy"
+                className="h-full w-full object-cover"
+              />
+            </button>
           ))}
         </div>
       )}
@@ -133,9 +157,11 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
   }, [show, onClose])
 
   const [selectedSeason, setSelectedSeason] = useState(1)
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
   const { seasons: epData, loading: epLoading } = useEpisodes(show?.id ?? '')
   useEffect(() => {
     setSelectedSeason(1)
+    setLightboxIndex(null)
   }, [show?.id])
 
   if (!show) return null
@@ -153,6 +179,7 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
   const curEps = epData?.find((s) => s.s === selectedSeason)?.eps ?? null
 
   return (
+    <>
     <div className="fixed inset-0 z-50">
       {/* backdrop */}
       <button
@@ -203,7 +230,7 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
         </div>
 
         <div className="mt-5 flex-1 space-y-5 overflow-y-auto px-6 pb-8">
-          <DetailHero show={show} />
+          <DetailHero show={show} onOpen={setLightboxIndex} />
 
           {/* age range */}
           <section>
@@ -363,5 +390,15 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
         </div>
       </div>
     </div>
+    {lightboxIndex !== null && show.images?.gallery?.length ? (
+      <Lightbox
+        images={show.images.gallery}
+        index={lightboxIndex}
+        title={show.title}
+        onClose={() => setLightboxIndex(null)}
+        onIndex={setLightboxIndex}
+      />
+    ) : null}
+    </>
   )
 }
