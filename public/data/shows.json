@@ -40,7 +40,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": false,
-      "animationStyle": "3D / CGI"
+      "animationStyle": "3D / CGI",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg",
+          "https://image.tmdb.org/t/p/w780/qvayCcPYYae6tVDbMgklhTFZ9xo.jpg",
+          "https://image.tmdb.org/t/p/w780/AbX8RjDxs29PYTpZgpBLpuTxQrN.jpg",
+          "https://image.tmdb.org/t/p/w780/qDRfCVWdqFyW1UVsJ4KqaEiRCb5.jpg",
+          "https://image.tmdb.org/t/p/w780/i3NV4q4upqpaqFRGqiP6SIN6vZ2.jpg",
+          "https://image.tmdb.org/t/p/w780/bAjeWWVxqFcNHZLQVvowD6Oj21R.jpg"
+        ]
+      }
     },
     {
       "id": "peppa-pig",
@@ -75,7 +86,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/fnyS6gOv9tTjhHPl4A1aKEDgWEG.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/fnyS6gOv9tTjhHPl4A1aKEDgWEG.jpg",
+          "https://image.tmdb.org/t/p/w780/bosCVIUEG4S5v0SDcuNBnwcMB1J.jpg",
+          "https://image.tmdb.org/t/p/w780/h6SsBTEtVBpTK3FlIoabqhm82ld.jpg",
+          "https://image.tmdb.org/t/p/w780/gDlZOlEAgGLY8qu4QdBS4cQJhwi.jpg",
+          "https://image.tmdb.org/t/p/w780/bMtN24DmgHpzODpvAs70eL3ulZL.jpg",
+          "https://image.tmdb.org/t/p/w780/28yQ4VmGjoykPscUQqXHzh9Z2op.jpg"
+        ]
+      }
     },
     {
       "id": "daniel-tiger",
@@ -110,7 +132,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/yAIpWHcLmS1O2aCrx4oBhXtwoHt.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/yAIpWHcLmS1O2aCrx4oBhXtwoHt.jpg",
+          "https://image.tmdb.org/t/p/w780/fBYTe7LLfucYZDCbLY40Fducqzd.jpg",
+          "https://image.tmdb.org/t/p/w780/bbdGE0qqhhbWmKDPFPT0jDBj3Qp.jpg",
+          "https://image.tmdb.org/t/p/w780/ewuKRYoXxH5dQdTyKU114Ss9eMh.jpg",
+          "https://image.tmdb.org/t/p/w780/eJ1drKCeT2CRVYxLXkZrKiZh2ri.jpg",
+          "https://image.tmdb.org/t/p/w780/3Eeq3lOtGeIf7CVa85JeVtsOcnl.jpg"
+        ]
+      }
     },
     {
       "id": "sesame-street",
@@ -146,7 +179,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Puppetry"
+      "animationStyle": "Puppetry",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+          "https://image.tmdb.org/t/p/w780/tE45F8WHdKdHwolVHcfzJuTBZD8.jpg",
+          "https://image.tmdb.org/t/p/w780/rYlCELMEo1IFfjJB6EP1ket8gM.jpg",
+          "https://image.tmdb.org/t/p/w780/zIbkxRfoDXj9cOcQSFjB9yDHwj.jpg",
+          "https://image.tmdb.org/t/p/w780/ixagRegmRzflFyJtSeW2mSoLTsP.jpg",
+          "https://image.tmdb.org/t/p/w780/Dz21d7npHtlKgBUvVCMisXsjuI.jpg"
+        ]
+      }
     },
     {
       "id": "octonauts",
@@ -181,7 +225,16 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "3D / CGI"
+      "animationStyle": "3D / CGI",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/lbdBBEnto6xPQ8oKHt5P9r3JCfH.jpg",
+          "https://image.tmdb.org/t/p/w780/ugkN9RoBw6OzrchshDVXr3Wzpv1.jpg",
+          "https://image.tmdb.org/t/p/w780/c1zzrs1FY4ERgLVRho1OyDmjGS5.jpg",
+          "https://image.tmdb.org/t/p/w780/6CqFQty3XhegUnsHi6xV6tr70re.jpg"
+        ]
+      }
     },
     {
       "id": "bluey",
@@ -217,7 +270,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/g88VMPtog8sl8riaIRtz4U80dMK.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/g88VMPtog8sl8riaIRtz4U80dMK.jpg",
+          "https://image.tmdb.org/t/p/w780/6kVosC1wgVXJghUrPYBMoo9MA5D.jpg",
+          "https://image.tmdb.org/t/p/w780/3VEHwl4gOXFmxGdIlfGk5It0l0y.jpg",
+          "https://image.tmdb.org/t/p/w780/A4mgXeHJFZlBFVbmQIdhe8olYYo.jpg",
+          "https://image.tmdb.org/t/p/w780/7iTOLVTKoBLwDYcoOA1qTS6NY5y.jpg",
+          "https://image.tmdb.org/t/p/w780/ssGPaqKznKEfGYuuofy6tX0nx2F.jpg"
+        ]
+      }
     },
     {
       "id": "paw-patrol",
@@ -252,7 +316,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "3D / CGI"
+      "animationStyle": "3D / CGI",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
+          "https://image.tmdb.org/t/p/w780/y09I1z9zkRm7KBjbWc7Zlt3lG2w.jpg",
+          "https://image.tmdb.org/t/p/w780/fYwHlOmwZDP6zJdVtOGkuOqSYOc.jpg",
+          "https://image.tmdb.org/t/p/w780/tEP8f7xGdhbGF3vfIQIfjnP0uZv.jpg",
+          "https://image.tmdb.org/t/p/w780/ontEnzfBve888Me1xdORvpTjzJW.jpg",
+          "https://image.tmdb.org/t/p/w780/fu2OIK3X1VWpQGhJPw2IWmoMu89.jpg"
+        ]
+      }
     },
     {
       "id": "pokemon",
@@ -287,7 +362,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Anime"
+      "animationStyle": "Anime",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/yYpQV25I7XB6S0POJOScPjxYWV5.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/yYpQV25I7XB6S0POJOScPjxYWV5.jpg",
+          "https://image.tmdb.org/t/p/w780/yEDdbQwkrgk3dwNbd3sWoZ3Xe6f.jpg",
+          "https://image.tmdb.org/t/p/w780/60TX5aaN7DHZNOEbRdTkag2J5qs.jpg",
+          "https://image.tmdb.org/t/p/w780/rm6zG1gESQT0ww3mp8oUUT5LJBL.jpg",
+          "https://image.tmdb.org/t/p/w780/tvjCdVRkaaab2ezM9BctkAOXeyW.jpg",
+          "https://image.tmdb.org/t/p/w780/iguaZsbPbKZxKmbyHgiXWP4zuJu.jpg"
+        ]
+      }
     },
     {
       "id": "spongebob",
@@ -322,7 +408,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/aasp5EmwclAQbwfGABWLTNLhjwB.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/aasp5EmwclAQbwfGABWLTNLhjwB.jpg",
+          "https://image.tmdb.org/t/p/w780/61u5BENargOxT5FtHPZDOlEqtHB.jpg",
+          "https://image.tmdb.org/t/p/w780/3MY7hMWrJ13Xtb1Y4jd7tztyPaZ.jpg",
+          "https://image.tmdb.org/t/p/w780/maFEWU41jdUOzDfRVkojq7fluIm.jpg",
+          "https://image.tmdb.org/t/p/w780/dwMcHBciv1ltLXsgeyf3tQ2W5za.jpg",
+          "https://image.tmdb.org/t/p/w780/ctp0XmwIXzo4c7KVXRpMmroiLAc.jpg"
+        ]
+      }
     },
     {
       "id": "phineas-and-ferb",
@@ -357,7 +454,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
+          "https://image.tmdb.org/t/p/w780/cPNa0ksumF0irS6p4DhKRZCruX7.jpg",
+          "https://image.tmdb.org/t/p/w780/8Hq5Wt9PyTLEOEYsac7AIWvbkvR.jpg",
+          "https://image.tmdb.org/t/p/w780/aD6RWCveg8oPEV9FCX5WN6ydsvr.jpg",
+          "https://image.tmdb.org/t/p/w780/qLYZQxN2BAgC0eUkuft99MYt5zu.jpg",
+          "https://image.tmdb.org/t/p/w780/v4LDYHX7Qa5CqD7U4a7DARCkfYp.jpg"
+        ]
+      }
     },
     {
       "id": "loud-house",
@@ -391,7 +499,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/36iVELhma9MawHkdMDPNRX8onEu.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/36iVELhma9MawHkdMDPNRX8onEu.jpg",
+          "https://image.tmdb.org/t/p/w780/9Ja0VieZlC7dgzPay0rvvzcbnHg.jpg",
+          "https://image.tmdb.org/t/p/w780/9uVEgikhAxaOXMgvmKBsawXlPBE.jpg",
+          "https://image.tmdb.org/t/p/w780/dCsfeBF4gZy4nZHwTRuVm07fhJF.jpg",
+          "https://image.tmdb.org/t/p/w780/wc4FD1wIpnmrXUr11s3RE92a3nJ.jpg",
+          "https://image.tmdb.org/t/p/w780/o123eAQ3zQK5jbxINCOb6REe4PZ.jpg"
+        ]
+      }
     },
     {
       "id": "teen-titans-go",
@@ -426,7 +545,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/bIHCUqaapZdRjd2kzSDiwzYyrpC.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/bIHCUqaapZdRjd2kzSDiwzYyrpC.jpg",
+          "https://image.tmdb.org/t/p/w780/o2iwGPtKJCUVOyMGUTwYgh0iARc.jpg",
+          "https://image.tmdb.org/t/p/w780/s0cFeJHspEQ1maQLLVaP0B9cgYy.jpg",
+          "https://image.tmdb.org/t/p/w780/k66XTEx0KwyKw8U95o5rx9FrSgL.jpg",
+          "https://image.tmdb.org/t/p/w780/mlV1QYQ0iDUb8YjxjifvyC7Gcel.jpg",
+          "https://image.tmdb.org/t/p/w780/k6tOYPGFsXLwAa0Cml4whIw86dH.jpg"
+        ]
+      }
     },
     {
       "id": "gravity-falls",
@@ -462,7 +592,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/lhg7eA6CTOCL10QNVdKiyxkgPsL.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/lhg7eA6CTOCL10QNVdKiyxkgPsL.jpg",
+          "https://image.tmdb.org/t/p/w780/cKVI3X6DGhzfAtNbZDyj8RcTWBq.jpg",
+          "https://image.tmdb.org/t/p/w780/l0XvAI856XdyDYEfr1njztjH7u0.jpg",
+          "https://image.tmdb.org/t/p/w780/hRfg2dWBdZOJA3RIOR7M7HPqIVH.jpg",
+          "https://image.tmdb.org/t/p/w780/froAdYEFDDiJH6T1thbCs6iyKPo.jpg",
+          "https://image.tmdb.org/t/p/w780/2IjZmDHWoRHRrba7wQJ8Q4apD9z.jpg"
+        ]
+      }
     },
     {
       "id": "avatar-tla",
@@ -499,7 +640,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/7oBGhqJIghRBvOwo5Qe0yM0cnMc.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/7oBGhqJIghRBvOwo5Qe0yM0cnMc.jpg",
+          "https://image.tmdb.org/t/p/w780/kU98MbVVgi72wzceyrEbClZmMFe.jpg",
+          "https://image.tmdb.org/t/p/w780/cJdnkIrD9vcIUiCbWjay55qoaQz.jpg",
+          "https://image.tmdb.org/t/p/w780/nLKYAJCEi6OQVji1HJIxSQ74H9s.jpg",
+          "https://image.tmdb.org/t/p/w780/jrKYozgUgF2umKaGx0ptEvCe2oz.jpg",
+          "https://image.tmdb.org/t/p/w780/tq8dgplZWn1kCco2uxf8ZO6Jw5k.jpg"
+        ]
+      }
     },
     {
       "id": "amphibia",
@@ -534,7 +686,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/jSTglzkXYPMOI6sNdXGqGM02AP2.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/jSTglzkXYPMOI6sNdXGqGM02AP2.jpg",
+          "https://image.tmdb.org/t/p/w780/6vk1WNHyNKR4oQooBJpZ8pGksBz.jpg",
+          "https://image.tmdb.org/t/p/w780/l4J8KFQ0jall2eYEozqhyU0cYT7.jpg",
+          "https://image.tmdb.org/t/p/w780/lwJqNDOtJWvW38DDS60rShihjTj.jpg",
+          "https://image.tmdb.org/t/p/w780/1jH4RcABJc9n8UAdlma480KkAhH.jpg",
+          "https://image.tmdb.org/t/p/w780/dMX4gGvSd5uhUjdvVi4cVfwnF7o.jpg"
+        ]
+      }
     },
     {
       "id": "star-vs",
@@ -569,7 +732,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/2UElp7Dkm3SiB9ZEdKEWNmAOijB.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/2UElp7Dkm3SiB9ZEdKEWNmAOijB.jpg",
+          "https://image.tmdb.org/t/p/w780/Aeb0Ap0BH3YDWg2JVf4cJUJy7LP.jpg",
+          "https://image.tmdb.org/t/p/w780/doZ35KmTsCCnEb8cy7HKfSAG4MO.jpg",
+          "https://image.tmdb.org/t/p/w780/tVGYg8IFPWNskh8ormaX3VR6LVm.jpg",
+          "https://image.tmdb.org/t/p/w780/6rx9PwWck4ZWI8LNUl255wex003.jpg",
+          "https://image.tmdb.org/t/p/w780/f5mnJjO8efKcUuUV5yTvYRiDyhW.jpg"
+        ]
+      }
     },
     {
       "id": "adventure-time",
@@ -605,7 +779,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/3uE9SUywNbj1qSAuYCGgbTTYku5.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/3uE9SUywNbj1qSAuYCGgbTTYku5.jpg",
+          "https://image.tmdb.org/t/p/w780/pe4B3OYBb7qYCdkAz7nKWordbls.jpg",
+          "https://image.tmdb.org/t/p/w780/dnXCNOm3cHshs32tCOw5okaCmmQ.jpg",
+          "https://image.tmdb.org/t/p/w780/4m7aRp229i4IAzAwxu1xRxtX4sI.jpg",
+          "https://image.tmdb.org/t/p/w780/xNJGvSS5PcJoqNZJahgGPwu8F4z.jpg",
+          "https://image.tmdb.org/t/p/w780/9ld1PX84FGIBBKa47OSenJlVWNs.jpg"
+        ]
+      }
     },
     {
       "id": "steven-universe",
@@ -642,7 +827,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/e5YSF0Inv9eL77jv2WQtNOOB3Bg.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/e5YSF0Inv9eL77jv2WQtNOOB3Bg.jpg",
+          "https://image.tmdb.org/t/p/w780/7Rei6j3EH312vfK0Xi2BKAdi73W.jpg",
+          "https://image.tmdb.org/t/p/w780/9daKewVsUrEldMz4M2bTj3PQY2Y.jpg",
+          "https://image.tmdb.org/t/p/w780/1vOPSoIEgYSyU4dS0QXyXv83jaU.jpg",
+          "https://image.tmdb.org/t/p/w780/swMJt7V9B8JC9CG1pZFL4WHhEhr.jpg",
+          "https://image.tmdb.org/t/p/w780/j4AmhqTHLJ1a1J5bYwdlY0mIuWg.jpg"
+        ]
+      }
     },
     {
       "id": "owl-house",
@@ -678,7 +874,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/bGqKaVROpz7pWUNuBxgU8hbcXYn.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/bGqKaVROpz7pWUNuBxgU8hbcXYn.jpg",
+          "https://image.tmdb.org/t/p/w780/cHyY5z4txdVyGtYMvBJhCqCcJso.jpg",
+          "https://image.tmdb.org/t/p/w780/xjDTMEMZwg8iams5J2OySYrgWNm.jpg",
+          "https://image.tmdb.org/t/p/w780/9w19NtSnlRAKsxPsXrSRQolDzTH.jpg",
+          "https://image.tmdb.org/t/p/w780/tg76Hw9wYz44IbvvA8kbNG2TSc8.jpg",
+          "https://image.tmdb.org/t/p/w780/mfJaxLH7Z8MyotsJmr0zuRhfmnI.jpg"
+        ]
+      }
     },
     {
       "id": "young-justice",
@@ -713,7 +920,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/pOKcw45cAMPu8DN7E3bN5FEvxM3.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/pOKcw45cAMPu8DN7E3bN5FEvxM3.jpg",
+          "https://image.tmdb.org/t/p/w780/4kWd4XF9KVS86pP16pgziR5e4Q2.jpg",
+          "https://image.tmdb.org/t/p/w780/d1AxrOIhTm3qSl1rGbMw9waA2Xr.jpg",
+          "https://image.tmdb.org/t/p/w780/fTSbztPO2Z7Ipu3X0XWwtpojxry.jpg",
+          "https://image.tmdb.org/t/p/w780/kmc8VIFnmqMx6WgwpKdh5jo6Ikh.jpg",
+          "https://image.tmdb.org/t/p/w780/rJIk3hD1zC8gdfn6ZGrXssdmvhv.jpg"
+        ]
+      }
     },
     {
       "id": "mha",
@@ -748,7 +966,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Anime"
+      "animationStyle": "Anime",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/ol0H2DGp4ifBHA4JDlCpwJWxnY2.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/ol0H2DGp4ifBHA4JDlCpwJWxnY2.jpg",
+          "https://image.tmdb.org/t/p/w780/3ILMlmC30QUnYkY3XEBOyJ82Dqu.jpg",
+          "https://image.tmdb.org/t/p/w780/cH39aJg9VlEaYo6yY37Iah8RAaz.jpg",
+          "https://image.tmdb.org/t/p/w780/jsXKG9uppnPrhqFNhImllyCfLhl.jpg",
+          "https://image.tmdb.org/t/p/w780/xvru1tTbBgJnenAckfJviheWIR8.jpg",
+          "https://image.tmdb.org/t/p/w780/3NPaP6FXM9BwwtpzT8FtWXr3lLQ.jpg"
+        ]
+      }
     },
     {
       "id": "the-simpsons",
@@ -784,7 +1013,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+          "https://image.tmdb.org/t/p/w780/hpU2cHC9tk90hswCFEpf5AtbqoL.jpg",
+          "https://image.tmdb.org/t/p/w780/8HHJUncPJ30rmYAuSRYjHpz2B3R.jpg",
+          "https://image.tmdb.org/t/p/w780/ukzJIPKTTSUzdr7jQoGKdrvZGk7.jpg",
+          "https://image.tmdb.org/t/p/w780/pxeqQX4qFQ0cVxPt5SWZENV5BH3.jpg",
+          "https://image.tmdb.org/t/p/w780/kJVpFSpGzAGF2PMkiONIV9yR9c1.jpg"
+        ]
+      }
     },
     {
       "id": "bobs-burgers",
@@ -820,7 +1060,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/2AVPwdHJsF044jT39akgLxxv2zx.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/2AVPwdHJsF044jT39akgLxxv2zx.jpg",
+          "https://image.tmdb.org/t/p/w780/xnU9b4IehJ08Ikz3sweABtY5IwU.jpg",
+          "https://image.tmdb.org/t/p/w780/rUABoTPO0OLq2wlHiFWezxpV6fo.jpg",
+          "https://image.tmdb.org/t/p/w780/uFR8WVPh1eynE3TyzIo2b4ndd4r.jpg",
+          "https://image.tmdb.org/t/p/w780/kb4hHoGKRr4jXmDx5lUtXmX3JHu.jpg",
+          "https://image.tmdb.org/t/p/w780/cIXaqUB2pOIEiQsgO85r9RMKzpe.jpg"
+        ]
+      }
     },
     {
       "id": "arcane",
@@ -856,7 +1107,18 @@
         "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "3D / CGI"
+      "animationStyle": "3D / CGI",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/q8eejQcg1bAqImEV8jh8RtBD4uH.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/q8eejQcg1bAqImEV8jh8RtBD4uH.jpg",
+          "https://image.tmdb.org/t/p/w780/sYXLeu5usz6yEz0k00FYvtEdodD.jpg",
+          "https://image.tmdb.org/t/p/w780/4ACkRHJCMXdNUUBem3Z0n1CclKf.jpg",
+          "https://image.tmdb.org/t/p/w780/rkB4LyZHo1NHXFEDHl9vSD9r1lI.jpg",
+          "https://image.tmdb.org/t/p/w780/wQEW3xLrQAThu1GvqpsKQyejrYS.jpg",
+          "https://image.tmdb.org/t/p/w780/cJ0vEnEGWZDv2a5SRRRGxtRTlPm.jpg"
+        ]
+      }
     },
     {
       "id": "demon-slayer",
@@ -892,7 +1154,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Anime"
+      "animationStyle": "Anime",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/3GQKYh6Trm8pxd2AypovoYQf4Ay.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/3GQKYh6Trm8pxd2AypovoYQf4Ay.jpg",
+          "https://image.tmdb.org/t/p/w780/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg",
+          "https://image.tmdb.org/t/p/w780/iBAtBLqCMON3NPIjyQ1wdMbpTAk.jpg",
+          "https://image.tmdb.org/t/p/w780/unhUWXYl8DFaIsaz6U59cDGSBgj.jpg",
+          "https://image.tmdb.org/t/p/w780/xvNrTu0J4yUah1prvL7yH8falJw.jpg",
+          "https://image.tmdb.org/t/p/w780/7e9maFsRJanwrR7YFgn6rEmudiX.jpg"
+        ]
+      }
     },
     {
       "id": "aot",
@@ -927,7 +1200,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Anime"
+      "animationStyle": "Anime",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
+          "https://image.tmdb.org/t/p/w780/wg0GsFpeHAFPbbcfsntTQBggWCo.jpg",
+          "https://image.tmdb.org/t/p/w780/wYisyC5IeuAN5WB5X81eMDcUdwu.jpg",
+          "https://image.tmdb.org/t/p/w780/yvKrycViRMQcIgdnjsM5JGNWU4Q.jpg",
+          "https://image.tmdb.org/t/p/w780/aok7IhrbA83josNz9Dqh8tNA0Ao.jpg",
+          "https://image.tmdb.org/t/p/w780/3T5N0Fg6hE3lE6JHJJPKrjtdI4j.jpg"
+        ]
+      }
     },
     {
       "id": "family-guy",
@@ -962,7 +1246,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+          "https://image.tmdb.org/t/p/w780/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
+          "https://image.tmdb.org/t/p/w780/lgGZ2ysbRyAOi2VgIZpp6k8qILj.jpg",
+          "https://image.tmdb.org/t/p/w780/3OFrs1ets87VmRvG78Zg5eJTZeq.jpg",
+          "https://image.tmdb.org/t/p/w780/wU1y7snEVYiJBpZ2k1DjIpHgJbx.jpg",
+          "https://image.tmdb.org/t/p/w780/hnK5vODlS1OIIF3Sw6T0RQyt0K3.jpg"
+        ]
+      }
     },
     {
       "id": "castlevania",
@@ -998,7 +1293,18 @@
         "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
+          "https://image.tmdb.org/t/p/w780/4QuQIFQXw6NclP4lGPqmXmHAWdH.jpg",
+          "https://image.tmdb.org/t/p/w780/w7QjHvInR5JZphFWWXp61GtwU08.jpg",
+          "https://image.tmdb.org/t/p/w780/9AEdLZqPeuKGfMtvdIYVsNI7ig2.jpg",
+          "https://image.tmdb.org/t/p/w780/3CWVK7qFTtdtpT0Daw9Zj8DVFpx.jpg",
+          "https://image.tmdb.org/t/p/w780/jwVKRguceVZuLjl7HK5z7sX0atL.jpg"
+        ]
+      }
     },
     {
       "id": "bojack",
@@ -1034,7 +1340,18 @@
         "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/qFYDJUIFh8zgEDy3EvnHwhgOl0S.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/qFYDJUIFh8zgEDy3EvnHwhgOl0S.jpg",
+          "https://image.tmdb.org/t/p/w780/81BCTObfPk0EvarJpUgnGXHvM9x.jpg",
+          "https://image.tmdb.org/t/p/w780/AmIHaw6CQWOfBCQYom15Jzsu7OB.jpg",
+          "https://image.tmdb.org/t/p/w780/y64WatnpvoeudfapTPx9QFVKbqM.jpg",
+          "https://image.tmdb.org/t/p/w780/gyacCuhegTPmYkt8VEyFwmfM5dj.jpg",
+          "https://image.tmdb.org/t/p/w780/2vyRUFoCya3iwpnvWEqJ14ObwBp.jpg"
+        ]
+      }
     },
     {
       "id": "rick-and-morty",
@@ -1070,7 +1387,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/9In9QgVJx7PlFOAgVHCKKSbo605.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/9In9QgVJx7PlFOAgVHCKKSbo605.jpg",
+          "https://image.tmdb.org/t/p/w780/8aCek7W6BovH7M4enWjqrGptvQ8.jpg",
+          "https://image.tmdb.org/t/p/w780/uGy4DCmM33I7l86W7iCskNkvmLD.jpg",
+          "https://image.tmdb.org/t/p/w780/zJZfxi8X3XPHAhxXseRugtnNVtt.jpg",
+          "https://image.tmdb.org/t/p/w780/vDPXV2VqzeALc7WVnOetzS1xQQ7.jpg",
+          "https://image.tmdb.org/t/p/w780/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg"
+        ]
+      }
     },
     {
       "id": "south-park",
@@ -1106,7 +1434,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Cutout"
+      "animationStyle": "Cutout",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
+          "https://image.tmdb.org/t/p/w780/7uihCghJiyYFTXSh1BOPdHQN8xK.jpg",
+          "https://image.tmdb.org/t/p/w780/41neXsH222hV2zrsTyw8h7javon.jpg",
+          "https://image.tmdb.org/t/p/w780/pjdOSa7Qh3cfs5Od7s7h4yaiRqD.jpg",
+          "https://image.tmdb.org/t/p/w780/6WAinokBmZU9Jt8l74TKI8JNUG7.jpg",
+          "https://image.tmdb.org/t/p/w780/dgwWEM3EuKoDIh0PLHJbMd2PFgS.jpg"
+        ]
+      }
     },
     {
       "id": "invincible",
@@ -1142,7 +1481,18 @@
         "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/9qrroces8C6R9aKr08hACNPVXdZ.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/9qrroces8C6R9aKr08hACNPVXdZ.jpg",
+          "https://image.tmdb.org/t/p/w780/dfmPbyeZZSz3bekeESvMJaH91gS.jpg",
+          "https://image.tmdb.org/t/p/w780/pbSdwutAVywzxtx2KEoYHEwOO0h.jpg",
+          "https://image.tmdb.org/t/p/w780/6UH52Fmau8RPsMAbQbjwN3wJSCj.jpg",
+          "https://image.tmdb.org/t/p/w780/ohjinjQAEKxqdP5IK8TcUpLrKgE.jpg",
+          "https://image.tmdb.org/t/p/w780/dDdXTkM2mFcIiXbbNjT1paIPYXI.jpg"
+        ]
+      }
     },
     {
       "id": "bob-the-builder",
@@ -1177,7 +1527,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Stop-motion"
+      "animationStyle": "Stop-motion",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/5tf3hx7RbUovAYGMZ6slmoROWI1.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/5tf3hx7RbUovAYGMZ6slmoROWI1.jpg",
+          "https://image.tmdb.org/t/p/w780/z9WxdNi9bpS4Tl3tkarveRARQT5.jpg",
+          "https://image.tmdb.org/t/p/w780/5jd75KxTh4FQba7KYqQE34bXsbT.jpg",
+          "https://image.tmdb.org/t/p/w780/4rk7tn8fOJsj8AEcgF18dfyM3Jl.jpg",
+          "https://image.tmdb.org/t/p/w780/qatGgg23O5NuBdFAwtB2VX8AJF6.jpg",
+          "https://image.tmdb.org/t/p/w780/c3uUlwLs0lrdD4dRZqabVF8n07F.jpg"
+        ]
+      }
     },
     {
       "id": "fireman-sam",
@@ -1212,7 +1573,15 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Stop-motion"
+      "animationStyle": "Stop-motion",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/dEPV4QKCdo8pqLN4g4h8pn6Jga7.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/dEPV4QKCdo8pqLN4g4h8pn6Jga7.jpg",
+          "https://image.tmdb.org/t/p/w780/6HQZeq9r7jWSXC8UDDeAfnZpcFJ.jpg",
+          "https://image.tmdb.org/t/p/w780/oM0yrsN84jsUa5tkyLnYYXAnIwX.jpg"
+        ]
+      }
     },
     {
       "id": "arthur",
@@ -1247,7 +1616,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/5k3JpB88vubqYVSHHiAhk2T8z17.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/5k3JpB88vubqYVSHHiAhk2T8z17.jpg",
+          "https://image.tmdb.org/t/p/w780/gxXD76Htl6Ogw0OC5XeDnLCLOwu.jpg",
+          "https://image.tmdb.org/t/p/w780/fmm3xvTqhDACfmtUmKaPzcx6WZm.jpg",
+          "https://image.tmdb.org/t/p/w780/c1QgxMReYOHNC8LeyzsV3jsUzYT.jpg",
+          "https://image.tmdb.org/t/p/w780/cxMERjvSxPy0wtDj1EVD63jAdte.jpg",
+          "https://image.tmdb.org/t/p/w780/hUHYEVr0NQxq1b7dja0OCNrS7qu.jpg"
+        ]
+      }
     },
     {
       "id": "recess",
@@ -1282,7 +1662,15 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/PJSgscE4Es0TXmgIqp3X6ey8Ux.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/PJSgscE4Es0TXmgIqp3X6ey8Ux.jpg",
+          "https://image.tmdb.org/t/p/w780/wPC09RKI173MIb1SIsgO4c9NGaE.jpg",
+          "https://image.tmdb.org/t/p/w780/4ItWaDUTpF9TdKSvd7bQ5dmGzqX.jpg"
+        ]
+      }
     },
     {
       "id": "catdog",
@@ -1317,7 +1705,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/ujmeZPV9A5AdwfTEuRWR1eqOMDR.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/ujmeZPV9A5AdwfTEuRWR1eqOMDR.jpg",
+          "https://image.tmdb.org/t/p/w780/72r4E59MuP7cB3hka3zFMDbIH7K.jpg",
+          "https://image.tmdb.org/t/p/w780/m0H7xjkPbGEAtn4eyfZWZSyYQ0F.jpg",
+          "https://image.tmdb.org/t/p/w780/9V87gsKJJk7hF5QfvyrSrXcyhWM.jpg",
+          "https://image.tmdb.org/t/p/w780/9abO7eu6lPLpGHgDo48G4GgMC7r.jpg",
+          "https://image.tmdb.org/t/p/w780/tE97ia5rtOJBEppzE3eXTjMVgVy.jpg"
+        ]
+      }
     },
     {
       "id": "rocket-power",
@@ -1352,7 +1751,16 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/oBGchglw5lgrW7jc5UYK7IHsi4X.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/oBGchglw5lgrW7jc5UYK7IHsi4X.jpg",
+          "https://image.tmdb.org/t/p/w780/h8JsEWgi8Q9DnyPYqg5cG1OCPE6.jpg",
+          "https://image.tmdb.org/t/p/w780/uHiQS8rMaXSj5Jb9Rd7nUTDMVMw.jpg",
+          "https://image.tmdb.org/t/p/w780/9bYBusxWVHQ16NNOLDrUN9jJMQk.jpg"
+        ]
+      }
     },
     {
       "id": "angela-anaconda",
@@ -1387,7 +1795,15 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Cutout"
+      "animationStyle": "Cutout",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/9EKmJUscWv9oqV0hkpKCJ88yvzc.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/9EKmJUscWv9oqV0hkpKCJ88yvzc.jpg",
+          "https://image.tmdb.org/t/p/w780/211VAlEj5jWykZpP26YuLRUkNzD.jpg",
+          "https://image.tmdb.org/t/p/w780/ay24QsRtqs0DVBNxDxZCX2fO7Pr.jpg"
+        ]
+      }
     },
     {
       "id": "fairly-oddparents",
@@ -1422,7 +1838,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/rMKFsYeK3LPJGk9xqUHhGdqA4aB.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/rMKFsYeK3LPJGk9xqUHhGdqA4aB.jpg",
+          "https://image.tmdb.org/t/p/w780/jlruzecsif3tkCSoHlUaPR01O7U.jpg",
+          "https://image.tmdb.org/t/p/w780/1Cn0f74pZISsqC3AvxRXtN7NXMJ.jpg",
+          "https://image.tmdb.org/t/p/w780/noHOkAaTxDxQpKQci8kbDwlVe3N.jpg",
+          "https://image.tmdb.org/t/p/w780/9R7B886A1szDTZlv4TCrCOd1OEz.jpg",
+          "https://image.tmdb.org/t/p/w780/mIFIK8G2aTicePD2labvwNyPjLt.jpg"
+        ]
+      }
     },
     {
       "id": "wild-thornberrys",
@@ -1457,7 +1884,16 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/nVj1LYX8uOsdGVb9LcLN4YUTkDs.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/nVj1LYX8uOsdGVb9LcLN4YUTkDs.jpg",
+          "https://image.tmdb.org/t/p/w780/i8OS9dNAuwVyKhADcg21FVhUwkU.jpg",
+          "https://image.tmdb.org/t/p/w780/1BcHnes1XB5SQeL81NwE5gZLwyP.jpg",
+          "https://image.tmdb.org/t/p/w780/th9h1Jkx7sFk9wyT47aF7wEufwn.jpg"
+        ]
+      }
     },
     {
       "id": "hey-arnold",
@@ -1492,7 +1928,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/6neiLkVRYIVbbRTLhlSLtt8o5di.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/6neiLkVRYIVbbRTLhlSLtt8o5di.jpg",
+          "https://image.tmdb.org/t/p/w780/fEWUQ99i4zGx4OnzV0HPbvNnEdH.jpg",
+          "https://image.tmdb.org/t/p/w780/jG6k6DfsnCdzJOppqoijGOwHlEO.jpg",
+          "https://image.tmdb.org/t/p/w780/kuwpxs2AWzQn0UDiWBsGUA9ySIS.jpg",
+          "https://image.tmdb.org/t/p/w780/mWvBzOMwUy14iZidEOUqhFViUp.jpg",
+          "https://image.tmdb.org/t/p/w780/1aaQrgoPXwqOmr9QRcLkbu1rSao.jpg"
+        ]
+      }
     },
     {
       "id": "powerpuff-girls",
@@ -1527,7 +1974,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/hNwcgo06myd7ei7p8A1Y1b0VabU.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/hNwcgo06myd7ei7p8A1Y1b0VabU.jpg",
+          "https://image.tmdb.org/t/p/w780/7tPJfShsyTda32HLIFKbYvD0N87.jpg",
+          "https://image.tmdb.org/t/p/w780/d4nFq9LOn1EdDxyhcVxNYtJu3Do.jpg",
+          "https://image.tmdb.org/t/p/w780/pd7qSkVXy1KPsf7vqaP85JshyyS.jpg",
+          "https://image.tmdb.org/t/p/w780/lakUnYjny9fZyTZxCyxhXefZoMB.jpg",
+          "https://image.tmdb.org/t/p/w780/vgT4Fw4WeMnYLjuuvFkUGPV7gDk.jpg"
+        ]
+      }
     },
     {
       "id": "yu-gi-oh",
@@ -1562,7 +2020,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "Anime"
+      "animationStyle": "Anime",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/gJYZBM200Flldo6im3EEdXslR1j.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/gJYZBM200Flldo6im3EEdXslR1j.jpg",
+          "https://image.tmdb.org/t/p/w780/oeKucLmgHe06UjGL6BE0zVSjZmu.jpg",
+          "https://image.tmdb.org/t/p/w780/nZMhQrVEOe9iKAdTB4lE1zlWSRj.jpg",
+          "https://image.tmdb.org/t/p/w780/vo2dFMnoMQ17dFzbHwFV8ln61qW.jpg",
+          "https://image.tmdb.org/t/p/w780/7iqH8Tk3298pGUP6I5LnMhP2SNe.jpg",
+          "https://image.tmdb.org/t/p/w780/wteqGMoDGcIOox7NDKbfauS3GGf.jpg"
+        ]
+      }
     },
     {
       "id": "ben-10",
@@ -1597,7 +2066,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/eIRe2cNOhvwPPtGDjFVEXGaMkVg.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/eIRe2cNOhvwPPtGDjFVEXGaMkVg.jpg",
+          "https://image.tmdb.org/t/p/w780/v5hLUEpbn3G3oLXLdF7lFikDivb.jpg",
+          "https://image.tmdb.org/t/p/w780/tp3IqVNizpOhNLeZtUdGJLvoQk0.jpg",
+          "https://image.tmdb.org/t/p/w780/8LMFbTW0sgsyAkwdR4gqpzzhngf.jpg",
+          "https://image.tmdb.org/t/p/w780/2IthqDr29Dqj72UPsTDd33gpPqr.jpg",
+          "https://image.tmdb.org/t/p/w780/6v4mdpL5JOeOTo5oMOi8V6rsC1m.jpg"
+        ]
+      }
     },
     {
       "id": "teen-titans",
@@ -1632,7 +2112,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/oIFxhR3nMmzZmj51gwifNR1whC4.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/oIFxhR3nMmzZmj51gwifNR1whC4.jpg",
+          "https://image.tmdb.org/t/p/w780/e0t2enjqcjFenLSdP9BT6cqu95Y.jpg",
+          "https://image.tmdb.org/t/p/w780/dC37jcsHxgILWtXqUwEoA3zCOBR.jpg",
+          "https://image.tmdb.org/t/p/w780/hHwEptckXUwZM7XO2lxZ8w8upuU.jpg",
+          "https://image.tmdb.org/t/p/w780/gVwcigxCq6lBvQJVh9sSfDaMtIE.jpg",
+          "https://image.tmdb.org/t/p/w780/42EKMY5mr6cnugZJ4oVzIPL1aaH.jpg"
+        ]
+      }
     },
     {
       "id": "invader-zim",
@@ -1667,7 +2158,18 @@
         "note": "Research a documented figure (premiere/peak ratings or notable milestone) and cite a source; if none exists, mark 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/eCefaxvMxisEJHahp8Az2eBpwud.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/eCefaxvMxisEJHahp8Az2eBpwud.jpg",
+          "https://image.tmdb.org/t/p/w780/28GykK5z4ADbSCwU2J7bYvWymst.jpg",
+          "https://image.tmdb.org/t/p/w780/fO0uLy4Gd0EBxqpGNiiy83lYkjL.jpg",
+          "https://image.tmdb.org/t/p/w780/kghB6MVN0k0PfEuxf6ZiYg7NJBi.jpg",
+          "https://image.tmdb.org/t/p/w780/3xoN5rAUK7jvH697M95oZRdvrlQ.jpg",
+          "https://image.tmdb.org/t/p/w780/yo4gG8wGyeGGEsHmHqvgLlJzAo5.jpg"
+        ]
+      }
     },
     {
       "id": "big-mouth",
@@ -1702,7 +2204,18 @@
         "note": "Per-title viewership not released by the streaming platform — display 'Not publicly disclosed'."
       },
       "verified": true,
-      "animationStyle": "2D"
+      "animationStyle": "2D",
+      "images": {
+        "poster": "https://image.tmdb.org/t/p/w500/uM6WJodeCyTp7h7NhE4rgd0RbRZ.jpg",
+        "gallery": [
+          "https://image.tmdb.org/t/p/w780/uM6WJodeCyTp7h7NhE4rgd0RbRZ.jpg",
+          "https://image.tmdb.org/t/p/w780/sFYCJB44n3cL9EQaYCS8fn6ltZQ.jpg",
+          "https://image.tmdb.org/t/p/w780/7hQg7EfQAoboEVEymU4KZJqym0i.jpg",
+          "https://image.tmdb.org/t/p/w780/isR78P4OfqZ7QwUox8Xw13Gvih.jpg",
+          "https://image.tmdb.org/t/p/w780/eV52WjHeY8np0K12s0l96oy1X1f.jpg",
+          "https://image.tmdb.org/t/p/w780/3wn5eExQ20EBQZ3ho6mmlU8Wclc.jpg"
+        ]
+      }
     }
   ]
 }
