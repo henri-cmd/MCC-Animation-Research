@@ -53,6 +53,7 @@ export default function App() {
   const styles = useMemo(() => uniqueStyles(shows), [shows])
   const decades = useMemo(() => uniqueDecades(shows), [shows])
   const buckets = useMemo(() => BUCKET_ORDER.filter((b) => shows.some((s) => s.bucket === b)), [shows])
+  const hasImages = useMemo(() => shows.some((s) => s.images?.poster), [shows])
   const selectedShow = useMemo(
     () => shows.find((s) => s.id === selectedId) ?? null,
     [shows, selectedId],
@@ -154,6 +155,20 @@ export default function App() {
             The Animation Spectrum · data: seed dataset of {shows.length || 48} series · built as a
             static site.
           </p>
+          {hasImages && (
+            <p className="mt-1.5 font-mono text-[11px] text-ash/60">
+              Show artwork via{' '}
+              <a
+                href="https://www.themoviedb.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline-offset-2 hover:text-bone hover:underline"
+              >
+                TMDB
+              </a>
+              . This product uses the TMDB API but is not endorsed or certified by TMDB.
+            </p>
+          )}
         </div>
       </footer>
 

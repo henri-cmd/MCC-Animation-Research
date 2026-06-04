@@ -127,8 +127,21 @@ artwork the moment a show's `images` field is populated:
 ```
 
 Artwork is **not** scraped from IMDb (their terms forbid it and the images are licensed). The
-intended source is **TMDB**, whose API is free and permits image display with attribution — its
-image URLs can be baked into the dataset so the static site needs no key at runtime.
+source is **TMDB**, whose API is free and permits image display with attribution. Image URLs are
+baked into the dataset so the static site needs **no key at runtime**.
+
+To populate (or refresh) the artwork:
+
+```bash
+# 1. Get a free key/token at https://www.themoviedb.org/settings/api
+# 2. Run the enrich script — it matches each show by its IMDb id via TMDB's
+#    /find endpoint (exact, no fuzzy guessing) and writes images.{poster,gallery}:
+TMDB_API_KEY=<your-v3-key> npm run enrich:images
+# 3. Commit public/data/shows.json and push — Pages redeploys with the images.
+```
+
+Shows TMDB can't match are simply left with the spectrum-gradient fallback. When any `images`
+exist, the footer shows the required TMDB attribution automatically.
 
 ## Accessibility & motion
 
