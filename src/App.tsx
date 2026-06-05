@@ -135,13 +135,6 @@ export default function App() {
                 Spectrum
               </span>
             </h1>
-            <p className="mt-4 max-w-xl font-body text-[15px] leading-relaxed text-bone/70 text-balance">
-              Animated TV mapped by the audience that <em className="not-italic text-bone">actually</em>{' '}
-              watches it. Not one age bucket per show — a range across a continuous age line, so
-              crossover hits like <em className="not-italic text-spectrum-1">Bluey</em>,{' '}
-              <em className="not-italic text-spectrum-3">Avatar</em> and{' '}
-              <em className="not-italic text-spectrum-7">Adventure Time</em> stretch the whole way.
-            </p>
           </div>
           <SpectrumLegend
             counts={bucketCounts}

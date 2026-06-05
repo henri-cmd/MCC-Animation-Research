@@ -10,81 +10,15 @@ import {
   barFill,
   spanCoversAge,
 } from '../lib/scale'
-import { SPECTRUM_STOPS, inkOn, spectrumColor } from '../lib/spectrum'
+import { inkOn, spectrumColor } from '../lib/spectrum'
 import { useElementWidth } from '../lib/hooks'
 import { AxisScrubber } from './AxisScrubber'
 
 const RAIL_H = 44 // axis header height / scrub rail
-const DENSITY_H = 60 // audience-density chart band
 const ROW_H = 30
 const BAR_H = 22
-const TOP_PAD = RAIL_H + DENSITY_H + 12
+const TOP_PAD = RAIL_H + 10
 const BOTTOM_PAD = 14
-
-/**
- * Audience-density curve: for each age, how many of the (filtered) shows are
- * watchable. The peak marks where the most content piles up. Aligned to the same
- * age axis as the bars.
- */
-function DensityChart({
-  shows,
-  width,
-  height,
-  scrubAge,
-}: {
-  shows: Show[]
-  width: number
-  height: number
-  scrubAge: number | null
-}) {
-  const { points, peak, max } = useMemo(() => {
-    const pts: { age: number; c: number }[] = []
-    for (let age = 0; age <= 18; age++) {
-      let c = 0
-      for (const s of shows) if (spanCoversAge(s.ageFrom, s.ageTo, age)) c++
-      pts.push({ age, c })
-    }
-    const peak = pts.reduce((a, b) => (b.c > a.c ? b : a), pts[0])
-    return { points: pts, peak, max: Math.max(1, ...pts.map((p) => p.c)) }
-  }, [shows])
-
-  if (width < 1) return null
-  const pad = 12
-  const x = (age: number) => ageToFrac(age) * width
-  const y = (c: number) => height - 2 - (c / max) * (height - pad - 2)
-  const line = points.map((p, i) => `${i ? 'L' : 'M'}${x(p.age).toFixed(1)} ${y(p.c).toFixed(1)}`).join(' ')
-  const area = `${line} L${x(18).toFixed(1)} ${height} L0 ${height} Z`
-  const scrubPt = scrubAge != null ? points[Math.max(0, Math.min(18, scrubAge))] : null
-
-  return (
-    <>
-      <svg width={width} height={height} className="block" aria-hidden="true">
-        <defs>
-          <linearGradient id="density-spectrum" x1="0" y1="0" x2="1" y2="0">
-            {SPECTRUM_STOPS.map((c, i) => (
-              <stop key={i} offset={`${(i / (SPECTRUM_STOPS.length - 1)) * 100}%`} stopColor={c} />
-            ))}
-          </linearGradient>
-        </defs>
-        <path d={area} fill="url(#density-spectrum)" opacity={0.32} />
-        <path d={line} fill="none" stroke="url(#density-spectrum)" strokeWidth={2} />
-        <circle cx={x(peak.age)} cy={y(peak.c)} r={3.5} fill="#F3EDE3" />
-        {scrubPt && (
-          <circle cx={x(scrubPt.age)} cy={y(scrubPt.c)} r={3.5} fill="#F3EDE3" stroke="#14110F" strokeWidth={1.2} />
-        )}
-      </svg>
-      <div
-        className="pointer-events-none absolute -translate-x-1/2 font-mono text-[10px] font-bold tabular-nums text-bone"
-        style={{ left: `clamp(20px, ${ageToFrac(peak.age) * 100}%, calc(100% - 20px))`, top: y(peak.c) - 15 }}
-      >
-        {peak.c}
-      </div>
-      <div className="pointer-events-none absolute left-0 top-0 font-mono text-[9px] uppercase tracking-[0.14em] text-ash/70">
-        Shows watchable per age
-      </div>
-    </>
-  )
-}
 
 // Rough px width a title needs to sit inside a bar (Archivo ~12px semibold).
 const titleNeedsPx = (title: string) => title.length * 7 + 18
@@ -213,11 +147,6 @@ export function AgeLine({ shows, sortKey, onSelect }: Props) {
             Adult
           </span>
           <div className="absolute inset-x-0 bg-white/10" style={{ top: RAIL_H - 8, height: 1 }} />
-        </div>
-
-        {/* Audience-density chart band */}
-        <div className="pointer-events-none absolute inset-x-0" style={{ top: RAIL_H, height: DENSITY_H }}>
-          <DensityChart shows={shows} width={width} height={DENSITY_H} scrubAge={scrubAge} />
         </div>
 
         {/* Bars */}

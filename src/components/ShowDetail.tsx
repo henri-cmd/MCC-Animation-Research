@@ -4,8 +4,8 @@ import { numericCount } from '../lib/filter'
 import { useEpisodes } from '../lib/hooks'
 import { spectrumColor } from '../lib/spectrum'
 import { ageRangeLabel, barFill } from '../lib/scale'
+import { AudienceCurve } from './AudienceCurve'
 import { Lightbox } from './Lightbox'
-import { MiniAxis } from './MiniAxis'
 
 const chevron =
   "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23A89F94' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E\")"
@@ -232,23 +232,26 @@ export function ShowDetail({ show, onClose }: { show: Show | null; onClose: () =
         <div className="mt-5 flex-1 space-y-5 overflow-y-auto px-6 pb-8">
           <DetailHero show={show} onOpen={setLightboxIndex} />
 
-          {/* age range */}
+          {/* audience by age */}
           <section>
             <div className="mb-2 flex items-baseline justify-between">
               <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-ash">
-                Viewing age
+                Audience by age
               </span>
               <span className="font-mono text-sm text-bone tnum">
                 {ageRangeLabel(show.ageFrom, show.ageTo)}
                 {show.ageTo >= 99 && <span className="text-ash"> · into adulthood</span>}
               </span>
             </div>
-            <MiniAxis ageFrom={show.ageFrom} ageTo={show.ageTo} />
+            <AudienceCurve ageFrom={show.ageFrom} ageTo={show.ageTo} />
             {show.ageBasis && (
               <p className="mt-2 text-[11px] leading-relaxed text-ash">
                 <span className="text-bone/70">Who’s really watching:</span> {show.ageBasis}
               </p>
             )}
+            <p className="mt-1 font-mono text-[9px] uppercase tracking-[0.12em] text-ash/50">
+              Illustrative shape from the viewing range — not measured per-age data
+            </p>
           </section>
 
           {/* stat row */}
