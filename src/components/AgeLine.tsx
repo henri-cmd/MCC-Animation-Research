@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { OPEN_ENDED, Show } from '../data/shows'
+import { SortKey, sortShows } from '../lib/filter'
 import { packRows } from '../lib/pack'
 import {
   AGE_TICKS,
@@ -34,16 +35,17 @@ interface BarLayout {
 
 interface Props {
   shows: Show[]
+  sortKey: SortKey
   onSelect: (id: string) => void
 }
 
-export function AgeLine({ shows, onSelect }: Props) {
+export function AgeLine({ shows, sortKey, onSelect }: Props) {
   const [plotRef, width] = useElementWidth<HTMLDivElement>()
   const [scrubAge, setScrubAge] = useState<number | null>(null)
   const [hoverId, setHoverId] = useState<string | null>(null)
 
   const { layout, rowCount } = useMemo(() => {
-    const { placed, rowCount } = packRows(shows, 0.5)
+    const { placed, rowCount } = packRows(sortShows(shows, sortKey), 0.5)
 
     // For leader-label spacing, find each bar's right-neighbour in its row.
     const byRow = new Map<number, typeof placed>()
@@ -87,7 +89,7 @@ export function AgeLine({ shows, onSelect }: Props) {
     })
 
     return { layout, rowCount }
-  }, [shows, width])
+  }, [shows, sortKey, width])
 
   const plotHeight = TOP_PAD + rowCount * ROW_H + BOTTOM_PAD
   const scrubCount =

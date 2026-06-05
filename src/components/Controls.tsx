@@ -167,8 +167,8 @@ export function Controls({
             ● Ongoing
           </button>
 
-          {view === 'list' && (
-            <div className="ml-auto flex items-center gap-2">
+          <div className="ml-auto flex items-center gap-2">
+            {view === 'list' && (
               <label className="flex items-center gap-1.5">
                 <span className="font-mono text-[11px] text-ash">Group</span>
                 <select
@@ -185,26 +185,27 @@ export function Controls({
                   ))}
                 </select>
               </label>
-              <label className="flex items-center gap-1.5">
-                <span className="font-mono text-[11px] text-ash">Sort</span>
-                <select
-                  className={selectCls}
-                  style={{ backgroundImage: chevron }}
-                  value={sortKey}
-                  onChange={(e) => setSortKey(e.target.value as SortKey)}
-                  aria-label="Sort shows"
-                >
-                  {(Object.keys(SORT_LABELS) as SortKey[]).map((k) => (
-                    <option key={k} value={k}>
-                      {SORT_LABELS[k]}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            </div>
-          )}
+            )}
+            <label className="flex items-center gap-1.5">
+              <span className="font-mono text-[11px] text-ash">{view === 'age' ? 'Stack' : 'Sort'}</span>
+              <select
+                className={selectCls}
+                style={{ backgroundImage: chevron }}
+                value={sortKey}
+                onChange={(e) => setSortKey(e.target.value as SortKey)}
+                aria-label={view === 'age' ? 'Stack the age line by' : 'Sort the list by'}
+                title={view === 'age' ? 'Sets the top-to-bottom order of the bars' : undefined}
+              >
+                {(Object.keys(SORT_LABELS) as SortKey[]).map((k) => (
+                  <option key={k} value={k}>
+                    {SORT_LABELS[k]}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
 
-          <div className={`flex items-center gap-3 font-mono text-[11px] text-ash ${view === 'list' ? '' : 'ml-auto'}`}>
+          <div className="flex items-center gap-3 font-mono text-[11px] text-ash">
             <span className="tnum">
               {resultCount}
               <span className="text-ash/50">/{totalCount}</span>

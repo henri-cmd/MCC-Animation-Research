@@ -181,7 +181,7 @@ export default function App() {
             />
 
             {view === 'age' ? (
-              <AgeLine shows={filtered} onSelect={setSelectedId} />
+              <AgeLine shows={filtered} sortKey={sortKey} onSelect={setSelectedId} />
             ) : (
               <ListView shows={filtered} groupBy={groupBy} sortKey={sortKey} onSelect={setSelectedId} />
             )}

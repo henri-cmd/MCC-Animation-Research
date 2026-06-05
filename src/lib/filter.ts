@@ -2,7 +2,7 @@
 
 import { BUCKET_ORDER, OPEN_ENDED, STYLE_ORDER, Show } from '../data/shows'
 
-export type SortKey = 'age' | 'reach' | 'episodes' | 'seasons' | 'year' | 'az'
+export type SortKey = 'age' | 'seasons' | 'episodes' | 'length' | 'year' | 'reach' | 'az'
 
 export type GroupBy = 'bucket' | 'style' | 'decade' | 'none'
 
@@ -14,12 +14,13 @@ export const GROUP_LABELS: Record<GroupBy, string> = {
 }
 
 export const SORT_LABELS: Record<SortKey, string> = {
-  age: 'Age',
-  reach: 'Reach (span)',
-  episodes: 'Episodes',
-  seasons: 'Seasons',
-  year: 'Year',
-  az: 'A–Z',
+  age: 'Age (young → old)',
+  seasons: 'Most seasons',
+  episodes: 'Most episodes',
+  length: 'Longest episodes',
+  year: 'Newest first',
+  reach: 'Widest age span',
+  az: 'Title A → Z',
 }
 
 export interface Filters {
@@ -96,14 +97,16 @@ export function sortShows(shows: Show[], key: SortKey): Show[] {
   switch (key) {
     case 'age':
       return arr.sort((a, b) => a.ageFrom - b.ageFrom || a.ageTo - b.ageTo)
-    case 'reach':
-      return arr.sort((a, b) => spanWidth(b) - spanWidth(a) || a.ageFrom - b.ageFrom)
-    case 'episodes':
-      return arr.sort((a, b) => numericCount(b.episodes) - numericCount(a.episodes))
     case 'seasons':
-      return arr.sort((a, b) => numericCount(b.seasons) - numericCount(a.seasons))
+      return arr.sort((a, b) => numericCount(b.seasons) - numericCount(a.seasons) || a.title.localeCompare(b.title))
+    case 'episodes':
+      return arr.sort((a, b) => numericCount(b.episodes) - numericCount(a.episodes) || a.title.localeCompare(b.title))
+    case 'length':
+      return arr.sort((a, b) => b.epMinutes - a.epMinutes || a.title.localeCompare(b.title))
     case 'year':
       return arr.sort((a, b) => b.yearStart - a.yearStart || a.title.localeCompare(b.title))
+    case 'reach':
+      return arr.sort((a, b) => spanWidth(b) - spanWidth(a) || a.ageFrom - b.ageFrom)
     case 'az':
       return arr.sort((a, b) => a.title.localeCompare(b.title))
   }
