@@ -74,7 +74,7 @@ function SpectrumLegend({
 export default function App() {
   const [data, setData] = useState<ShowsFile | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const [view, setView] = useState<View>('age')
+  const [view, setView] = useState<View>('list')
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
   const [sortKey, setSortKey] = useState<SortKey>('age')
   const [groupBy, setGroupBy] = useState<GroupBy>('bucket')
